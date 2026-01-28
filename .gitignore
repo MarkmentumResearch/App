@@ -1,0 +1,15 @@
+﻿# --- Python/Streamlit ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+.env.*
+.vscode/
+.pytype/
+.mypy_cache/
+#.streamlit/*.toml
+
+<<<<<<< Updated upstream
+#data/*.*
