@@ -116,11 +116,35 @@ st.markdown("---")
 st.title("Contact Markmentum Research")
 st.write("Have a question or want to get in touch? Send us a note below.")
 
+import os
+
+def get_formspree_endpoint() -> str:
+    # 1) Render / general hosts (env var)
+    env_endpoint = (os.getenv("FORMSPREE_ENDPOINT") or "").strip()
+    if env_endpoint:
+        return env_endpoint
+
+    env_id = (os.getenv("FORMSPREE_ID") or "").strip()
+    if env_id:
+        return f"https://formspree.io/f/{env_id}"
+
+    # 2) Streamlit Cloud (secrets.toml)
+    fs = st.secrets.get("formspree", {})
+    endpoint = (fs.get("endpoint") or "").strip()
+    if endpoint:
+        return endpoint
+
+    fid = (fs.get("id") or "").strip()
+    if fid:
+        return f"https://formspree.io/f/{fid}"
+
+    return ""
+
 # Build endpoint from secrets
 fs = st.secrets.get("formspree", {})
-endpoint = fs.get("endpoint") or f"https://formspree.io/f/{fs.get('id', '').strip()}"
-if not endpoint or endpoint.endswith("/f/"):
-    st.error("Formspree endpoint is not configured. Add it to .streamlit/secrets.toml under [formspree].")
+endpoint = get_formspree_endpoint()
+if not endpoint:
+    st.error("Formspree endpoint is not configured. Set FORMSPREE_ENDPOINT (or FORMSPREE_ID) on the host, or add it to .streamlit/secrets.toml under [formspree].")
     st.stop()
 
 with st.form("contact_form", clear_on_submit=True):

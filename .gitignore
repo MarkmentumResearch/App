@@ -1,15 +1,10 @@
-﻿# --- Python/Streamlit ---
+﻿# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.env
 .venv/
 venv/
+.env
 .env.*
-.vscode/
-.pytype/
-.mypy_cache/
-#.streamlit/*.toml
-
-<<<<<<< Updated upstream
-#data/*.*
