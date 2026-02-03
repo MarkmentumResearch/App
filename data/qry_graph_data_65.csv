@@ -1,0 +1,11 @@
+Ticker,Ticker_name,Category,Date,qtd_return_pct
+APP,APPLOVIN CORP,Information Technology,2026-02-02,-0.2832
+HUM,HUMANA INC.,Health Care,2026-02-02,-0.2691
+INTU,INTUIT INC.,Information Technology,2026-02-02,-0.2646
+CEG,CONSTELLATION ENERGY,Utilities,2026-02-02,-0.2332
+NOW,"SERVICENOW, INC.",Information Technology,2026-02-02,-0.2297
+TTD,"THE TRADE DESK, INC.",Communication Services,2026-02-02,-0.2163
+HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-02-02,-0.205
+CRM,"SALESFORCE, INC.",Information Technology,2026-02-02,-0.2042
+TYL,"TYLER TECHNOLOGIES, INC.",Information Technology,2026-02-02,-0.2006
+IT,"GARTNER, INC.",Information Technology,2026-02-02,-0.1977

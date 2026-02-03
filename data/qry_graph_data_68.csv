@@ -1,0 +1,11 @@
+Ticker,Ticker_name,Category,Date,model_score_qtd_change,current_model_score,previous_model_score
+MDLZ,"MONDELEZ INTERNATIONAL, INC.",Consumer Staples,2026-02-02,-145.0,-70.0,75.0
+PHM,"PULTEGROUP, INC.",Consumer Discretionary,2026-02-02,-114.0,-74.0,40.0
+STNG,SCORPIO TANKERS INC.,MR Discretion,2026-02-02,-114.0,-70.0,44.0
+SYY,SYSCO ,Consumer Staples,2026-02-02,-102.0,-76.0,26.0
+DE,DEERE & COMPANY,Industrials,2026-02-02,-99.0,-37.0,62.0
+EWJ,ISHARES:MSCI JAPAN,Foreign,2026-02-02,-96.0,-24.0,72.0
+EWZ,ISHARES:MSCI BRAZIL,Foreign,2026-02-02,-95.0,-14.0,81.0
+PSX,PHILLIPS 66,Energy,2026-02-02,-94.0,-84.0,10.0
+CLX,THE CLOROX COMPANY,Consumer Staples,2026-02-02,-91.0,-46.0,45.0
+ASC,ARDMORE SHIPPING ,MR Discretion,2026-02-02,-90.0,-46.0,44.0

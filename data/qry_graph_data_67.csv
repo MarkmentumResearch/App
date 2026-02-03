@@ -1,0 +1,11 @@
+Ticker,Ticker_name,Category,Date,model_score_qtd_change,current_model_score,previous_model_score
+ADBE,ADOBE INC.,Information Technology,2026-02-02,152.0,50.0,-102.0
+NDAQ,"NASDAQ, INC.",Financials,2026-02-02,132.0,89.0,-43.0
+CCI,CROWN CASTLE INC.,Real Estate,2026-02-02,131.0,84.0,-47.0
+FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,2026-02-02,121.0,47.0,-74.0
+FOXA,FOX ,Communication Services,2026-02-02,119.0,61.0,-58.0
+CVNA,CARVANA CO.,Consumer Discretionary,2026-02-02,118.0,62.0,-56.0
+WTW,WILLIS TOWERS WATSON,Financials,2026-02-02,116.0,84.0,-32.0
+GEN,GEN DIGITAL INC.,Information Technology,2026-02-02,115.0,54.0,-61.0
+TXT,TEXTRON INC.,Industrials,2026-02-02,109.0,55.0,-54.0
+COF,CAPITAL ONE FINANCIAL ,Financials,2026-02-02,107.0,67.0,-40.0
