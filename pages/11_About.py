@@ -140,11 +140,6 @@ We deliver volatility-adjusted probable ranges, proprietary scoring, and AI-gene
 
 <p style="font-weight:600; margin:12px 0 18px;">You're the captain. We provide the coordinates. Let us help you navigate markets with clarity and confidence.</p>
 
-<h3>Preview</h3>
-<ul>
-  <li><b>Demo</b> –  This is a limited preview of Markmentum Research for informational and educational use. It showcases the full feature set with production-grade data. The subscription launch is coming soon.</li>
-</ul>
-
 <h3>Why Markmentum Research</h3>
 <p>
   Traditional buy-and-hold investing has long been taught as the optimal strategy for long-term wealth creation. While it can still play a role, today’s markets are more volatile, more cyclical, and more sensitive to macro forces than in the past. 
