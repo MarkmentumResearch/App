@@ -90,7 +90,7 @@ if dest.replace("%20", " ") == "deep dive":
         st.query_params.clear()
         st.query_params["ticker"] = t
 
-        st.switch_page("pages/09_Deep_Dive_Dashboard.py")
+        st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 
 # -------------------------
 # Helpers
