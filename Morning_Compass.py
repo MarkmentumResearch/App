@@ -8,11 +8,76 @@ import matplotlib.pyplot as plt
 from urllib.parse import quote_plus
 import os
 from html import escape
+import time
+import requests
+
 
 try:
     from docx import Document
 except Exception:
     Document = None
+
+MS_VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
+MS_SECRET_KEY = os.environ.get("MEMBERSTACK_SECRET_KEY")
+
+MAX_TOKEN_AGE_SECONDS = 120  # 2 minutes
+
+def verify_memberstack_jwt(token: str) -> dict | None:
+    """Returns verified token payload (contains id, iat, exp, etc.) or None."""
+    if not MS_SECRET_KEY:
+        st.error("Missing MEMBERSTACK_SECRET_KEY in environment variables.")
+        return None
+
+    headers = {
+        "X-API-KEY": MS_SECRET_KEY,
+        "Content-Type": "application/json",
+    }
+    resp = requests.post(MS_VERIFY_URL, headers=headers, json={"token": token}, timeout=10)
+    if resp.status_code != 200:
+        return None
+
+    data = resp.json().get("data")
+    return data
+
+def handle_sso_from_query_param():
+    if st.session_state.get("authed"):
+        return
+
+    token = st.query_params.get("t")
+    if not token:
+        return
+
+    verified = verify_memberstack_jwt(token)
+    if not verified:
+        st.session_state["authed"] = False
+        st.error("Login link expired or invalid. Please log in again.")
+        st.stop()
+
+    now = int(time.time())
+    iat = int(verified.get("iat", 0))
+
+    # Enforce your 2-minute rule even if token exp is longer
+    if not iat or (now - iat) > MAX_TOKEN_AGE_SECONDS:
+        st.session_state["authed"] = False
+        st.error("Login link expired (older than 2 minutes). Please log in again.")
+        st.stop()
+
+    # Success
+    st.session_state["authed"] = True
+    st.session_state["member_id"] = verified.get("id")
+
+    # Clean the URL (remove ?t=...)
+    st.query_params.clear()
+    st.rerun()
+
+handle_sso_from_query_param()
+
+# If you want to hard-require auth for the whole portal:
+if not st.session_state.get("authed"):
+    st.info("Please log in on the website to access the portal.")
+    st.stop()
+
+
 
 # -------------------------
 # Page & shared style
