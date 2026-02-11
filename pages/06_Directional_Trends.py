@@ -9,11 +9,14 @@ import streamlit as st
 from urllib.parse import quote_plus
 import os
 if not st.session_state.get("authenticated"):
-    login_url = os.environ.get("WEBFLOW_LOGIN_URL", "https://www.markmentumresearch.com/login")
-    st.error("Please log in to access the Markmentum Research Portal.")
-    st.markdown(f"[Go to Login]({login_url})")
-    st.stop()
-    
+    home_url = "https://www.markmentumresearch.com"
+    st.markdown(
+        f"""
+        <meta http-equiv="refresh" content="0; url={home_url}" />
+        """,
+        unsafe_allow_html=True
+    )
+    st.stop()    
 # ---------- Page ----------
 st.cache_data.clear()
 st.set_page_config(page_title="Markmentum - Directional Trends", layout="wide")

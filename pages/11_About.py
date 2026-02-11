@@ -11,9 +11,13 @@ import os
 import streamlit.components.v1 as components
 
 if not st.session_state.get("authenticated"):
-    login_url = os.environ.get("WEBFLOW_LOGIN_URL", "https://www.markmentumresearch.com/login")
-    st.error("Please log in to access the Markmentum Research Portal.")
-    st.markdown(f"[Go to Login]({login_url})")
+    home_url = "https://www.markmentumresearch.com"
+    st.markdown(
+        f"""
+        <meta http-equiv="refresh" content="0; url={home_url}" />
+        """,
+        unsafe_allow_html=True
+    )
     st.stop()
 
 # --- NO-REDIRECT LANDING GUARD (place at the top of 01_About.py) ---
