@@ -6,6 +6,12 @@ import os
 import streamlit as st
 import base64
 from zoneinfo import ZoneInfo
+import os
+if not st.session_state.get("authenticated"):
+    login_url = os.environ.get("WEBFLOW_LOGIN_URL", "https://www.markmentumresearch.com/login")
+    st.error("Please log in to access the Markmentum Research Portal.")
+    st.markdown(f"[Go to Login]({login_url})")
+    st.stop()
 
 # ---------- Page setup ----------
 st.set_page_config(page_title="Markmentum – Downloads", layout="wide")

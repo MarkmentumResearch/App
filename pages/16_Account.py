@@ -12,6 +12,12 @@ import numpy as np
 from urllib.parse import quote_plus
 import os
 import time
+import os
+if not st.session_state.get("authenticated"):
+    login_url = os.environ.get("WEBFLOW_LOGIN_URL", "https://www.markmentumresearch.com/login")
+    st.error("Please log in to access the Markmentum Research Portal.")
+    st.markdown(f"[Go to Login]({login_url})")
+    st.stop()
 
 st.cache_data.clear()
 # 13_Contact.py (or wherever your Contact page lives)
