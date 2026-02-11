@@ -17,66 +17,71 @@ try:
 except Exception:
     Document = None
 
-MS_VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
-MS_SECRET_KEY = os.environ.get("MEMBERSTACK_SECRET_KEY")
+VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
-MAX_TOKEN_AGE_SECONDS = 120  # 2 minutes
-
-def verify_memberstack_jwt(token: str) -> dict | None:
-    """Returns verified token payload (contains id, iat, exp, etc.) or None."""
-    if not MS_SECRET_KEY:
-        st.error("Missing MEMBERSTACK_SECRET_KEY in environment variables.")
+def verify_memberstack_token(token: str) -> dict | None:
+    secret = os.environ.get("MEMBERSTACK_SECRET_KEY")
+    if not secret:
         return None
 
-    headers = {
-        "X-API-KEY": MS_SECRET_KEY,
-        "Content-Type": "application/json",
-    }
-    resp = requests.post(MS_VERIFY_URL, headers=headers, json={"token": token}, timeout=10)
-    if resp.status_code != 200:
+    try:
+        r = requests.post(
+            VERIFY_URL,
+            headers={
+                "X-API-KEY": secret,
+                "Content-Type": "application/json",
+            },
+            json={"token": token},
+            timeout=10,
+        )
+        if r.status_code != 200:
+            return None
+
+        return r.json().get("data")  # includes id/type/iat/exp/aud/iss
+    except Exception:
         return None
 
-    data = resp.json().get("data")
-    return data
+def establish_session_once() -> bool:
+    # If already authenticated in this Streamlit browser session, skip
+    if st.session_state.get("authenticated") is True:
+        return True
 
-def handle_sso_from_query_param():
-    if st.session_state.get("authed"):
-        return
-
-    token = st.query_params.get("t")
+    token = st.query_params.get("ms_session")
     if not token:
-        return
+        st.session_state["authenticated"] = False
+        return False
 
-    verified = verify_memberstack_jwt(token)
+    verified = verify_memberstack_token(token)
     if not verified:
-        st.session_state["authed"] = False
-        st.error("Login link expired or invalid. Please log in again.")
-        st.stop()
+        st.session_state["authenticated"] = False
+        return False
+
+    # Optional hard checks (recommended)
+    expected_aud = os.environ.get("MEMBERSTACK_APP_ID")
+    if expected_aud and verified.get("aud") != expected_aud:
+        st.session_state["authenticated"] = False
+        return False
 
     now = int(time.time())
-    iat = int(verified.get("iat", 0))
+    if isinstance(verified.get("exp"), int) and verified["exp"] < now:
+        st.session_state["authenticated"] = False
+        return False
 
-    # Enforce your 2-minute rule even if token exp is longer
-    if not iat or (now - iat) > MAX_TOKEN_AGE_SECONDS:
-        st.session_state["authed"] = False
-        st.error("Login link expired (older than 2 minutes). Please log in again.")
-        st.stop()
-
-    # Success
-    st.session_state["authed"] = True
+    # ✅ Success
+    st.session_state["authenticated"] = True
     st.session_state["member_id"] = verified.get("id")
+    st.session_state["auth_checked_at"] = now
 
-    # Clean the URL (remove ?t=...)
+    # CRITICAL: remove token from URL immediately
     st.query_params.clear()
-    st.rerun()
+    return True
 
-handle_sso_from_query_param()
-
-# If you want to hard-require auth for the whole portal:
-if not st.session_state.get("authed"):
-    st.info("Please log in on the website to access the portal.")
+# --- Gate Morning Compass ---
+if not establish_session_once():
+    login_url = os.environ.get("WEBFLOW_LOGIN_URL", "https://www.markmentumresearch.com/login")
+    st.error("Please log in to access the Markmentum Research Portal.")
+    st.markdown(f"[Go to Login]({login_url})")
     st.stop()
-
 
 
 # -------------------------
