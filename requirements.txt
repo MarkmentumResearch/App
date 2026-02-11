@@ -9,3 +9,4 @@ openai>=1.109.0
 mammoth==1.6.0
 reportlab
 pypdf
+requests>=2.31.0
