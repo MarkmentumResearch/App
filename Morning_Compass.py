@@ -85,7 +85,7 @@ def establish_session_once() -> bool:
 
     # CRITICAL: remove token from URL immediately
     st.query_params.clear()
-    return True
+    st.rerun()
 
 # --- Gate Morning Compass ---
 if not establish_session_once():

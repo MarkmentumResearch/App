@@ -60,15 +60,9 @@ def verify_cookie_value(cookie_value: str) -> str | None:
 
 def set_auth_cookie(member_id: str) -> None:
     val = make_cookie_value(member_id)
-    # IMPORTANT: keep it simple for now
-    st.context.cookies.set(
-        COOKIE_NAME,
-        val,
-        max_age=COOKIE_TTL_SECONDS,
-        path="/",
-        secure=True,
-        samesite="Lax",
-    )
+
+    # Write cookie via mapping-style assignment (compatible)
+    st.context.cookies[COOKIE_NAME] = val
 
 def restore_session_from_cookie() -> bool:
     raw = st.context.cookies.get(COOKIE_NAME)
