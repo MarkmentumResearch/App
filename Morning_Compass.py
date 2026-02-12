@@ -153,7 +153,7 @@ def _mk_ticker_link(ticker: str) -> str:
         f'&ticker={quote_plus(t)}'
         f'&adv={adv_flag}'
         f'&info={info_flag}'
-        f'&auth={auth_flag}"'
+        f'&auth={auth_flag}'
         f'target="_self" rel="noopener" '
         f'style="text-decoration:none; font-weight:600;">{t}</a>'
     )
