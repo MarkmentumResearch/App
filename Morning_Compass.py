@@ -89,11 +89,7 @@ def establish_session_once() -> bool:
 
 # --- Gate Morning Compass ---
 if not st.session_state.get("authenticated"):
-    ok = restore_session_from_cookie2()
-
-    # If restore_session_from_cookie2() triggered a rerun, execution won't continue.
-    # So if we got here and ok is False, retries are exhausted.
-    if not ok:
+    if not restore_session_from_cookie2():
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
