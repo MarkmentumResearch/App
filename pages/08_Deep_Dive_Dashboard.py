@@ -21,30 +21,11 @@ import numpy as np
 #    "figure.dpi": 110,
 #    "figure.figsize": (9.2, 3.4),   # good aspect for the 3-up rows
 #})
-#import os
-#qp = st.query_params
-#auth_qp = (qp.get("auth") or "").strip()
 
-#if auth_qp == "1":
-#    st.session_state["authenticated"] = True
-    # optional: clean auth only
-    # keep ticker, drop auth
-#    t = (qp.get("ticker") or "").strip().upper()
-#    st.query_params.clear()
-#    if t:
-#        st.query_params["ticker"] = t
 
 st.session_state["authenticated"] = True
 
-#if not st.session_state.get("authenticated"):
-#    home_url = "https://www.markmentumresearch.com"
-#    st.markdown(
-#        f"""
-#        <meta http-equiv="refresh" content="0; url={home_url}" />
-#        """,
-#        unsafe_allow_html=True
-#    )
-#    st.stop()
+
 
 # -------------------------
 # Page & shared style
