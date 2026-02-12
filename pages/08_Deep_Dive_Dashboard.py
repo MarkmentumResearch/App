@@ -23,16 +23,26 @@ import numpy as np
 #})
 import os
 qp = st.query_params
-auth_qp = (qp.get("auth") or "").strip()
 
-if auth_qp == "1":
+# DEMO: re-establish auth from param
+if (qp.get("auth") or "").strip() == "1":
     st.session_state["authenticated"] = True
-    # optional: clean auth only
-    # keep ticker, drop auth
-    t = (qp.get("ticker") or "").strip().upper()
-    st.query_params.clear()
-    if t:
-        st.query_params["ticker"] = t
+
+# hydrate ticker + flags too (so it matches your old behavior)
+t = (qp.get("ticker") or "").strip().upper()
+if t:
+    st.session_state["ticker"] = t
+
+adv_qp  = (qp.get("adv") or "0").strip()
+info_qp = (qp.get("info") or "0").strip()
+st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
+st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
+
+# Now you can clean URL if you want (optional)
+# Keep ticker, drop auth/flags
+st.query_params.clear()
+if t:
+    st.query_params["ticker"] = t
 
 if not st.session_state.get("authenticated"):
     home_url = "https://www.markmentumresearch.com"

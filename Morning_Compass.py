@@ -136,51 +136,34 @@ ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
 
 def _mk_ticker_link(ticker: str) -> str:
+    """
+    Build clickable ticker link that navigates directly
+    to Deep Dive page with required params.
+    DEMO VERSION (auth=1 flag).
+    """
+
     t = (ticker or "").strip().upper()
     if not t:
         return ""
 
-    # current toggle states (default False if not set yet)
+    # Current toggle states
     adv_on  = st.session_state.get(ADV_VALUE_KEY, False)
     info_on = st.session_state.get(INFO_VALUE_KEY, False)
 
-    adv_flag  = "1" if adv_on  else "0"
+    adv_flag  = "1" if adv_on else "0"
     info_flag = "1" if info_on else "0"
-    auth_flag= "1"
+    auth_flag = "1"   # DEMO auth handoff
 
     return (
-        f'<a href="?page=Deep%20Dive'
-        f'&ticker={quote_plus(t)}'
+        f'<a href="/Deep_Dive_Dashboard'
+        f'?ticker={quote_plus(t)}'
         f'&adv={adv_flag}'
         f'&info={info_flag}'
         f'&auth={auth_flag}'
-        f'target="_self" rel="noopener" '
+        f'" target="_self" rel="noopener" '
         f'style="text-decoration:none; font-weight:600;">{t}</a>'
     )
 
-qp = st.query_params
-dest = (qp.get("page") or "").strip().lower()
-
-if dest.replace("%20", " ") == "deep dive":
-    t = (qp.get("ticker") or "").strip().upper()
-    adv_qp  = (qp.get("adv")  or "0").strip()
-    info_qp = (qp.get("info") or "0").strip()
-    auth_qp = (qp.get("auth") or "0").strip()
-
-    if t:
-        st.session_state["ticker"] = t
-
-        # restore toggle master values for Deep Dive
-        st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
-        st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
-        st.session_state["authenticated"] = True
-
-        # clean URL – we don't need adv/info/ticker in query params anymore
-        st.query_params.clear()
-        st.query_params["ticker"] = t
-        st.query_params["auth"] = auth_qp  # keep it for Deep Dive
-        
-        st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 
 def row_spacer(height_px: int = 14):
     st.markdown(f"<div style='height:{height_px}px'></div>", unsafe_allow_html=True)
