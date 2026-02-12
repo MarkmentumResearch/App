@@ -104,16 +104,18 @@ def restore_session_from_cookie2() -> bool:
     cm = _cookie_mgr()
     raw = cm.get(COOKIE_NAME)
 
-    # ONE rerun for hydration
-    if raw is None and not st.session_state.get("_cookie_retry_done"):
-        st.session_state["_cookie_retry_done"] = True
+    retry_key = "_cookie_retry_count_cookie2"
+    tries = st.session_state.get(retry_key, 0)
+
+    # allow a few reruns to hydrate after navigation
+    if raw is None and tries < 3:
+        st.session_state[retry_key] = tries + 1
         st.rerun()
 
-    if not raw:  # None or ""
+    if not raw:
         return False
 
-    # THIS is your "exists + not expired" rule:
-    member_id = verify_cookie_value(raw)   # verifies sig + expiry, returns member_id
+    member_id = verify_cookie_value(raw)   # exists + not expired
     if not member_id:
         return False
 
@@ -121,5 +123,5 @@ def restore_session_from_cookie2() -> bool:
     st.session_state["member_id"] = member_id
     st.session_state["auth_restored_at"] = int(time.time())
 
-    st.session_state["_cookie_retry_done"] = False
+    st.session_state[retry_key] = 0
     return True

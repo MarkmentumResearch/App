@@ -9,9 +9,11 @@ from urllib.parse import quote_plus
 import os
 
 
-from utils.auth import restore_session_from_cookie2
+
 
 st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
+
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
   if not restore_session_from_cookie2():	
