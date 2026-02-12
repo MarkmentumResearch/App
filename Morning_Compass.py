@@ -165,6 +165,7 @@ if dest.replace("%20", " ") == "deep dive":
     t = (qp.get("ticker") or "").strip().upper()
     adv_qp  = (qp.get("adv")  or "0").strip()
     info_qp = (qp.get("info") or "0").strip()
+    auth_qp = (qp.get("auth") or "0").strip()
 
     if t:
         st.session_state["ticker"] = t
@@ -172,6 +173,7 @@ if dest.replace("%20", " ") == "deep dive":
         # restore toggle master values for Deep Dive
         st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
         st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
+        st.session_state["authenticated"] = True
 
         # clean URL – we don't need adv/info/ticker in query params anymore
         st.query_params.clear()
