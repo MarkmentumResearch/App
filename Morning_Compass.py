@@ -52,35 +52,17 @@ def establish_auth() -> bool:
     # Grab once
     ms_token = st.query_params.get("ms_session")
 
-    # If token is in the URL, stash it and immediately clean the URL
-    # (must happen BEFORE any early returns)
-    if ms_token and not st.session_state.get("_pending_ms_session"):
-        st.session_state["_pending_ms_session"] = ms_token
+    # If token is in URL, stash it (once) and FORCE a clean reload (no rerun)
+    if ms_token:
+        if not st.session_state.get("_pending_ms_session"):
+            st.session_state["_pending_ms_session"] = ms_token
 
-        # ✅ Browser-side cleanup (this guarantees the address bar loses ?ms_session=...)
+        # Hard reload to clean URL (guarantees token disappears from address bar)
         st.markdown(
-            """
-            <script>
-              try {
-                const url = new URL(window.location.href);
-                url.searchParams.delete("ms_session");
-                window.history.replaceState({}, document.title, url.pathname + url.search);
-              } catch (e) {}
-            </script>
-            """,
+            """<meta http-equiv="refresh" content="0; url=https://app.markmentumresearch.com/" />""",
             unsafe_allow_html=True,
         )
-
-        # Server-side cleanup (keep this too)
-        try:
-            del st.query_params["ms_session"]
-        except Exception:
-            try:
-                st.query_params.clear()
-            except Exception:
-                pass
-
-        st.rerun()
+        st.stop()
 
     # If already authenticated, we're good (also clear any leftover pending stash)
     if st.session_state.get("authenticated") is True:
@@ -122,14 +104,12 @@ def establish_auth() -> bool:
         # Done with the stashed token
         st.session_state.pop("_pending_ms_session", None)
 
-        st.markdown(
-        """<meta http-equiv="refresh" content="0; url=https://app.markmentumresearch.com/" />""",
-        unsafe_allow_html=True,)
-        st.stop()
+        return True
 
 
     # No token -> try cookie restore
     if restore_auth_from_cookie():
+        st.session_state["authenticated"] = True
         return True
 
     st.session_state["authenticated"] = False
