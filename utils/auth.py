@@ -24,13 +24,17 @@ AUTH_SECRET = os.environ.get("MR_AUTH_COOKIE_SECRET", "")
 # -----------------------------
 def get_cookies() -> CookieManager:
     """
-    Returns a CookieManager instance.
-    Must be called near top of page before reading/writing cookies.
+    Return ONE CookieManager instance per Streamlit session
+    (prevents DuplicateWidgetID).
     """
-    cookies = CookieManager()
+    if "_mr_cookie_manager" not in st.session_state:
+        st.session_state["_mr_cookie_manager"] = CookieManager()
+
+    cookies = st.session_state["_mr_cookie_manager"]
+
     if not cookies.ready():
-        # CookieManager needs a first render pass
         st.stop()
+
     return cookies
 
 
