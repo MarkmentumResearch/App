@@ -41,6 +41,9 @@ adv_qp  = (qp.get("adv") or "0").strip()
 info_qp = (qp.get("info") or "0").strip()
 st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
 st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
+st.session_state[ADV_WIDGET_KEY] = st.session_state[ADV_VALUE_KEY]
+st.session_state[INFO_WIDGET_KEY] = st.session_state[INFO_VALUE_KEY]
+
 
 # Now you can clean URL if you want (optional)
 # Keep ticker, drop auth/flags
