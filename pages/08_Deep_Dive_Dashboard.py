@@ -25,6 +25,8 @@ import os
 # --- Keys (must match Morning Compass exactly) ---
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
+ADV_WIDGET_KEY = "dd_show_advanced_charts_widget"  # widget’s own state
+INFO_WIDGET_KEY = "dd_show_information_charts_widget"  # widget’s own state
 
 qp = st.query_params
 
