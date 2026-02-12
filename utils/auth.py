@@ -6,6 +6,12 @@ import hmac
 import hashlib
 import base64
 import streamlit as st
+import extra_streamlit_components as stx
+
+
+def _cookie_mgr():
+    # Key should be stable across reruns/pages
+    return stx.CookieManager(key="mr_cookie_mgr")
 
 
 COOKIE_NAME = "mr_auth"
@@ -60,20 +66,19 @@ def verify_cookie_value(cookie_value: str) -> str | None:
 
 def set_auth_cookie(member_id: str) -> None:
     val = make_cookie_value(member_id)
-
-    # ✅ use the cookies API method (NOT dict assignment)
-    st.context.cookies.set(
+    cm = _cookie_mgr()
+    cm.set(
         COOKIE_NAME,
         val,
         max_age=COOKIE_TTL_SECONDS,
         path="/",
-        secure=True,      # Render is https
-        samesite="Lax",
     )
 
-    
+
 def restore_session_from_cookie() -> bool:
-    raw = st.context.cookies.get(COOKIE_NAME)
+    cm = _cookie_mgr()
+    raw = cm.get(COOKIE_NAME)
+
     member_id = verify_cookie_value(raw) if raw else None
     if not member_id:
         return False

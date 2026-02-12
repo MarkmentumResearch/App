@@ -10,3 +10,4 @@ mammoth==1.6.0
 reportlab
 pypdf
 requests>=2.31.0
+extra-streamlit-components
