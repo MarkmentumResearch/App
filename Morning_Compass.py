@@ -19,9 +19,13 @@ except Exception:
 
 st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
-from utils.auth import restore_auth_from_cookie, set_auth_cookie
+from utils.auth import restore_auth_from_cookie, set_auth_cookie, restore_session_from_cookie
 
 
+import os
+import time
+import requests
+import streamlit as st
 
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
@@ -47,84 +51,59 @@ def verify_memberstack_token(token: str) -> dict | None:
     except Exception:
         return None
 
-
-def establish_auth() -> bool:
-    # Grab once
-    ms_token = st.query_params.get("ms_session")
-
-    # If token is in URL, stash it (once) and FORCE a clean reload (no rerun)
-    if ms_token:
-        if not st.session_state.get("_pending_ms_session"):
-            st.session_state["_pending_ms_session"] = ms_token
-
-        # Hard reload to clean URL (guarantees token disappears from address bar)
-        st.markdown(
-            """<meta http-equiv="refresh" content="0; url=https://app.markmentumresearch.com/" />""",
-            unsafe_allow_html=True,
-        )
-        st.stop()
-
-    # If already authenticated, we're good (also clear any leftover pending stash)
+def establish_session_once() -> bool:
+    # If already authenticated in this Streamlit browser session, skip
     if st.session_state.get("authenticated") is True:
-        st.session_state.pop("_pending_ms_session", None)
         return True
 
-    # Grab token from pending stash (URL token would have been stashed + removed above)
-    token = st.session_state.get("_pending_ms_session")
+    token = st.query_params.get("ms_session")
 
-    # Now we’re on a clean URL; proceed using the stashed token
-    if token:
-        verified = verify_memberstack_token(token)
-        if not verified:
-            st.session_state["authenticated"] = False
-            st.session_state.pop("_pending_ms_session", None)
-            return False
+    # If no token in URL, try restoring from cookie
+    if not token:
+        if restore_session_from_cookie():
+            return True
+        st.session_state["authenticated"] = False
+        return False
 
-        expected_aud = os.environ.get("MEMBERSTACK_APP_ID")
-        if expected_aud and verified.get("aud") != expected_aud:
-            st.session_state["authenticated"] = False
-            st.session_state.pop("_pending_ms_session", None)
-            return False
+    verified = verify_memberstack_token(token)
+    if not verified:
+        st.session_state["authenticated"] = False
+        return False
 
-        now = int(time.time())
-        if isinstance(verified.get("exp"), int) and verified["exp"] < now:
-            st.session_state["authenticated"] = False
-            st.session_state.pop("_pending_ms_session", None)
-            return False
+    # Optional hard checks (recommended)
+    expected_aud = os.environ.get("MEMBERSTACK_APP_ID")
+    if expected_aud and verified.get("aud") != expected_aud:
+        st.session_state["authenticated"] = False
+        return False
 
-        member_id = (verified.get("id") or "").strip()
-        st.session_state["authenticated"] = True
-        st.session_state["member_id"] = member_id
-        st.session_state["auth_checked_at"] = now
+    now = int(time.time())
+    if isinstance(verified.get("exp"), int) and verified["exp"] < now:
+        st.session_state["authenticated"] = False
+        return False
 
-        # Write cookie AFTER URL is already clean
-        if member_id:
-            set_auth_cookie(member_id)
+    # ✅ Success
+    st.session_state["authenticated"] = True
+    st.session_state["member_id"] = verified.get("id")
+    st.session_state["auth_checked_at"] = now
+    # write cookie for future visits
+    if st.session_state["member_id"]:
+        set_auth_cookie(st.session_state["member_id"])
 
-        # Done with the stashed token (MUST happen before rerun)
-        st.session_state.pop("_pending_ms_session", None)
-
-        st.rerun()
-        # (execution won't reach here, but keep for readability)
-        return True
-
-
-    # No token -> try cookie restore
-    if restore_auth_from_cookie():
-        st.session_state["authenticated"] = True
-        return True
-
-    st.session_state["authenticated"] = False
-    return False
+    # CRITICAL: remove token from URL immediately
+    st.query_params.clear()
+    return True
 
 # --- Gate Morning Compass ---
-if not establish_auth():
+if not establish_session_once():
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
-        f"""<meta http-equiv="refresh" content="0; url={home_url}" />""",
-        unsafe_allow_html=True,
+        f"""
+        <meta http-equiv="refresh" content="0; url={home_url}" />
+        """,
+        unsafe_allow_html=True
     )
     st.stop()
+
 
 # -------------------------
 # Page & shared style
