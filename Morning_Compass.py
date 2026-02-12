@@ -18,7 +18,8 @@ except Exception:
 
 st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
-from utils.auth import set_auth_cookie, restore_session_from_cookie
+from utils.auth import set_auth_cookie, restore_session_from_cookie, restore_session_from_cookie2
+
 
 
 
@@ -89,6 +90,7 @@ def establish_session_once() -> bool:
 
 # --- Gate Morning Compass ---
 if not establish_session_once():
+    if not restore_session_from_cookie2():
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
