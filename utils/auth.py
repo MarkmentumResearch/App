@@ -79,13 +79,25 @@ def restore_session_from_cookie() -> bool:
     cm = _cookie_mgr()
     raw = cm.get(COOKIE_NAME)
 
-    member_id = verify_cookie_value(raw) if raw else None
+    # ONE rerun to allow CookieManager to hydrate after navigation
+    if raw is None and not st.session_state.get("_cookie_retry_done"):
+        st.session_state["_cookie_retry_done"] = True
+        st.rerun()
+
+    # treat "" as missing too
+    if not raw:
+        return False
+
+    member_id = verify_cookie_value(raw)  # keep your expiry check
     if not member_id:
         return False
 
     st.session_state["authenticated"] = True
     st.session_state["member_id"] = member_id
     st.session_state["auth_restored_at"] = int(time.time())
+
+    # reset retry flag once we're in
+    st.session_state["_cookie_retry_done"] = False
     return True
 
 def restore_session_from_cookie2() -> bool:
