@@ -178,6 +178,7 @@ if dest.replace("%20", " ") == "deep dive":
         # clean URL – we don't need adv/info/ticker in query params anymore
         st.query_params.clear()
         st.query_params["ticker"] = t
+        st.query_params["auth"] = auth_qp  # keep it for Deep Dive
         
         st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 
