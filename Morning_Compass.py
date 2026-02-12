@@ -88,7 +88,7 @@ def establish_session_once() -> bool:
     return True
 
 # --- Gate Morning Compass ---
-if not st.session_state.get("authenticated"):
+if not establish_session_once():
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
