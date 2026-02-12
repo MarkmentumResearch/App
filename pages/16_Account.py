@@ -129,9 +129,9 @@ st.markdown("---")
 
 # 13_Contact.py (or wherever your Contact page lives)
 
-    cookies.delete("mr_auth")
-    cookies.save()
-    st.session_state.clear()
+#cookies.delete("mr_cookie_mgr")
+#cookies.save()
+st.session_state.clear()
 
 
 ACCOUNT_URL = "https://www.markmentumresearch.com/account"
