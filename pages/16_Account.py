@@ -129,7 +129,10 @@ st.write("Redirecting you to your account settings on our website...")
 st.write("You will be redirected in 5 seconds.")
 
 # Optional manual fallback button
-st.markdown(f"[Click here if you are not redirected]({ACCOUNT_URL})")
+st.markdown(
+    f'<a href="{ACCOUNT_URL}" target="_self" rel="noopener noreferrer">Click here if you are not redirected</a>',
+    unsafe_allow_html=True
+)
 
 time.sleep(5)
 
