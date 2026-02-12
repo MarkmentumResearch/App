@@ -24,7 +24,7 @@ st.set_page_config(page_title="Contact", page_icon="✉️", layout="wide")
 # -------------------------
 #st.set_page_config(page_title="Markmentum - Universe", layout="wide")
 
-from utils.require_auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie
 
 if not st.session_state.get("authenticated"):
   if not restore_session_from_cookie():	
