@@ -54,7 +54,7 @@ def establish_session_once() -> bool:
 
     # If no token in URL, try restoring from cookie
     if not token:
-        if restore_session_from_cookie2():
+        if restore_session_from_cookie():
             return True
         st.session_state["authenticated"] = False
         return False
