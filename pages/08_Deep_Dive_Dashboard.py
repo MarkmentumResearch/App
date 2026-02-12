@@ -2268,8 +2268,8 @@ _ticker = _active_tkr
 # MASTER TOGGLE: Show/Hide Advanced Charts (2–12)
 # ==============================
 
-ADV_VALUE_KEY  = "dd_show_advanced_charts_value"   # master value you care about
-ADV_WIDGET_KEY = "dd_show_advanced_charts_widget"  # widget’s own state
+#ADV_VALUE_KEY  = "dd_show_advanced_charts_value"   # master value you care about
+#ADV_WIDGET_KEY = "dd_show_advanced_charts_widget"  # widget’s own state
 
 # 1) Initialize master value once per browser session
 if ADV_VALUE_KEY not in st.session_state:
@@ -2847,8 +2847,8 @@ if render_info:
     # ==============================
     # MASTER TOGGLE: Show/Hide Informational Charts (13–24)
     # ==============================
-    INFO_VALUE_KEY  = "dd_show_information_charts_value"   # master value you care about
-    INFO_WIDGET_KEY = "dd_show_information_charts_widget"  # widget’s own state
+    #INFO_VALUE_KEY  = "dd_show_information_charts_value"   # master value you care about
+    #INFO_WIDGET_KEY = "dd_show_information_charts_widget"  # widget’s own state
 
     # 1) Initialize master value once per browser session
     if INFO_VALUE_KEY not in st.session_state:
