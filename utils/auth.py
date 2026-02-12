@@ -88,3 +88,14 @@ def restore_session_from_cookie() -> bool:
     st.session_state["auth_restored_at"] = int(time.time())
     return True
 
+def restore_session_from_cookie2() -> bool:
+    cm = _cookie_mgr()
+    raw = cm.get(COOKIE_NAME)
+
+    if raw is None: 
+        return False
+
+    st.session_state["authenticated"] = True
+    st.session_state["member_id"] = member_id
+    st.session_state["auth_restored_at"] = int(time.time())
+    return True
