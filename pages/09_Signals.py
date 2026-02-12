@@ -7,20 +7,17 @@ import textwrap
 import streamlit.components.v1 as components
 from urllib.parse import quote_plus
 import os
-if not st.session_state.get("authenticated"):
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+
 
 # -------------------------
 # Page setup
 # -------------------------
 st.set_page_config(page_title="Markmentum – Signals", layout="wide")
+
+from utils.require_auth import require_auth
+require_auth()
+
+st.cache_data.clear()
 
 # -------------------------
 # Responsive, no-wrap render styles (desktop + laptop)

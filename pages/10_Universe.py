@@ -12,22 +12,19 @@ import numpy as np
 from urllib.parse import quote_plus
 import os
 import os
-if not st.session_state.get("authenticated"):
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
 
-st.cache_data.clear()
+
+
 
 # -------------------------
 # Page & shared style
 # -------------------------
 st.set_page_config(page_title="Markmentum - Universe", layout="wide")
+
+from utils.require_auth import require_auth
+require_auth()
+
+st.cache_data.clear()
 
 st.markdown(
     """

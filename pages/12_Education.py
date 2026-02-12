@@ -9,21 +9,18 @@ import os
 import streamlit.components.v1 as components
 
 import os
-if not st.session_state.get("authenticated"):
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+
+
     
 # -------------------------
 # Page & shared style
 # -------------------------
 st.set_page_config(page_title="Markmentum – Education", layout="wide")
 
+from utils.require_auth import require_auth
+require_auth()
+
+st.cache_data.clear()
 
 # --- Typography + image scaling to match About page ---
 st.markdown("""

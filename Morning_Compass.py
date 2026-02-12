@@ -17,6 +17,7 @@ try:
 except Exception:
     Document = None
 
+from utils.auth import restore_auth_from_cookie, set_auth_cookie
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
 def verify_memberstack_token(token: str) -> dict | None:
@@ -41,11 +42,25 @@ def verify_memberstack_token(token: str) -> dict | None:
     except Exception:
         return None
 
-def establish_session_once() -> bool:
-    # If already authenticated in this Streamlit browser session, skip
+
+def establish_auth() -> bool:
+    """
+    Auth order:
+    1) If already authenticated in this Streamlit session -> OK
+    2) Else try restore from signed cookie -> OK
+    3) Else if ms_session param present -> verify with Memberstack, set cookie, clear URL -> OK
+    4) Else -> not authenticated
+    """
+
+    # 1) Already authed in this Streamlit session
     if st.session_state.get("authenticated") is True:
         return True
 
+    # 2) Restore from cookie (handles refresh/new tab/new session)
+    if restore_auth_from_cookie():
+        return True
+
+    # 3) No cookie auth yet; try one-time Memberstack token from URL
     token = st.query_params.get("ms_session")
     if not token:
         st.session_state["authenticated"] = False
@@ -67,26 +82,29 @@ def establish_session_once() -> bool:
         st.session_state["authenticated"] = False
         return False
 
-    # ✅ Success
+    # ✅ Success: set session + cookie
+    member_id = (verified.get("id") or "").strip()
     st.session_state["authenticated"] = True
-    st.session_state["member_id"] = verified.get("id")
+    st.session_state["member_id"] = member_id
     st.session_state["auth_checked_at"] = now
+
+    # Write 12h auth cookie (uses MR_AUTH_COOKIE_SECRET)
+    if member_id:
+        set_auth_cookie(member_id)
 
     # CRITICAL: remove token from URL immediately
     st.query_params.clear()
     return True
 
+
 # --- Gate Morning Compass ---
-if not establish_session_once():
+if not establish_auth():
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
+        f"""<meta http-equiv="refresh" content="0; url={home_url}" />""",
+        unsafe_allow_html=True,
     )
     st.stop()
-
 
 # -------------------------
 # Page & shared style

@@ -7,21 +7,19 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from urllib.parse import quote_plus
 import os
-if not st.session_state.get("authenticated"):
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+
+
+st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
+
+from utils.require_auth import require_auth
+require_auth()
+
+st.cache_data.clear()
 
 # -------------------------
 # Page & shared style
 # -------------------------
-st.cache_data.clear()
-st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
+
 
 st.markdown("""
 <style>

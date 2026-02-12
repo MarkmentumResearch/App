@@ -23,14 +23,16 @@ import numpy as np
 #})
 
 
-st.session_state["authenticated"] = True
-
-
-
 # -------------------------
 # Page & shared style
 # -------------------------
 st.set_page_config(page_title="Markmentum – Deep Dive Dashboard", layout="wide")
+
+from utils.require_auth import require_auth
+require_auth()
+
+st.cache_data.clear()
+
 st.markdown("""
 <style>
 /* Make the content wider on desktops while keeping nice margins */

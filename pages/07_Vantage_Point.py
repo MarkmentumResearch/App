@@ -7,18 +7,15 @@ import streamlit as st
 from urllib.parse import quote_plus
 from html import escape
 import os
-if not st.session_state.get("authenticated"):
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
-    
+
+
 # ---------- Page ----------
 st.set_page_config(page_title="Vantage Point – Market Orientation", layout="wide")
+
+
+from utils.require_auth import require_auth
+require_auth()
+
 st.cache_data.clear()
 
 # ---------- Paths ----------
