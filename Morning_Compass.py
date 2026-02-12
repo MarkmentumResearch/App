@@ -84,8 +84,7 @@ def establish_session_once() -> bool:
     if st.session_state["member_id"]:
         set_auth_cookie(st.session_state["member_id"])
 
-    
-        return True
+    return True
 
 # --- Gate Morning Compass ---
 if not establish_session_once():
