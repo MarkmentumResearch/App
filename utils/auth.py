@@ -6,7 +6,7 @@ import hmac
 import hashlib
 import base64
 import streamlit as st
-from streamlit_cookies_manager import CookieManager
+from streamlit_cookies_manager import CookieManager, CookiesNotReady
 
 # -----------------------------
 # Config
@@ -25,32 +25,25 @@ AUTH_SECRET = os.environ.get("MR_AUTH_COOKIE_SECRET", "")
 def get_cookies() -> CookieManager:
     """
     Return ONE CookieManager instance per Streamlit session.
-    Actively retries cookie sync for a short window so we don't hang forever.
+    If cookies become ready, also flush any pending cookie write.
     """
     if "_mr_cookie_manager" not in st.session_state:
         st.session_state["_mr_cookie_manager"] = CookieManager()
 
     cookies = st.session_state["_mr_cookie_manager"]
 
-    start = st.session_state.get("_cookie_ready_start")
-    if start is None:
-        start = time.time()
-        st.session_state["_cookie_ready_start"] = start
-
-    if not cookies.ready():
-        elapsed = time.time() - start
-
-        # Try for up to 3 seconds, then fail open (no hard lock)
-        if elapsed < 3.0:
-            st.info("Syncing session… one moment.")
-            time.sleep(0.2)
-            st.rerun()
-
-        # Timeout reached — clear timer and proceed
-        st.session_state.pop("_cookie_ready_start", None)
+    # If ready, flush any pending write and return
+    if cookies.ready():
+        pending = st.session_state.pop("_pending_auth_cookie_value", None)
+        if pending:
+            try:
+                cookies[COOKIE_NAME] = pending
+                cookies.save()
+            except Exception:
+                # If save fails for any reason, re-queue once
+                st.session_state["_pending_auth_cookie_value"] = pending
         return cookies
 
-    st.session_state.pop("_cookie_ready_start", None)
     return cookies
 
 # -----------------------------
@@ -120,11 +113,24 @@ def verify_cookie_value(cookie_value: str) -> str | None:
 # -----------------------------
 def set_auth_cookie(member_id: str, ttl_seconds: int = DEFAULT_TTL_SECONDS) -> None:
     """
-    Sets the signed auth cookie and saves it.
+    Sets the signed auth cookie. If cookies aren't ready yet, queue it and write later.
     """
     cookies = get_cookies()
-    cookies[COOKIE_NAME] = make_cookie_value(member_id, ttl_seconds=ttl_seconds)
-    cookies.save()
+    value = make_cookie_value(member_id, ttl_seconds=ttl_seconds)
+
+    try:
+        if not cookies.ready():
+            st.session_state["_pending_auth_cookie_value"] = value
+            return
+
+        cookies[COOKIE_NAME] = value
+        cookies.save()
+
+    except CookiesNotReady:
+        st.session_state["_pending_auth_cookie_value"] = value
+    except Exception:
+        # don't hard-crash the app on cookie write failure
+        st.session_state["_pending_auth_cookie_value"] = value
 
 
 def clear_auth_cookie() -> None:
@@ -148,7 +154,18 @@ def restore_auth_from_cookie() -> bool:
         return True
 
     cookies = get_cookies()
-    raw = cookies.get(COOKIE_NAME)
+
+    # If not ready, don't attempt cookies.get() (it can throw CookiesNotReady)
+    if not cookies.ready():
+        return False
+
+    try:
+        raw = cookies.get(COOKIE_NAME)
+    except CookiesNotReady:
+        return False
+    except Exception:
+        return False
+
     member_id = verify_cookie_value(raw) if raw else None
 
     if member_id:
