@@ -33,16 +33,18 @@ import numpy as np
 #    st.query_params.clear()
 #    if t:
 #        st.query_params["ticker"] = t
+
 st.session_state["authenticated"] = True
-if not st.session_state.get("authenticated"):
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+
+#if not st.session_state.get("authenticated"):
+#    home_url = "https://www.markmentumresearch.com"
+#    st.markdown(
+#        f"""
+#        <meta http-equiv="refresh" content="0; url={home_url}" />
+#        """,
+#        unsafe_allow_html=True
+#    )
+#    st.stop()
 
 # -------------------------
 # Page & shared style
