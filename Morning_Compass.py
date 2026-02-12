@@ -80,23 +80,24 @@ def establish_session_once() -> bool:
     st.session_state["member_id"] = verified.get("id")
     st.session_state["auth_checked_at"] = now
     # write cookie for future visits
+    st.query_params.clear()
     if st.session_state["member_id"]:
         set_auth_cookie(st.session_state["member_id"])
 
-    # CRITICAL: remove token from URL immediately
-    st.query_params.clear()
-    st.rerun()
+    
+        return True
 
 # --- Gate Morning Compass ---
 if not establish_session_once():
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+    if not restore_session_from_cookie():	
+        home_url = "https://www.markmentumresearch.com"
+        st.markdown(
+            f"""
+            <meta http-equiv="refresh" content="0; url={home_url}" />
+            """,
+            unsafe_allow_html=True
+        )
+        st.stop()
 
 
 # -------------------------
