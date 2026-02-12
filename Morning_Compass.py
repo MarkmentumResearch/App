@@ -49,17 +49,26 @@ def verify_memberstack_token(token: str) -> dict | None:
 
 
 def establish_auth() -> bool:
-    if st.session_state.get("authenticated") is True:
-        return True
-
-    # Grab token from URL OR pending stash
-    token = st.query_params.get("ms_session") or st.session_state.get("_pending_ms_session")
-
     # If token is in the URL, stash it and immediately clean the URL
+    # (must happen BEFORE any early returns)
     if st.query_params.get("ms_session") and not st.session_state.get("_pending_ms_session"):
         st.session_state["_pending_ms_session"] = st.query_params.get("ms_session")
-        st.query_params.clear()
+
+        # remove only ms_session (don’t nuke other params)
+        try:
+            del st.query_params["ms_session"]
+        except Exception:
+            st.query_params.clear()
+
         st.rerun()
+
+    # If already authenticated, we're good (also clear any leftover pending stash)
+    if st.session_state.get("authenticated") is True:
+        st.session_state.pop("_pending_ms_session", None)
+        return True
+
+    # Grab token from pending stash (URL token would have been stashed + removed above)
+    token = st.session_state.get("_pending_ms_session")
 
     # Now we’re on a clean URL; proceed using the stashed token
     if token:
@@ -102,7 +111,6 @@ def establish_auth() -> bool:
 
     st.session_state["authenticated"] = False
     return False
-
 
 # --- Gate Morning Compass ---
 if not establish_auth():
