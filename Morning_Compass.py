@@ -49,58 +49,57 @@ def verify_memberstack_token(token: str) -> dict | None:
 
 
 def establish_auth() -> bool:
-    """
-    Auth order (Morning Compass):
-    1) If already authenticated in this Streamlit session -> OK
-    2) Else if ms_session param present -> verify with Memberstack, set session, set cookie, clear URL -> OK
-    3) Else try restore from signed cookie -> OK
-    4) Else -> not authenticated
-    """
-
-    # 1) Already authed in this Streamlit session
     if st.session_state.get("authenticated") is True:
         return True
 
-    # 2) If token is present, use it FIRST (don't wait on cookies)
-    token = st.query_params.get("ms_session")
+    # Grab token from URL OR pending stash
+    token = st.query_params.get("ms_session") or st.session_state.get("_pending_ms_session")
+
+    # If token is in the URL, stash it and immediately clean the URL
+    if st.query_params.get("ms_session") and not st.session_state.get("_pending_ms_session"):
+        st.session_state["_pending_ms_session"] = st.query_params.get("ms_session")
+        st.query_params.clear()
+        st.rerun()
+
+    # Now we’re on a clean URL; proceed using the stashed token
     if token:
         verified = verify_memberstack_token(token)
         if not verified:
             st.session_state["authenticated"] = False
+            st.session_state.pop("_pending_ms_session", None)
             return False
 
-        # Optional hard checks (recommended)
         expected_aud = os.environ.get("MEMBERSTACK_APP_ID")
         if expected_aud and verified.get("aud") != expected_aud:
             st.session_state["authenticated"] = False
+            st.session_state.pop("_pending_ms_session", None)
             return False
 
         now = int(time.time())
         if isinstance(verified.get("exp"), int) and verified["exp"] < now:
             st.session_state["authenticated"] = False
+            st.session_state.pop("_pending_ms_session", None)
             return False
 
-        # ✅ Success: set session
         member_id = (verified.get("id") or "").strip()
         st.session_state["authenticated"] = True
         st.session_state["member_id"] = member_id
-        st.session_state["auth_checked_at"] = int(time.time())
+        st.session_state["auth_checked_at"] = now
 
-        # ✅ Write cookie
+        # Write cookie AFTER URL is already clean (may sync/stop once)
         if member_id:
             set_auth_cookie(member_id)
 
-        # ✅ Clear token from URL
-        st.query_params.clear()
+        # Done with the stashed token
+        st.session_state.pop("_pending_ms_session", None)
 
-        # 🔁 Force clean rerun with no token
+        # Optional final rerun to render cleanly post-cookie-save
         st.rerun()
 
-    # 3) No token present -> restore from cookie
+    # No token -> try cookie restore
     if restore_auth_from_cookie():
         return True
 
-    # 4) Not authenticated
     st.session_state["authenticated"] = False
     return False
 
