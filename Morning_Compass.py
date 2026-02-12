@@ -122,7 +122,11 @@ def establish_auth() -> bool:
         # Done with the stashed token
         st.session_state.pop("_pending_ms_session", None)
 
-        st.rerun()
+        st.markdown(
+        """<meta http-equiv="refresh" content="0; url=https://app.markmentumresearch.com/" />""",
+        unsafe_allow_html=True,)
+        st.stop()
+
 
     # No token -> try cookie restore
     if restore_auth_from_cookie():
