@@ -18,7 +18,8 @@ except Exception:
 
 st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
-from utils.auth import set_auth_cookie, restore_session_from_cookie
+from utils.auth import set_auth_cookie, restore_session_from_cookie, restore_session_from_cookie2
+
 
 
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
@@ -87,17 +88,18 @@ def establish_session_once() -> bool:
     return True
 
 # --- Gate Morning Compass ---
-if not establish_session_once():
-    if not restore_session_from_cookie2():	
+if not st.session_state.get("authenticated"):
+    ok = restore_session_from_cookie2()
+
+    # If restore_session_from_cookie2() triggered a rerun, execution won't continue.
+    # So if we got here and ok is False, retries are exhausted.
+    if not ok:
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
-            f"""
-            <meta http-equiv="refresh" content="0; url={home_url}" />
-            """,
+            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
             unsafe_allow_html=True
         )
         st.stop()
-
 
 # -------------------------
 # Page & shared style
