@@ -6,7 +6,6 @@ import hmac
 import hashlib
 import base64
 import streamlit as st
-from streamlit_cookies_manager import CookieManager, CookiesNotReady
 
 # -----------------------------
 # Config
@@ -18,46 +17,16 @@ DEFAULT_TTL_SECONDS = 60 * 60 * 12  # 12 hours
 # MR_AUTH_COOKIE_SECRET = <long random string 32+ chars>
 AUTH_SECRET = os.environ.get("MR_AUTH_COOKIE_SECRET", "")
 
-
-# -----------------------------
-# Cookie manager
-# -----------------------------
-def get_cookies() -> CookieManager:
-    """
-    Return ONE CookieManager instance per Streamlit session.
-    If cookies become ready, also flush any pending cookie write.
-    """
-    if "_mr_cookie_manager" not in st.session_state:
-        st.session_state["_mr_cookie_manager"] = CookieManager()
-
-    cookies = st.session_state["_mr_cookie_manager"]
-
-    # If ready, flush any pending write and return
-    if cookies.ready():
-        pending = st.session_state.pop("_pending_auth_cookie_value", None)
-        if pending:
-            try:
-                cookies[COOKIE_NAME] = pending
-                cookies.save()
-            except Exception:
-                # If save fails for any reason, re-queue once
-                st.session_state["_pending_auth_cookie_value"] = pending
-        return cookies
-
-    return cookies
-
 # -----------------------------
 # Signing helpers (tamper-proof)
 # -----------------------------
 def _b64(b: bytes) -> str:
     return base64.urlsafe_b64encode(b).decode().rstrip("=")
 
-
 def _sign(payload: str) -> str:
     if not AUTH_SECRET:
         return ""
     return _b64(hmac.new(AUTH_SECRET.encode(), payload.encode(), hashlib.sha256).digest())
-
 
 def make_cookie_value(member_id: str, ttl_seconds: int = DEFAULT_TTL_SECONDS) -> str:
     """
@@ -69,7 +38,6 @@ def make_cookie_value(member_id: str, ttl_seconds: int = DEFAULT_TTL_SECONDS) ->
     payload = f"{member_id}|{exp}"
     sig = _sign(payload)
     return f"{payload}|{sig}"
-
 
 def verify_cookie_value(cookie_value: str) -> str | None:
     """
@@ -107,43 +75,30 @@ def verify_cookie_value(cookie_value: str) -> str | None:
 
     return member_id
 
+# -----------------------------
+# Native cookie helpers
+# -----------------------------
+def _cookies():
+    """
+    Streamlit native cookies.
+    """
+    # Streamlit 1.37+ supports st.context.cookies
+    return st.context.cookies
 
-# -----------------------------
-# Public helpers
-# -----------------------------
 def set_auth_cookie(member_id: str, ttl_seconds: int = DEFAULT_TTL_SECONDS) -> None:
     """
-    Sets the signed auth cookie. If cookies aren't ready yet, queue it and write later.
+    Sets signed auth cookie using Streamlit native cookies.
     """
-    cookies = get_cookies()
     value = make_cookie_value(member_id, ttl_seconds=ttl_seconds)
-
-    try:
-        if not cookies.ready():
-            st.session_state["_pending_auth_cookie_value"] = value
-            return
-
-        cookies[COOKIE_NAME] = value
-        cookies.save()
-
-    except CookiesNotReady:
-        st.session_state["_pending_auth_cookie_value"] = value
-    except Exception:
-        # don't hard-crash the app on cookie write failure
-        st.session_state["_pending_auth_cookie_value"] = value
-
+    # max_age in seconds. Path "/" so it works across pages.
+    _cookies().set(COOKIE_NAME, value, max_age=ttl_seconds, path="/", secure=True, samesite="Lax")
 
 def clear_auth_cookie() -> None:
     """
-    Removes the auth cookie (portal logout).
+    Removes the auth cookie.
     """
-    cookies = get_cookies()
-    try:
-        del cookies[COOKIE_NAME]
-    except Exception:
-        pass
-    cookies.save()
-
+    # Setting max_age=0 deletes in browsers
+    _cookies().set(COOKIE_NAME, "", max_age=0, path="/", secure=True, samesite="Lax")
 
 def restore_auth_from_cookie() -> bool:
     """
@@ -153,19 +108,7 @@ def restore_auth_from_cookie() -> bool:
     if st.session_state.get("authenticated") is True:
         return True
 
-    cookies = get_cookies()
-
-    # If not ready, don't attempt cookies.get() (it can throw CookiesNotReady)
-    if not cookies.ready():
-        return False
-
-    try:
-        raw = cookies.get(COOKIE_NAME)
-    except CookiesNotReady:
-        return False
-    except Exception:
-        return False
-
+    raw = _cookies().get(COOKIE_NAME)
     member_id = verify_cookie_value(raw) if raw else None
 
     if member_id:
