@@ -21,38 +21,19 @@ import numpy as np
 #    "figure.dpi": 110,
 #    "figure.figsize": (9.2, 3.4),   # good aspect for the 3-up rows
 #})
-import os
-# --- Keys (must match Morning Compass exactly) ---
-ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
-INFO_VALUE_KEY = "dd_show_information_charts_value"
-ADV_WIDGET_KEY = "dd_show_advanced_charts_widget"  # widget’s own state
-INFO_WIDGET_KEY = "dd_show_information_charts_widget"  # widget’s own state
+#import os
+#qp = st.query_params
+#auth_qp = (qp.get("auth") or "").strip()
 
-qp = st.query_params
-
-# DEMO: re-establish auth from param
-if (qp.get("auth") or "").strip() == "1":
-    st.session_state["authenticated"] = True
-
-# hydrate ticker + flags too (so it matches your old behavior)
-t = (qp.get("ticker") or "").strip().upper()
-if t:
-    st.session_state["ticker"] = t
-
-adv_qp  = (qp.get("adv") or "0").strip()
-info_qp = (qp.get("info") or "0").strip()
-st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
-st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
-st.session_state[ADV_WIDGET_KEY] = st.session_state[ADV_VALUE_KEY]
-st.session_state[INFO_WIDGET_KEY] = st.session_state[INFO_VALUE_KEY]
-
-
-# Now you can clean URL if you want (optional)
-# Keep ticker, drop auth/flags
-st.query_params.clear()
-if t:
-    st.query_params["ticker"] = t
-
+#if auth_qp == "1":
+#    st.session_state["authenticated"] = True
+    # optional: clean auth only
+    # keep ticker, drop auth
+#    t = (qp.get("ticker") or "").strip().upper()
+#    st.query_params.clear()
+#    if t:
+#        st.query_params["ticker"] = t
+st.session_state["authenticated"] = True
 if not st.session_state.get("authenticated"):
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
@@ -2268,8 +2249,8 @@ _ticker = _active_tkr
 # MASTER TOGGLE: Show/Hide Advanced Charts (2–12)
 # ==============================
 
-#ADV_VALUE_KEY  = "dd_show_advanced_charts_value"   # master value you care about
-#ADV_WIDGET_KEY = "dd_show_advanced_charts_widget"  # widget’s own state
+ADV_VALUE_KEY  = "dd_show_advanced_charts_value"   # master value you care about
+ADV_WIDGET_KEY = "dd_show_advanced_charts_widget"  # widget’s own state
 
 # 1) Initialize master value once per browser session
 if ADV_VALUE_KEY not in st.session_state:
@@ -2293,7 +2274,7 @@ with tM:
     )
 
 # Use this everywhere below
-render_info = st.session_state.get(ADV_WIDGET_KEY, st.session_state.get(ADV_VALUE_KEY, False))
+render_info = st.session_state[ADV_VALUE_KEY]
 ticker = _active_tkr
 
 if render_info:
@@ -2847,8 +2828,8 @@ if render_info:
     # ==============================
     # MASTER TOGGLE: Show/Hide Informational Charts (13–24)
     # ==============================
-    #INFO_VALUE_KEY  = "dd_show_information_charts_value"   # master value you care about
-    #INFO_WIDGET_KEY = "dd_show_information_charts_widget"  # widget’s own state
+    INFO_VALUE_KEY  = "dd_show_information_charts_value"   # master value you care about
+    INFO_WIDGET_KEY = "dd_show_information_charts_widget"  # widget’s own state
 
     # 1) Initialize master value once per browser session
     if INFO_VALUE_KEY not in st.session_state:
