@@ -11,7 +11,6 @@ from html import escape
 import time
 import requests
 
-
 try:
     from docx import Document
 except Exception:
