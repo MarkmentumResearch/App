@@ -2293,7 +2293,7 @@ with tM:
     )
 
 # Use this everywhere below
-render_info = st.session_state[ADV_VALUE_KEY]
+render_info = st.session_state.get(ADV_WIDGET_KEY, st.session_state.get(ADV_VALUE_KEY, False))
 ticker = _active_tkr
 
 if render_info:
