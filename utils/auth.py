@@ -91,14 +91,14 @@ def set_auth_cookie(member_id: str, ttl_seconds: int = DEFAULT_TTL_SECONDS) -> N
     """
     value = make_cookie_value(member_id, ttl_seconds=ttl_seconds)
     # max_age in seconds. Path "/" so it works across pages.
-    _cookies().set(COOKIE_NAME, value, max_age=ttl_seconds, path="/", secure=True, samesite="Lax")
+    _cookies().set(COOKIE_NAME,value,max_age=ttl_seconds,path="/",secure=True,samesite="None",)
 
 def clear_auth_cookie() -> None:
     """
     Removes the auth cookie.
     """
     # Setting max_age=0 deletes in browsers
-    _cookies().set(COOKIE_NAME, "", max_age=0, path="/", secure=True, samesite="Lax")
+    _cookies().set(COOKIE_NAME,"",max_age=0,path="/",secure=True,samesite="None",)
 
 def restore_auth_from_cookie() -> bool:
     """
