@@ -116,7 +116,7 @@ if not establish_auth():
 # -------------------------
 # Page & shared style
 # -------------------------
-
+st.rerun()
 st.cache_data.clear()
 # ---- LAYOUT & WIDTH TUNING (Cloud parity + your constraints) ----
 
