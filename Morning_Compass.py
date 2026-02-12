@@ -84,15 +84,17 @@ def establish_auth() -> bool:
         member_id = (verified.get("id") or "").strip()
         st.session_state["authenticated"] = True
         st.session_state["member_id"] = member_id
-        st.session_state["auth_checked_at"] = now
+        st.session_state["auth_checked_at"] = int(time.time())
 
-        # ✅ Write cookie (this may show "Syncing..." once, then rerun)
+        # ✅ Write cookie
         if member_id:
             set_auth_cookie(member_id)
 
-        # Remove token from URL immediately
+        # ✅ Clear token from URL
         st.query_params.clear()
-        return True
+
+        # 🔁 Force clean rerun with no token
+        st.rerun()
 
     # 3) No token present -> restore from cookie
     if restore_auth_from_cookie():
