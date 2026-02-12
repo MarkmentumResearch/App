@@ -19,13 +19,8 @@ except Exception:
 
 st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
-from utils.auth import restore_auth_from_cookie, set_auth_cookie, restore_session_from_cookie
+from utils.auth import set_auth_cookie, restore_session_from_cookie
 
-
-import os
-import time
-import requests
-import streamlit as st
 
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
