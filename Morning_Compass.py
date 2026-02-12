@@ -174,7 +174,7 @@ if dest.replace("%20", " ") == "deep dive":
         # clean URL – we don't need adv/info/ticker in query params anymore
         st.query_params.clear()
         st.query_params["ticker"] = t
-
+        st.session_state["authenticated"] = True
         st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 
 def row_spacer(height_px: int = 14):
