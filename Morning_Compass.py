@@ -146,14 +146,12 @@ def _mk_ticker_link(ticker: str) -> str:
 
     adv_flag  = "1" if adv_on  else "0"
     info_flag = "1" if info_on else "0"
-    auth_flag= "1"
 
     return (
         f'<a href="?page=Deep%20Dive'
         f'&ticker={quote_plus(t)}'
         f'&adv={adv_flag}'
-        f'&info={info_flag}'
-        f'&auth={auth_flag}'
+        f'&info={info_flag}" '
         f'target="_self" rel="noopener" '
         f'style="text-decoration:none; font-weight:600;">{t}</a>'
     )
@@ -165,21 +163,19 @@ if dest.replace("%20", " ") == "deep dive":
     t = (qp.get("ticker") or "").strip().upper()
     adv_qp  = (qp.get("adv")  or "0").strip()
     info_qp = (qp.get("info") or "0").strip()
-    
+
     if t:
         st.session_state["ticker"] = t
 
         # restore toggle master values for Deep Dive
         st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
         st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
-        
 
         # clean URL – we don't need adv/info/ticker in query params anymore
         st.query_params.clear()
         st.query_params["ticker"] = t
-        
-        
-        st.switch_page("pages/08_Deep_Dive_Dashboard.py")
+
+        st.switch_page("pages/09_Deep_Dive_Dashboard.py")
 
 def row_spacer(height_px: int = 14):
     st.markdown(f"<div style='height:{height_px}px'></div>", unsafe_allow_html=True)
