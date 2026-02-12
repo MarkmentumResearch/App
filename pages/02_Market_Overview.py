@@ -9,7 +9,7 @@ from urllib.parse import quote_plus
 import os
 
 
-from utils.auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
   if not restore_session_from_cookie2():	
