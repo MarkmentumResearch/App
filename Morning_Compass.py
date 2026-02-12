@@ -17,9 +17,12 @@ try:
 except Exception:
     Document = None
 
-st.set_page_config(page_title="Markmentum – Morning Compass", layout="wide")    
+st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
-from utils.auth import restore_auth_from_cookie, set_auth_cookie
+from utils.auth import get_cookies, restore_auth_from_cookie, set_auth_cookie
+
+get_cookies()  # initialize cookie manager (may stop once and rerun)
+
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
 def verify_memberstack_token(token: str) -> dict | None:

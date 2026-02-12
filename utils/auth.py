@@ -33,6 +33,7 @@ def get_cookies() -> CookieManager:
     cookies = st.session_state["_mr_cookie_manager"]
 
     if not cookies.ready():
+        st.info("Syncing session… one moment.")
         st.stop()
 
     return cookies
