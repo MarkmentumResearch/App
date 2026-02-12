@@ -17,6 +17,8 @@ try:
 except Exception:
     Document = None
 
+st.set_page_config(page_title="Markmentum – Morning Compass", layout="wide")    
+
 from utils.auth import restore_auth_from_cookie, set_auth_cookie
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
@@ -109,7 +111,7 @@ if not establish_auth():
 # -------------------------
 # Page & shared style
 # -------------------------
-st.set_page_config(page_title="Markmentum – Morning Compass", layout="wide")
+
 st.cache_data.clear()
 # ---- LAYOUT & WIDTH TUNING (Cloud parity + your constraints) ----
 
