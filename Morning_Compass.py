@@ -49,16 +49,36 @@ def verify_memberstack_token(token: str) -> dict | None:
 
 
 def establish_auth() -> bool:
+    # Grab once
+    ms_token = st.query_params.get("ms_session")
+
     # If token is in the URL, stash it and immediately clean the URL
     # (must happen BEFORE any early returns)
-    if st.query_params.get("ms_session") and not st.session_state.get("_pending_ms_session"):
-        st.session_state["_pending_ms_session"] = st.query_params.get("ms_session")
+    if ms_token and not st.session_state.get("_pending_ms_session"):
+        st.session_state["_pending_ms_session"] = ms_token
 
-        # remove only ms_session (don’t nuke other params)
+        # ✅ Browser-side cleanup (this guarantees the address bar loses ?ms_session=...)
+        st.markdown(
+            """
+            <script>
+              try {
+                const url = new URL(window.location.href);
+                url.searchParams.delete("ms_session");
+                window.history.replaceState({}, document.title, url.pathname + url.search);
+              } catch (e) {}
+            </script>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        # Server-side cleanup (keep this too)
         try:
             del st.query_params["ms_session"]
         except Exception:
-            st.query_params.clear()
+            try:
+                st.query_params.clear()
+            except Exception:
+                pass
 
         st.rerun()
 
@@ -95,14 +115,13 @@ def establish_auth() -> bool:
         st.session_state["member_id"] = member_id
         st.session_state["auth_checked_at"] = now
 
-        # Write cookie AFTER URL is already clean (may sync/stop once)
+        # Write cookie AFTER URL is already clean
         if member_id:
             set_auth_cookie(member_id)
 
         # Done with the stashed token
         st.session_state.pop("_pending_ms_session", None)
 
-        # Optional final rerun to render cleanly post-cookie-save
         st.rerun()
 
     # No token -> try cookie restore
