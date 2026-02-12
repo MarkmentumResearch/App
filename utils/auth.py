@@ -24,20 +24,34 @@ AUTH_SECRET = os.environ.get("MR_AUTH_COOKIE_SECRET", "")
 # -----------------------------
 def get_cookies() -> CookieManager:
     """
-    Return ONE CookieManager instance per Streamlit session
-    (prevents DuplicateWidgetID).
+    Return ONE CookieManager instance per Streamlit session.
+    Adds timeout guard so we never hang forever.
     """
     if "_mr_cookie_manager" not in st.session_state:
         st.session_state["_mr_cookie_manager"] = CookieManager()
 
     cookies = st.session_state["_mr_cookie_manager"]
 
+    # ---- Timeout guard ----
+    start = st.session_state.get("_cookie_ready_start")
+
+    if start is None:
+        st.session_state["_cookie_ready_start"] = time.time()
+        start = st.session_state["_cookie_ready_start"]
+
     if not cookies.ready():
-        st.info("Syncing session… one moment.")
-        st.stop()
+        # Wait up to 3 seconds max
+        if time.time() - start < 3:
+            st.info("Syncing session… one moment.")
+            st.stop()
 
+        # Timeout reached — clear timer and proceed without blocking
+        st.session_state.pop("_cookie_ready_start", None)
+        return cookies
+
+    # Ready — clear timer
+    st.session_state.pop("_cookie_ready_start", None)
     return cookies
-
 
 # -----------------------------
 # Signing helpers (tamper-proof)
