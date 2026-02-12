@@ -100,11 +100,12 @@ def establish_auth() -> bool:
         # Write cookie AFTER URL is already clean
         if member_id:
             set_auth_cookie(member_id)
-            st.rerun()
 
-        # Done with the stashed token
+        # Done with the stashed token (MUST happen before rerun)
         st.session_state.pop("_pending_ms_session", None)
 
+        st.rerun()
+        # (execution won't reach here, but keep for readability)
         return True
 
 
