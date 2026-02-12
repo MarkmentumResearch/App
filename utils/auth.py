@@ -104,16 +104,22 @@ def restore_session_from_cookie2() -> bool:
     cm = _cookie_mgr()
     raw = cm.get(COOKIE_NAME)
 
-    # 1) CookieManager often returns None on the first pass after navigation.
-    #    Give it ONE rerun to hydrate from the browser.
+    # ONE rerun for hydration
     if raw is None and not st.session_state.get("_cookie_retry_done"):
         st.session_state["_cookie_retry_done"] = True
         st.rerun()
 
-    # 2) Treat empty string as missing too
-    if not raw:
+    if not raw:  # None or ""
+        return False
+
+    # THIS is your "exists + not expired" rule:
+    member_id = verify_cookie_value(raw)   # verifies sig + expiry, returns member_id
+    if not member_id:
         return False
 
     st.session_state["authenticated"] = True
+    st.session_state["member_id"] = member_id
     st.session_state["auth_restored_at"] = int(time.time())
+
+    st.session_state["_cookie_retry_done"] = False
     return True
