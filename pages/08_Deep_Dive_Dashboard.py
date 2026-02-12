@@ -22,6 +22,10 @@ import numpy as np
 #    "figure.figsize": (9.2, 3.4),   # good aspect for the 3-up rows
 #})
 import os
+# --- Keys (must match Morning Compass exactly) ---
+ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
+INFO_VALUE_KEY = "dd_show_information_charts_value"
+
 qp = st.query_params
 
 # DEMO: re-establish auth from param
