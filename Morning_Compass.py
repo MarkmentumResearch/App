@@ -146,12 +146,14 @@ def _mk_ticker_link(ticker: str) -> str:
 
     adv_flag  = "1" if adv_on  else "0"
     info_flag = "1" if info_on else "0"
+    auth_flag= "1"
 
     return (
         f'<a href="?page=Deep%20Dive'
         f'&ticker={quote_plus(t)}'
         f'&adv={adv_flag}'
-        f'&info={info_flag}" '
+        f'&info={info_flag}'
+        f'&auth={auth_flag}"'
         f'target="_self" rel="noopener" '
         f'style="text-decoration:none; font-weight:600;">{t}</a>'
     )
@@ -174,7 +176,7 @@ if dest.replace("%20", " ") == "deep dive":
         # clean URL – we don't need adv/info/ticker in query params anymore
         st.query_params.clear()
         st.query_params["ticker"] = t
-        st.session_state["authenticated"] = True
+        
         st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 
 def row_spacer(height_px: int = 14):

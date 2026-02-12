@@ -22,6 +22,12 @@ import numpy as np
 #    "figure.figsize": (9.2, 3.4),   # good aspect for the 3-up rows
 #})
 import os
+qp = st.query_params  # Streamlit >= 1.30 style (dict-like)
+
+auth_qp = (qp.get("auth") or "").strip()
+if auth_qp == "1":
+    st.session_state["authenticated"] = True
+
 if not st.session_state.get("authenticated"):
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
