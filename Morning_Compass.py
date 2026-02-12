@@ -53,11 +53,11 @@ def establish_session_once() -> bool:
     token = st.query_params.get("ms_session")
 
     # If no token in URL, try restoring from cookie
-    #if not token:
-    #    if restore_session_from_cookie():
-    #        return True
-    #    st.session_state["authenticated"] = False
-    #    return False
+    if not token:
+        if restore_session_from_cookie():
+            return True
+        st.session_state["authenticated"] = False
+        return False
 
     verified = verify_memberstack_token(token)
     if not verified:

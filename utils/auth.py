@@ -11,7 +11,7 @@ import extra_streamlit_components as stx
 
 def _cookie_mgr():
     if "_mr_cookie_mgr" not in st.session_state:
-        st.session_state["_mr_cookie_mgr"] = stx.CookieManager(key="mr_cookie_mgr")
+        st.session_state["_mr_cookie_mgr"] = stx.CookieManager(key="mr_cookie_mgr__global")
     return st.session_state["_mr_cookie_mgr"]
 
 COOKIE_NAME = "mr_auth"
