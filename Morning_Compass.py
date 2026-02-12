@@ -21,7 +21,7 @@ st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
 from utils.auth import get_cookies, restore_auth_from_cookie, set_auth_cookie
 
-get_cookies()  # initialize cookie manager (may stop once and rerun)
+#get_cookies()  # initialize cookie manager (may stop once and rerun)
 
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
@@ -50,10 +50,10 @@ def verify_memberstack_token(token: str) -> dict | None:
 
 def establish_auth() -> bool:
     """
-    Auth order:
+    Auth order (Morning Compass):
     1) If already authenticated in this Streamlit session -> OK
-    2) Else try restore from signed cookie -> OK
-    3) Else if ms_session param present -> verify with Memberstack, set cookie, clear URL -> OK
+    2) Else if ms_session param present -> verify with Memberstack, set session, set cookie, clear URL -> OK
+    3) Else try restore from signed cookie -> OK
     4) Else -> not authenticated
     """
 
@@ -61,45 +61,46 @@ def establish_auth() -> bool:
     if st.session_state.get("authenticated") is True:
         return True
 
-    # 2) Restore from cookie (handles refresh/new tab/new session)
+    # 2) If token is present, use it FIRST (don't wait on cookies)
+    token = st.query_params.get("ms_session")
+    if token:
+        verified = verify_memberstack_token(token)
+        if not verified:
+            st.session_state["authenticated"] = False
+            return False
+
+        # Optional hard checks (recommended)
+        expected_aud = os.environ.get("MEMBERSTACK_APP_ID")
+        if expected_aud and verified.get("aud") != expected_aud:
+            st.session_state["authenticated"] = False
+            return False
+
+        now = int(time.time())
+        if isinstance(verified.get("exp"), int) and verified["exp"] < now:
+            st.session_state["authenticated"] = False
+            return False
+
+        # ✅ Success: set session
+        member_id = (verified.get("id") or "").strip()
+        st.session_state["authenticated"] = True
+        st.session_state["member_id"] = member_id
+        st.session_state["auth_checked_at"] = now
+
+        # ✅ Write cookie (this may show "Syncing..." once, then rerun)
+        if member_id:
+            set_auth_cookie(member_id)
+
+        # Remove token from URL immediately
+        st.query_params.clear()
+        return True
+
+    # 3) No token present -> restore from cookie
     if restore_auth_from_cookie():
         return True
 
-    # 3) No cookie auth yet; try one-time Memberstack token from URL
-    token = st.query_params.get("ms_session")
-    if not token:
-        st.session_state["authenticated"] = False
-        return False
-
-    verified = verify_memberstack_token(token)
-    if not verified:
-        st.session_state["authenticated"] = False
-        return False
-
-    # Optional hard checks (recommended)
-    expected_aud = os.environ.get("MEMBERSTACK_APP_ID")
-    if expected_aud and verified.get("aud") != expected_aud:
-        st.session_state["authenticated"] = False
-        return False
-
-    now = int(time.time())
-    if isinstance(verified.get("exp"), int) and verified["exp"] < now:
-        st.session_state["authenticated"] = False
-        return False
-
-    # ✅ Success: set session + cookie
-    member_id = (verified.get("id") or "").strip()
-    st.session_state["authenticated"] = True
-    st.session_state["member_id"] = member_id
-    st.session_state["auth_checked_at"] = now
-
-    # Write 12h auth cookie (uses MR_AUTH_COOKIE_SECRET)
-    if member_id:
-        set_auth_cookie(member_id)
-
-    # CRITICAL: remove token from URL immediately
-    st.query_params.clear()
-    return True
+    # 4) Not authenticated
+    st.session_state["authenticated"] = False
+    return False
 
 
 # --- Gate Morning Compass ---
