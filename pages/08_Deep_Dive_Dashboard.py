@@ -1,4 +1,6 @@
 # mr_deep_dive
+st.set_page_config(page_title="Markmentum – Deep Dive Dashboard", layout="wide")
+
 
 import base64
 from pathlib import Path
@@ -27,7 +29,6 @@ import numpy as np
 # Page & shared style
 # -------------------------
 
-st.set_page_config(page_title="Markmentum – Deep Dive Dashboard", layout="wide")
 
 from utils.auth import restore_session_from_cookie2
 
