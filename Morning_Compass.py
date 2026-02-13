@@ -94,7 +94,7 @@ if not establish_session_once():
         )
         st.stop()
 
-st.cache_data.clear()
+#st.cache_data.clear()
 
 # -------------------------
 # Paths (portable for Cloud)
