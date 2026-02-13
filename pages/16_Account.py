@@ -115,10 +115,10 @@ if LOGO_PATH.exists():
 #st.markdown('<h2 style="text-align:center; margin:0.25rem 0 0.5rem;">Contact Us </h2>',unsafe_allow_html=True,)
 st.markdown("---")
 
-from utils.auth import delete_auth_cookie
+#from utils.auth import delete_auth_cookie
 
-delete_auth_cookie()
-st.session_state.clear()
+#delete_auth_cookie()
+#st.session_state.clear()
 
 ACCOUNT_URL = "https://www.markmentumresearch.com/account"
 
