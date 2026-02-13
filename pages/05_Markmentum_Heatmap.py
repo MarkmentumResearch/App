@@ -1,3 +1,18 @@
+import streamlit as st
+st.set_page_config(page_title="Markmentum Heatmap", layout="wide")
+
+from utils.auth import restore_session_from_cookie2
+
+if not st.session_state.get("authenticated"):
+    if not restore_session_from_cookie2():
+        home_url = "https://www.markmentumresearch.com"
+        st.markdown(
+            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+            unsafe_allow_html=True
+        )
+        st.stop()
+
+
 # 12_Markmentum_Heatmap.py
 # Markmentum — Model Score + Δ (Daily/WTD/MTD/QTD)
 
@@ -6,30 +21,9 @@ import base64
 import pandas as pd
 import numpy as np
 import altair as alt
-import streamlit as st
+
 from urllib.parse import quote_plus
 import os
-
-
-
-# ---------- Page ----------
-
-st.set_page_config(page_title="Markmentum Heatmap", layout="wide")
-
-from utils.auth import restore_session_from_cookie
-
-if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
-
-st.cache_data.clear()
 
 # -------------------------
 # Paths

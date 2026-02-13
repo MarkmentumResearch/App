@@ -5,8 +5,7 @@ st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
 from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-    if not restore_session_from_cookie2():
-        st.stop()
+    if not restore_session_from_cookie2():        
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',

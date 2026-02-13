@@ -4,15 +4,14 @@ st.set_page_config(page_title="Markmentum – Signals", layout="wide")
 from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie2():	
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+    if not restore_session_from_cookie2():
+        home_url = "https://www.markmentumresearch.com"
+        st.markdown(
+            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+            unsafe_allow_html=True
+        )
+        st.stop()
+
 
 # filters.py — Markmentum Filters Page (8 cards: 32..39 in 3/3/2 layout)
 from pathlib import Path

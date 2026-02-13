@@ -4,15 +4,14 @@ st.set_page_config(page_title="Markmentum – Education", layout="wide")
 from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie2():	
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
+    if not restore_session_from_cookie2():
+        home_url = "https://www.markmentumresearch.com"
+        st.markdown(
+            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+            unsafe_allow_html=True
+        )
+        st.stop()
+
 
 import base64
 from pathlib import Path
