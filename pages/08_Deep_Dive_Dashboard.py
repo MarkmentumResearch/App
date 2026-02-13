@@ -1,11 +1,12 @@
 # mr_deep_dive
+import streamlit as st
 st.set_page_config(page_title="Markmentum – Deep Dive Dashboard", layout="wide")
 
 
 import base64
 from pathlib import Path
 import pandas as pd
-import streamlit as st
+
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib import rcParams
