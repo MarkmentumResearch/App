@@ -15,6 +15,11 @@ if tickerp and adv and info:
     if st.session_state.get("authenticated") is not True:
         if not verify_proof(proof):
             st.query_params.clear()
+            home_url = "https://www.markmentumresearch.com/login"
+            st.markdown(
+            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+            unsafe_allow_html=True
+            )
             st.stop()
 
         st.session_state["authenticated"] = True
