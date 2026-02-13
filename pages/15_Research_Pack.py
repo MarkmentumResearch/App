@@ -1,11 +1,25 @@
+import streamlit as st
+st.set_page_config(page_title="Markmentum – Research Pack", layout="wide")
+
+from utils.auth import restore_session_from_cookie2
+
+if not st.session_state.get("authenticated"):
+  if not restore_session_from_cookie2():	
+    home_url = "https://www.markmentumresearch.com"
+    st.markdown(
+        f"""
+        <meta http-equiv="refresh" content="0; url={home_url}" />
+        """,
+        unsafe_allow_html=True
+    )
+    st.stop()
+
 # 16_Reports_v4.py
 from pathlib import Path
 import io
 import os
 import pandas as pd
 import numpy as np
-import streamlit as st
-
 # PDF (ReportLab)
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle,
@@ -26,30 +40,6 @@ try:
     from docx import Document
 except Exception:
     Document = None
-
-import os
-
-
-
-# -------------------------
-# Page config
-# -------------------------
-st.set_page_config(page_title="Markmentum – Research Pack", layout="wide")
-
-from utils.auth import restore_session_from_cookie
-
-if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
-
-st.cache_data.clear()
 
 # -------------------------
 # Paths (match Morning Compass style)

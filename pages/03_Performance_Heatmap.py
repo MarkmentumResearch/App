@@ -1,19 +1,4 @@
-# 11_Performance_Heatmap.py
-# Markmentum — Performance Heatmap (Daily/WTD/MTD/QTD % Change)
-
-from pathlib import Path
-import base64
-import pandas as pd
-import numpy as np
-import altair as alt
 import streamlit as st
-from urllib.parse import quote_plus
-import os
-
-
-    
-# ---------- Page ----------
-
 st.set_page_config(page_title="Markmentum - Performance Heatmap", layout="wide")
 
 from utils.auth import restore_session_from_cookie2
@@ -27,9 +12,16 @@ if not st.session_state.get("authenticated"):
         )
         st.stop()
 
+# 11_Performance_Heatmap.py
+# Markmentum — Performance Heatmap (Daily/WTD/MTD/QTD % Change)
 
-
-st.cache_data.clear()
+from pathlib import Path
+import base64
+import pandas as pd
+import numpy as np
+import altair as alt
+from urllib.parse import quote_plus
+import os
 
 # -------------------------
 # Paths

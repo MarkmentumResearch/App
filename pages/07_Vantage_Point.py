@@ -1,21 +1,10 @@
-# 15_Vantage_Point.py — Vantage Point (Market Orientation only)
-from pathlib import Path
-import base64
-import pandas as pd
-import numpy as np
 import streamlit as st
-from urllib.parse import quote_plus
-from html import escape
-import os
-
-
-# ---------- Page ----------
 st.set_page_config(page_title="Vantage Point – Market Orientation", layout="wide")
 
-from utils.auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
+  if not restore_session_from_cookie2():	
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
         f"""
@@ -25,7 +14,14 @@ if not st.session_state.get("authenticated"):
     )
     st.stop()
 
-st.cache_data.clear()
+# 15_Vantage_Point.py — Vantage Point (Market Orientation only)
+from pathlib import Path
+import base64
+import pandas as pd
+import numpy as np
+from urllib.parse import quote_plus
+from html import escape
+import os
 
 # ---------- Paths ----------
 _here = Path(__file__).resolve().parent

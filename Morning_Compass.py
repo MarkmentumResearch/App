@@ -1,27 +1,8 @@
-from pathlib import Path
-import base64
-import textwrap
-import pandas as pd
-import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
-from urllib.parse import quote_plus
-import os
-from html import escape
-import time
-import requests
-
-try:
-    from docx import Document
-except Exception:
-    Document = None
-
 st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
+#Token Authentication
 from utils.auth import set_auth_cookie, restore_session_from_cookie, restore_session_from_cookie2
-
-
-
 
 VERIFY_URL = "https://admin.memberstack.com/members/verify-token"
 
@@ -98,16 +79,23 @@ if not establish_session_once():
         )
         st.stop()
 
-# -------------------------
-# Page & shared style
-# -------------------------
+from pathlib import Path
+import base64
+import textwrap
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from urllib.parse import quote_plus
+import os
+from html import escape
+import time
+import requests
+try:
+    from docx import Document
+except Exception:
+    Document = None
 
 st.cache_data.clear()
-# ---- LAYOUT & WIDTH TUNING (Cloud parity + your constraints) ----
-
-
-
-
 
 # -------------------------
 # Paths (portable for Cloud)

@@ -1,23 +1,10 @@
-from pathlib import Path
-from datetime import datetime
-from io import BytesIO
-import zipfile
-import os
 import streamlit as st
-import base64
-from zoneinfo import ZoneInfo
-import os
-
-
-
-# ---------- Page setup ----------
 st.set_page_config(page_title="Markmentum – Downloads", layout="wide")
 
-
-from utils.auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
+  if not restore_session_from_cookie2():	
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
         f"""
@@ -27,7 +14,13 @@ if not st.session_state.get("authenticated"):
     )
     st.stop()
 
-st.cache_data.clear()
+from pathlib import Path
+from datetime import datetime
+from io import BytesIO
+import zipfile
+import os
+import base64
+from zoneinfo import ZoneInfo
 
 # ---------- Paths / assets ----------
 _here = Path(__file__).resolve().parent

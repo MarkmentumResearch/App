@@ -1,16 +1,27 @@
+import streamlit as st
+st.set_page_config(page_title="Markmentum – About", layout="wide", initial_sidebar_state="expanded")
 
+from utils.auth import restore_session_from_cookie2
+
+if not st.session_state.get("authenticated"):
+  if not restore_session_from_cookie2():	
+    home_url = "https://www.markmentumresearch.com"
+    st.markdown(
+        f"""
+        <meta http-equiv="refresh" content="0; url={home_url}" />
+        """,
+        unsafe_allow_html=True
+    )
+    st.stop()
 
 import base64
 from pathlib import Path
 import pandas as pd
-import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib import rcParams
 import os
 import streamlit.components.v1 as components
-
-
 
 
 # --- NO-REDIRECT LANDING GUARD (place at the top of 01_About.py) ---
@@ -41,23 +52,6 @@ import streamlit.components.v1 as components
 # -------------------------
 # Page & shared style
 # -------------------------
-
-st.set_page_config(page_title="Markmentum – About", layout="wide", initial_sidebar_state="expanded")
-
-from utils.auth import restore_session_from_cookie
-
-if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
-    home_url = "https://www.markmentumresearch.com"
-    st.markdown(
-        f"""
-        <meta http-equiv="refresh" content="0; url={home_url}" />
-        """,
-        unsafe_allow_html=True
-    )
-    st.stop()
-
-st.cache_data.clear()
 
 # Always expand sidebar on page load (safe: only clicks if collapsed control is present)
 components.html("""

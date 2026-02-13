@@ -1,25 +1,4 @@
-# -------------------------
-# Markmentum — Ranking (Model Scores + Sharpe Rank + Sharpe Ratio + Sharpe Ratio 30D Change)
-# -------------------------
-
-from pathlib import Path
-import base64
-import pandas as pd
-import altair as alt
 import streamlit as st
-import sys
-import numpy as np
-from urllib.parse import quote_plus
-import os
-import time
-import os
-
-
-
-# 13_Contact.py (or wherever your Contact page lives)
-#import streamlit as st
-import requests
-
 st.set_page_config(page_title="Account", layout="wide")
 
 from utils.auth import restore_session_from_cookie
@@ -35,7 +14,20 @@ if not st.session_state.get("authenticated"):
     )
     st.stop()
 
-st.cache_data.clear()
+# -------------------------
+# Markmentum — Ranking (Model Scores + Sharpe Rank + Sharpe Ratio + Sharpe Ratio 30D Change)
+# -------------------------
+
+from pathlib import Path
+import base64
+import pandas as pd
+import altair as alt
+import sys
+import numpy as np
+from urllib.parse import quote_plus
+import os
+import time
+import requests
 
 # -------------------------
 # Page & shared style

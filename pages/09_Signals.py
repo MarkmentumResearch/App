@@ -1,23 +1,10 @@
-# filters.py — Markmentum Filters Page (8 cards: 32..39 in 3/3/2 layout)
-from pathlib import Path
-import base64
-import pandas as pd
 import streamlit as st
-import textwrap
-import streamlit.components.v1 as components
-from urllib.parse import quote_plus
-import os
-
-
-# -------------------------
-# Page setup
-# -------------------------
 st.set_page_config(page_title="Markmentum – Signals", layout="wide")
 
-from utils.auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
+  if not restore_session_from_cookie2():	
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
         f"""
@@ -27,7 +14,14 @@ if not st.session_state.get("authenticated"):
     )
     st.stop()
 
-st.cache_data.clear()
+# filters.py — Markmentum Filters Page (8 cards: 32..39 in 3/3/2 layout)
+from pathlib import Path
+import base64
+import pandas as pd
+import textwrap
+import streamlit.components.v1 as components
+from urllib.parse import quote_plus
+import os
 
 # -------------------------
 # Responsive, no-wrap render styles (desktop + laptop)

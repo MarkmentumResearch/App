@@ -1,26 +1,10 @@
-import base64
-from pathlib import Path
-import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from matplotlib import rcParams
-import os
-import streamlit.components.v1 as components
-
-import os
-
-
-    
-# -------------------------
-# Page & shared style
-# -------------------------
 st.set_page_config(page_title="Markmentum – Education", layout="wide")
 
-from utils.auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
+  if not restore_session_from_cookie2():	
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
         f"""
@@ -30,8 +14,18 @@ if not st.session_state.get("authenticated"):
     )
     st.stop()
 
-st.cache_data.clear()
+import base64
+from pathlib import Path
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from matplotlib import rcParams
+import streamlit.components.v1 as components
+import os
 
+# -------------------------
+# Page & shared style
+# -------------------------
 # --- Typography + image scaling to match About page ---
 st.markdown("""
 <style>

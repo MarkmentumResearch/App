@@ -108,7 +108,7 @@ def restore_session_from_cookie2() -> bool:
     tries = st.session_state.get(retry_key, 0)
 
     # allow a few reruns to hydrate after navigation
-    if raw is None and tries < 3:
+    if raw is None and tries < 6:
         st.session_state[retry_key] = tries + 1
         st.rerun()
 

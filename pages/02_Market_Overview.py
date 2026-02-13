@@ -6,14 +6,7 @@ from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
     if not restore_session_from_cookie2():
-        st.error("REDIRECT FIRED: Market Overview gate")
-        st.write("url:", dict(st.query_params))
-        st.write("authenticated:", st.session_state.get("authenticated"))
-        st.write("member_id:", st.session_state.get("member_id"))
-        st.write("page_auth_tries:", st.session_state.get("_page_auth_tries"))
-        st.write("cookie_retry_count_cookie2:", st.session_state.get("_cookie_retry_count_cookie2"))
         st.stop()
-
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
@@ -31,13 +24,9 @@ from urllib.parse import quote_plus
 import os
 import time
 
-#st.cache_data.clear()
-
 # -------------------------
 # Page & shared style
 # -------------------------
-
-
 st.markdown("""
 <style>
 /* ---------------- Base layout ---------------- */
@@ -200,11 +189,6 @@ if dest.replace("%20", " ") == "deep dive":
         # clean URL – we don't need adv/info/ticker in query params anymore
         st.query_params.clear()
         st.query_params["ticker"] = t
-
-        st.session_state["_nav_from"] = "market_overview"
-        st.session_state["_nav_to"] = "deep_dive"
-        st.session_state["_nav_ticker"] = t
-        st.session_state["_nav_ts"] = int(time.time())
 
         st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 

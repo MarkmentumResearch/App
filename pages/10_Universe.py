@@ -1,30 +1,10 @@
-# -------------------------
-# Markmentum — Ranking (Model Scores + Sharpe Rank + Sharpe Ratio + Sharpe Ratio 30D Change)
-# -------------------------
-
-from pathlib import Path
-import base64
-import pandas as pd
-import altair as alt
 import streamlit as st
-import sys
-import numpy as np
-from urllib.parse import quote_plus
-import os
-import os
-
-
-
-
-# -------------------------
-# Page & shared style
-# -------------------------
 st.set_page_config(page_title="Markmentum - Universe", layout="wide")
 
-from utils.auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
+  if not restore_session_from_cookie2():	
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
         f"""
@@ -34,7 +14,19 @@ if not st.session_state.get("authenticated"):
     )
     st.stop()
 
-st.cache_data.clear()
+from pathlib import Path
+import base64
+import pandas as pd
+import altair as alt
+import sys
+import numpy as np
+from urllib.parse import quote_plus
+import os
+import os
+
+# -------------------------
+# Page & shared style
+# -------------------------
 
 st.markdown(
     """
