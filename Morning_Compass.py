@@ -1,6 +1,20 @@
 import streamlit as st
 import os
 st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
+from pathlib import Path
+import base64
+import textwrap
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from urllib.parse import quote_plus
+from html import escape
+import time
+import requests
+try:
+    from docx import Document
+except Exception:
+    Document = None
 
 #Token Authentication
 from utils.auth import set_auth_cookie, restore_session_from_cookie, restore_session_from_cookie2
@@ -80,21 +94,6 @@ if not establish_session_once():
         )
         st.stop()
 
-from pathlib import Path
-import base64
-import textwrap
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from urllib.parse import quote_plus
-from html import escape
-import time
-import requests
-try:
-    from docx import Document
-except Exception:
-    Document = None
-
 st.cache_data.clear()
 
 # -------------------------
@@ -107,14 +106,12 @@ DATA_DIR   = APP_DIR / "data"
 ASSETS_DIR = APP_DIR / "assets"
 LOGO_PATH  = ASSETS_DIR / "markmentum_logo.png"
 
-
 # -------------------------
 # Header (logo centered)
 # -------------------------
 def _image_to_base64(path: Path) -> str:
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
-
 
 if LOGO_PATH.exists():
     st.markdown(
