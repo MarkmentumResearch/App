@@ -16,14 +16,26 @@ try:
 except Exception:
     Document = None
 
+from utils.auth import verify_proof
+
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
 tickerp = st.query_params.get("ticker")
 adv = st.query_params.get("adv")
 info = st.query_params.get("info")
+proof = st.query_params.get("proof")
 
 if tickerp and adv and info:
     if st.session_state.get("authenticated") is not True:
+        if not verify_proof(proof):
+            st.query_params.clear()
+            home_url = "https://www.markmentumresearch.com/login"
+            st.markdown(
+            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+            unsafe_allow_html=True
+            )
+            st.stop()
+
         st.session_state["authenticated"] = True
         
         qp = st.query_params
@@ -47,6 +59,8 @@ if tickerp and adv and info:
 
                 st.switch_page("pages/08_Deep_Dive_Dashboard.py")
                 st.stop()
+
+from utils.auth import make_proof
 
 #Token Authentication
 from utils.auth import set_auth_cookie, restore_session_from_cookie, restore_session_from_cookie2
@@ -158,8 +172,8 @@ if LOGO_PATH.exists():
 # -------------------------
 # Helpers
 # -------------------------
-ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
-INFO_VALUE_KEY = "dd_show_information_charts_value"
+#ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
+#INFO_VALUE_KEY = "dd_show_information_charts_value"
 
 def _mk_ticker_link(ticker: str) -> str:
     t = (ticker or "").strip().upper()
@@ -173,11 +187,14 @@ def _mk_ticker_link(ticker: str) -> str:
     adv_flag  = "1" if adv_on  else "0"
     info_flag = "1" if info_on else "0"
 
+    proof = make_proof()
+
     return (
         f'<a href="?page=Deep%20Dive'
         f'&ticker={quote_plus(t)}'
         f'&adv={adv_flag}'
-        f'&info={info_flag}" '
+        f'&info={info_flag}'
+        f'&proof={proof}" '
         f'target="_self" rel="noopener" '
         f'style="text-decoration:none; font-weight:600;">{t}</a>'
     )
