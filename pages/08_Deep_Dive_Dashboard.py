@@ -26,6 +26,7 @@ import numpy as np
 # -------------------------
 # Page & shared style
 # -------------------------
+
 st.set_page_config(page_title="Markmentum – Deep Dive Dashboard", layout="wide")
 
 from utils.auth import restore_session_from_cookie2
@@ -40,7 +41,7 @@ if not st.session_state.get("authenticated"):
         st.stop()
 
 
-st.cache_data.clear()
+#st.cache_data.clear()
 
 st.markdown("""
 <style>
