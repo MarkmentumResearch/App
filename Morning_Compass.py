@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 st.set_page_config(page_title="Markmentum | Morning Compass", layout="wide")
 
 #Token Authentication
@@ -86,7 +87,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from urllib.parse import quote_plus
-import os
 from html import escape
 import time
 import requests
