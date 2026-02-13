@@ -478,7 +478,7 @@ render_card_select(c2, tf_prefix(TITLES[1]), df2, col_pct2, "Percent", _fmt_pct,
 
 df3 = dfs[2].copy()
 col_shares = _pick(df3, VOL_CANDIDATES, default=None)
-render_card_select(c3, tf_prefix(TITLES[2]), df3, col_shares, "Shares", _fmt_millions, value_width_px=120, extra_class="shares-wide",adv_flag=adv_flag, info_flag=info_flag, key="card_volume")
+render_card(c3, tf_prefix(TITLES[2]), df3, col_shares, "Shares", _fmt_millions, value_width_px=120, extra_class="shares-wide")
 
 row_spacer(14)
 
