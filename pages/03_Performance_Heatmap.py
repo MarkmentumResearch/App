@@ -5,6 +5,12 @@ from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
     if not restore_session_from_cookie2():
+        st.error("REDIRECT FIRED: Market Overview gate")
+        st.write("url:", dict(st.query_params))
+        st.write("authenticated:", st.session_state.get("authenticated"))
+        st.write("member_id:", st.session_state.get("member_id"))
+        st.write("page_auth_tries:", st.session_state.get("_page_auth_tries"))
+        st.write("cookie_retry_count_cookie2:", st.session_state.get("_cookie_retry_count_cookie2"))
         st.stop()
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
