@@ -5,7 +5,7 @@ st.set_page_config(page_title="Markmentum – Deep Dive Dashboard", layout="wide
 from utils.auth import restore_session_from_cookie2
 
 # --- Gate Morning Compass ---
-if not establish_session_once():
+if not st.session_state.get("authenticated"):
         home_url = "https://www.markmentumresearch.com/login"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
