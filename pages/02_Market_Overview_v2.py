@@ -2,20 +2,20 @@ import streamlit as st
 st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
 
 from utils.auth import verify_proof
-proof = st.query_params.get("proof")
+
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
 tickerp = st.query_params.get("ticker")
 adv = st.query_params.get("adv")
 info = st.query_params.get("info")
+proof = st.query_params.get("proof")
 
 if tickerp and adv and info:
     if st.session_state.get("authenticated") is not True:
         if not verify_proof(proof):
-            if not verify_proof(proof):
-                st.query_params.clear()
-                st.stop()
+            st.query_params.clear()
+            st.stop()
 
         st.session_state["authenticated"] = True
         
