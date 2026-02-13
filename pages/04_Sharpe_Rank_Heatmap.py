@@ -1,12 +1,42 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentume - Sharpe Rank Heatmap", layout="wide")
 
+ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
+INFO_VALUE_KEY = "dd_show_information_charts_value"
+tickerp = st.query_params.get("ticker")
+adv = st.query_params.get("adv")
+info = st.query_params.get("info")
+
+if tickerp and adv and info:
+    if st.session_state.get("authenticated") is not True:
+        st.session_state["authenticated"] = True
+        
+        qp = st.query_params
+        dest = (qp.get("page") or "").strip().lower()
+
+        if dest.replace("%20", " ") == "deep dive":
+            t = (qp.get("ticker") or "").strip().upper()
+            adv_qp  = (qp.get("adv")  or "0").strip()
+            info_qp = (qp.get("info") or "0").strip()
+
+            if t:
+                st.session_state["ticker"] = t
+
+                # restore toggle master values for Deep Dive
+                st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
+                st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
+
+                # clean URL – we don't need adv/info/ticker in query params anymore
+                st.query_params.clear()
+                st.query_params["ticker"] = t
+
+                st.switch_page("pages/08_Deep_Dive_Dashboard.py")
+                st.stop()
+
 from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-    if not restore_session_from_cookie2():
-        st.stop()
-        home_url = "https://www.markmentumresearch.com"
+        home_url = "https://www.markmentumresearch.com/login"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
             unsafe_allow_html=True
@@ -57,8 +87,8 @@ if LOGO_PATH.exists():
     )
 
 # --- Clickable Deep Dive helper & router (same UX as Performance/Markmentum pages)
-ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
-INFO_VALUE_KEY = "dd_show_information_charts_value"
+#ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
+#INFO_VALUE_KEY = "dd_show_information_charts_value"
 
 def _mk_ticker_link(ticker: str) -> str:
     t = (ticker or "").strip().upper()
