@@ -1,22 +1,19 @@
-from pathlib import Path
-import base64
-import textwrap
-import pandas as pd
-import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
-from urllib.parse import quote_plus
-import os
-import time
-
-
-
 st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
+
 
 from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
     if not restore_session_from_cookie2():
+        st.error("REDIRECT FIRED: Market Overview gate")
+        st.write("url:", dict(st.query_params))
+        st.write("authenticated:", st.session_state.get("authenticated"))
+        st.write("member_id:", st.session_state.get("member_id"))
+        st.write("page_auth_tries:", st.session_state.get("_page_auth_tries"))
+        st.write("cookie_retry_count_cookie2:", st.session_state.get("_cookie_retry_count_cookie2"))
+        st.stop()
+
         home_url = "https://www.markmentumresearch.com"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
@@ -24,8 +21,17 @@ if not st.session_state.get("authenticated"):
         )
         st.stop()
 
+from pathlib import Path
+import base64
+import textwrap
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from urllib.parse import quote_plus
+import os
+import time
 
-st.cache_data.clear()
+#st.cache_data.clear()
 
 # -------------------------
 # Page & shared style
