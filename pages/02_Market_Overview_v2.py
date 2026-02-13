@@ -10,18 +10,28 @@ info = st.query_params.get("info")
 if tickerp and adv and info:
     if st.session_state.get("authenticated") is not True:
         st.session_state["authenticated"] = True
-        st.session_state[ADV_VALUE_KEY]  = adv
-        st.session_state[INFO_VALUE_KEY] = info
-        st.session_state["ticker"] = tickerp
+        
+        qp = st.query_params
+        dest = (qp.get("page") or "").strip().lower()
 
-    # Clean URL no matter what
-    st.query_params.clear()
+        if dest.replace("%20", " ") == "deep dive":
+            t = (qp.get("ticker") or "").strip().upper()
+            adv_qp  = (qp.get("adv")  or "0").strip()
+            info_qp = (qp.get("info") or "0").strip()
 
-    # Only route if authed (either already, or just restored)
-    if st.session_state.get("authenticated") is True:
-        st.switch_page("pages/08_Deep_Dive_Dashboard.py")
-        st.stop()
+            if t:
+                st.session_state["ticker"] = t
 
+                # restore toggle master values for Deep Dive
+                st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
+                st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
+
+                # clean URL – we don't need adv/info/ticker in query params anymore
+                st.query_params.clear()
+                st.query_params["ticker"] = t
+
+                st.switch_page("pages/08_Deep_Dive_Dashboard.py")
+                st.stop()
 
 from utils.auth import restore_session_from_cookie2
 
@@ -166,8 +176,8 @@ LOGO_PATH  = ASSETS_DIR / "markmentum_logo.png"
 # -------------------------
 # Helpers
 # -------------------------
-ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
-INFO_VALUE_KEY = "dd_show_information_charts_value"
+#ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
+#INFO_VALUE_KEY = "dd_show_information_charts_value"
 
 def _mk_ticker_link(ticker: str) -> str:
     t = (ticker or "").strip().upper()
