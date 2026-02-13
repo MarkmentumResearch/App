@@ -22,6 +22,11 @@ if not st.session_state.get("authenticated"):
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
+adv_on  = st.session_state.get(ADV_VALUE_KEY, False)
+info_on = st.session_state.get(INFO_VALUE_KEY, False)
+
+adv_flag  = "1" if adv_on  else "0"
+info_flag = "1" if info_on else "0"
 
 qp = st.query_params
 nav = (qp.get("nav") or "").strip().lower()
@@ -465,15 +470,15 @@ c1, c2, c3 = st.columns([1,1,1], gap="large")
 
 df1 = dfs[0].copy()
 col_pct = _pick(df1, RET_CANDIDATES, default=None)
-render_card_select(c1, tf_prefix(TITLES[0]), df1, col_pct, "Percent", _fmt_pct)
+render_card_select(c1, tf_prefix(TITLES[0]), df1, col_pct, "Percent", _fmt_pct, adv_flag=adv_flag, info_flag=info_flag, key="card_gainers")
 
 df2 = dfs[1].copy()
 col_pct2 = _pick(df2, RET_CANDIDATES, default=None)
-render_card_select(c2, tf_prefix(TITLES[1]), df2, col_pct2, "Percent", _fmt_pct)
+render_card_select(c2, tf_prefix(TITLES[1]), df2, col_pct2, "Percent", _fmt_pct, adv_flag=adv_flag, info_flag=info_flag, key="card_gainers")
 
 df3 = dfs[2].copy()
 col_shares = _pick(df3, VOL_CANDIDATES, default=None)
-render_card_select(c3, tf_prefix(TITLES[2]), df3, col_shares, "Shares", _fmt_millions, value_width_px=120, extra_class="shares-wide")
+render_card_select(c3, tf_prefix(TITLES[2]), df3, col_shares, "Shares", _fmt_millions, value_width_px=120, extra_class="shares-wide",adv_flag=adv_flag, info_flag=info_flag, key="card_gainers")
 
 row_spacer(14)
 
