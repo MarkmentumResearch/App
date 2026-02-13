@@ -19,7 +19,7 @@ if tickerp and adv and info:
 
     # Only route if authed (either already, or just restored)
     if st.session_state.get("authenticated") is True:
-        st.switch_page("pages/deep_dive.py")
+        st.switch_page("pages/08_Deep_Dive_Dashboard.py")
         st.stop()
 
 
