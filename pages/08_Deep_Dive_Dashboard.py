@@ -19,6 +19,17 @@ if not st.session_state.get("authenticated"):
     ok = restore_session_from_cookie2()
 
     if not ok:
+        st.error("REDIRECT FIRED: Deep Dive gate")
+        st.write("nav_from:", st.session_state.get("_nav_from"))
+        st.write("nav_to:", st.session_state.get("_nav_to"))
+        st.write("nav_ticker:", st.session_state.get("_nav_ticker"))
+        st.write("nav_ts:", st.session_state.get("_nav_ts"))
+        st.write("authenticated:", st.session_state.get("authenticated"))
+        st.write("member_id:", st.session_state.get("member_id"))
+        st.write("page_auth_tries:", st.session_state.get("_page_auth_tries"))
+        st.write("cookie_retry_count_cookie2:", st.session_state.get("_cookie_retry_count_cookie2"))
+        st.stop()
+
         # Try once more at the page level before redirecting
         tries = st.session_state.get("_page_auth_tries", 0)
         if tries < 2:

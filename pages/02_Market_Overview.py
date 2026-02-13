@@ -7,7 +7,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from urllib.parse import quote_plus
 import os
-
+import time
 
 
 
@@ -194,6 +194,11 @@ if dest.replace("%20", " ") == "deep dive":
         # clean URL – we don't need adv/info/ticker in query params anymore
         st.query_params.clear()
         st.query_params["ticker"] = t
+
+        st.session_state["_nav_from"] = "market_overview"
+        st.session_state["_nav_to"] = "deep_dive"
+        st.session_state["_nav_ticker"] = t
+        st.session_state["_nav_ts"] = int(time.time())
 
         st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 
