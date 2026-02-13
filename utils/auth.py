@@ -7,7 +7,7 @@ import hashlib
 import base64
 import streamlit as st
 import extra_streamlit_components as stx
-
+from datetime import datetime, timedelta
 
 def _cookie_mgr():
     # Key should be stable across reruns/pages
@@ -125,3 +125,14 @@ def restore_session_from_cookie2() -> bool:
 
     st.session_state[retry_key] = 0
     return True
+
+COOKIE_MGR_KEY = "mr_cookie_mgr"   # same key you used elsewhere
+
+def delete_auth_cookie():
+    cm = stx.CookieManager(key=COOKIE_MGR_KEY)
+    cm.set(
+        COOKIE_NAME,
+        "",
+        expires_at=datetime.utcnow() - timedelta(days=1),
+        path="/",
+    )

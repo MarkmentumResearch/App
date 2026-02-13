@@ -1,10 +1,10 @@
 import streamlit as st
 st.set_page_config(page_title="Account", layout="wide")
 
-from utils.auth import restore_session_from_cookie
+from utils.auth import restore_session_from_cookie2
 
 if not st.session_state.get("authenticated"):
-  if not restore_session_from_cookie():	
+  if not restore_session_from_cookie2():	
     home_url = "https://www.markmentumresearch.com"
     st.markdown(
         f"""
@@ -117,17 +117,12 @@ if LOGO_PATH.exists():
 #st.markdown('<h2 style="text-align:center; margin:0.25rem 0 0.5rem;">Contact Us </h2>',unsafe_allow_html=True,)
 st.markdown("---")
 
+from utils.auth import delete_auth_cookie
 
-
-# 13_Contact.py (or wherever your Contact page lives)
-
-#cookies.delete("mr_cookie_mgr")
-#cookies.save()
+delete_auth_cookie()
 st.session_state.clear()
 
-
 ACCOUNT_URL = "https://www.markmentumresearch.com/account"
-
 
 st.title("Account")
 st.write("Redirecting you to your account settings on our website...")
