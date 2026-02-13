@@ -277,6 +277,48 @@ def _table_html(title: str, df: pd.DataFrame, value_col: str, value_label: str, 
 </div>
 """).strip()
 
+def render_card_select(slot, title: str, df: pd.DataFrame, value_col: str, value_label: str, value_fmt,
+                       adv_flag: int, info_flag: int, key: str):
+    with slot:
+        if df.empty or value_col is None:
+            st.info(f"No data for {title}.")
+            return
+
+        # Display formatted value column in a copy
+        d = df.copy()
+
+        # Normalize column names
+        cmap = {c.lower(): c for c in d.columns}
+        tcol = cmap.get("ticker") or "Ticker"
+        ncol = cmap.get("ticker_name") or cmap.get("company") or "Company"
+        ccol = cmap.get("category") or cmap.get("exposure") or "Exposure"
+
+        d[value_label] = d[value_col].apply(lambda x: value_fmt(x))
+
+        show_cols = [ncol, tcol, ccol, value_label]
+        d_show = d[show_cols]
+
+        st.markdown(f"### {title}")
+
+        event = st.dataframe(
+            d_show,
+            use_container_width=True,
+            hide_index=True,
+            on_select="rerun",
+            selection_mode="single-row",
+            key=key,
+        )
+
+        if event.selection.rows:
+            i = event.selection.rows[0]
+            ticker = str(d_show.iloc[i][tcol]).strip().upper()
+
+            st.session_state["ticker"] = ticker
+            st.session_state[ADV_VALUE_KEY] = (adv_flag == 1)
+            st.session_state[INFO_VALUE_KEY] = (info_flag == 1)
+
+            st.switch_page("pages/08_Deep_Dive_Dashboard.py")
+
 def render_card(slot, title: str, df: pd.DataFrame, value_col: str, value_label: str, value_fmt, value_width_px: int = 90, extra_class: str = ""):
     with slot:
         if df.empty or value_col is None:
@@ -423,15 +465,15 @@ c1, c2, c3 = st.columns([1,1,1], gap="large")
 
 df1 = dfs[0].copy()
 col_pct = _pick(df1, RET_CANDIDATES, default=None)
-render_card(c1, tf_prefix(TITLES[0]), df1, col_pct, "Percent", _fmt_pct)
+render_card_select(c1, tf_prefix(TITLES[0]), df1, col_pct, "Percent", _fmt_pct)
 
 df2 = dfs[1].copy()
 col_pct2 = _pick(df2, RET_CANDIDATES, default=None)
-render_card(c2, tf_prefix(TITLES[1]), df2, col_pct2, "Percent", _fmt_pct)
+render_card_select(c2, tf_prefix(TITLES[1]), df2, col_pct2, "Percent", _fmt_pct)
 
 df3 = dfs[2].copy()
 col_shares = _pick(df3, VOL_CANDIDATES, default=None)
-render_card(c3, tf_prefix(TITLES[2]), df3, col_shares, "Shares", _fmt_millions, value_width_px=120, extra_class="shares-wide")
+render_card_select(c3, tf_prefix(TITLES[2]), df3, col_shares, "Shares", _fmt_millions, value_width_px=120, extra_class="shares-wide")
 
 row_spacer(14)
 
