@@ -20,6 +20,27 @@ if not st.session_state.get("authenticated"):
         )
         st.stop()
 
+ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
+INFO_VALUE_KEY = "dd_show_information_charts_value"
+
+qp = st.query_params
+nav = (qp.get("nav") or "").strip().lower()
+
+if nav == "dd":
+    t = (qp.get("ticker") or "").strip().upper()
+    adv_qp  = (qp.get("adv")  or "0").strip()
+    info_qp = (qp.get("info") or "0").strip()
+
+    if t:
+        st.session_state["ticker"] = t
+        st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
+        st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
+
+        # clean URL
+        st.query_params.clear()
+
+        st.switch_page("pages/08_Deep_Dive_Dashboard.py")
+
 from pathlib import Path
 import base64
 import textwrap
@@ -153,8 +174,7 @@ LOGO_PATH  = ASSETS_DIR / "markmentum_logo.png"
 # -------------------------
 # Helpers
 # -------------------------
-ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
-INFO_VALUE_KEY = "dd_show_information_charts_value"
+
 
 def _mk_ticker_link(ticker: str) -> str:
     t = (ticker or "").strip().upper()
@@ -177,23 +197,7 @@ def _mk_ticker_link(ticker: str) -> str:
         f'style="text-decoration:none; font-weight:600;">{t}</a>'
     )
 
-qp = st.query_params
-nav = (qp.get("nav") or "").strip().lower()
 
-if nav == "dd":
-    t = (qp.get("ticker") or "").strip().upper()
-    adv_qp  = (qp.get("adv")  or "0").strip()
-    info_qp = (qp.get("info") or "0").strip()
-
-    if t:
-        st.session_state["ticker"] = t
-        st.session_state[ADV_VALUE_KEY]  = (adv_qp == "1")
-        st.session_state[INFO_VALUE_KEY] = (info_qp == "1")
-
-        # clean URL
-        st.query_params.clear()
-
-        st.switch_page("pages/08_Deep_Dive_Dashboard.py")
 
 def row_spacer(height_px: int = 14):
     st.markdown(f"<div style='height:{height_px}px'></div>", unsafe_allow_html=True)
