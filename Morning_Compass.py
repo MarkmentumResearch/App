@@ -136,7 +136,7 @@ def establish_session_once() -> bool:
 session = st.session_state.get("session")
 
 # --- Gate Morning Compass ---
-if not st.session_state.get("authenticated"):
+if not establish_session_once():
     if not verify_session(session):
         if not restore_session_from_cookie2():
             home_url = "https://www.markmentumresearch.com/login"
