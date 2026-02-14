@@ -9,14 +9,13 @@ session = st.session_state.get("session")
 if not st.session_state.get("authenticated"):
     if not verify_session(session):
         if not restore_session_from_cookie2():
-            st.stop()
             home_url = "https://www.markmentumresearch.com/login"
             st.markdown(
                 f'<meta http-equiv="refresh" content="0; url={home_url}" />',
                 unsafe_allow_html=True
             )
             st.stop()
-
+            
 from pathlib import Path
 from datetime import datetime
 from io import BytesIO

@@ -139,7 +139,6 @@ session = st.session_state.get("session")
 if not st.session_state.get("authenticated"):
     if not verify_session(session):
         if not restore_session_from_cookie2():
-            st.stop()
             home_url = "https://www.markmentumresearch.com/login"
             st.markdown(
                 f'<meta http-equiv="refresh" content="0; url={home_url}" />',
