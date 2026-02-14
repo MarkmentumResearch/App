@@ -126,7 +126,7 @@ def establish_session_once() -> bool:
     st.session_state["member_id"] = verified.get("id")
     st.session_state["auth_checked_at"] = now
     st.session_state["session"] = make_session()
-    session = st.session_state.get("session")
+    #session = st.session_state.get("session")
     # write cookie for future visits
     st.query_params.clear()
     if st.session_state["member_id"]:
