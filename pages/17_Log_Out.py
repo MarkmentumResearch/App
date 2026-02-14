@@ -122,6 +122,9 @@ st.markdown("---")
 
 ACCOUNT_URL = "https://www.markmentumresearch.com/logout"
 
+#st.title("Log Out")
+st.write("Logging you out…...")
+
 st.markdown(
     f"""
     <meta http-equiv="refresh" content="0; url={ACCOUNT_URL}">
