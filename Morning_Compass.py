@@ -133,6 +133,7 @@ def establish_session_once() -> bool:
         set_auth_cookie(st.session_state["member_id"])
 
     return True
+session = st.session_state.get("session")
 
 # --- Gate Morning Compass ---
 if not st.session_state.get("authenticated"):
