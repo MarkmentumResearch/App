@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
 
-from utils.auth import verify_proof, make_proof, make_session
+from utils.auth import verify_proof, make_proof, make_session, verify_session
 
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
@@ -23,7 +23,8 @@ if tickerp and adv and info:
             st.stop()
 
         st.session_state["authenticated"] = True
-        session = make_session()
+        st.session_state["session"] = make_session()
+        session = st.session_state.get("session")
         
         qp = st.query_params
         dest = (qp.get("page") or "").strip().lower()

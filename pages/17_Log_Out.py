@@ -1,16 +1,18 @@
 import streamlit as st
 st.set_page_config(page_title="Account", layout="wide")
 
-from utils.auth import restore_session_from_cookie2
+from utils.auth import verify_proof, make_proof, make_session, verify_session
+session = st.session_state.get("session")
 
+# --- Gate Morning Compass ---
 if not st.session_state.get("authenticated"):
+    if not verify_session(session):
         home_url = "https://www.markmentumresearch.com/login"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
             unsafe_allow_html=True
         )
         st.stop()
-
 
 # -------------------------
 # Markmentum — Ranking (Model Scores + Sharpe Rank + Sharpe Ratio + Sharpe Ratio 30D Change)
@@ -118,7 +120,7 @@ st.markdown("---")
 #from utils.auth import delete_auth_cookie
 
 #delete_auth_cookie()
-#st.session_state.clear()
+st.session_state.clear()
 
 ACCOUNT_URL = "https://www.markmentumresearch.com/logout"
 

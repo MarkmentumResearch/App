@@ -1,9 +1,12 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentum – Research Pack", layout="wide")
 
-from utils.auth import restore_session_from_cookie2
+from utils.auth import verify_proof, make_proof, make_session, verify_session
+session = st.session_state.get("session")
 
+# --- Gate Morning Compass ---
 if not st.session_state.get("authenticated"):
+    if not verify_session(session):
         home_url = "https://www.markmentumresearch.com/login"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',

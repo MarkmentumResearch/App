@@ -16,7 +16,8 @@ try:
 except Exception:
     Document = None
 
-from utils.auth import verify_proof
+from utils.auth import verify_proof, make_proof, make_session, verify_session
+
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
@@ -37,6 +38,8 @@ if tickerp and adv and info:
             st.stop()
 
         st.session_state["authenticated"] = True
+        st.session_state["session"] = make_session()
+        session = st.session_state.get("session")
         
         qp = st.query_params
         dest = (qp.get("page") or "").strip().lower()
@@ -60,7 +63,6 @@ if tickerp and adv and info:
                 st.switch_page("pages/08_Deep_Dive_Dashboard.py")
                 st.stop()
 
-from utils.auth import make_proof
 
 #Token Authentication
 from utils.auth import set_auth_cookie, restore_session_from_cookie, restore_session_from_cookie2
@@ -123,6 +125,7 @@ def establish_session_once() -> bool:
     st.session_state["authenticated"] = True
     st.session_state["member_id"] = verified.get("id")
     st.session_state["auth_checked_at"] = now
+    st.session_state["session"] = make_session()
     # write cookie for future visits
     st.query_params.clear()
     if st.session_state["member_id"]:
@@ -132,6 +135,7 @@ def establish_session_once() -> bool:
 
 # --- Gate Morning Compass ---
 if not establish_session_once():
+    if not verify_session(session):
         home_url = "https://www.markmentumresearch.com/login"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
