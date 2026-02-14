@@ -115,12 +115,12 @@ def restore_session_from_cookie2() -> bool:
     if not raw:
         return False
 
-    member_id = verify_cookie_value(raw)   # exists + not expired
-    if not member_id:
-        return False
+    #member_id = verify_cookie_value(raw)   # exists + not expired
+    #if not member_id:
+    #    return False
 
     st.session_state["authenticated"] = True
-    st.session_state["member_id"] = member_id
+    #st.session_state["member_id"] = member_id
     st.session_state["auth_restored_at"] = int(time.time())
 
     st.session_state[retry_key] = 0
