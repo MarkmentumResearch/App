@@ -431,3 +431,6 @@ remote: warning: GH001: Large files detected. You may want to try Git Large File
 To https://github.com/MarkmentumResearch/App.git
    8fc959c..596d3e7  main -> main
 [2026-02-12 20:02:34] Git: committed and pushed successfully.
+[2026-02-13 20:03:05] RUN: git rev-parse --is-inside-work-tree
+[2026-02-13 20:03:05] STDOUT: true
+[2026-02-13 20:03:05] RUN: git add -A
