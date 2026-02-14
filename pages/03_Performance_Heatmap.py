@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentum - Performance Heatmap", layout="wide")
 
-from utils.auth import verify_proof, make_proof, make_session, verify_session
+from utils.auth import verify_proof, make_proof, make_session, verify_session, restore_session_from_cookie
 
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
@@ -51,12 +51,13 @@ if tickerp and adv and info:
 
 if not st.session_state.get("authenticated"):
     if not verify_session(session):
-        home_url = "https://www.markmentumresearch.com/login"
-        st.markdown(
-            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
-            unsafe_allow_html=True
-        )
-        st.stop()
+        if not restore_session_from_cookie():
+            home_url = "https://www.markmentumresearch.com/login"
+            st.markdown(
+                f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+                unsafe_allow_html=True
+            )
+            st.stop()
 
 # 11_Performance_Heatmap.py
 # Markmentum — Performance Heatmap (Daily/WTD/MTD/QTD % Change)

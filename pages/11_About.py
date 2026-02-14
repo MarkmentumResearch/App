@@ -1,15 +1,18 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentum – About", layout="wide", initial_sidebar_state="expanded")
 
-from utils.auth import restore_session_from_cookie2
+from utils.auth import verify_proof, make_proof, make_session, verify_session, restore_session_from_cookie
+
 
 if not st.session_state.get("authenticated"):
-        home_url = "https://www.markmentumresearch.com/login"
-        st.markdown(
-            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
-            unsafe_allow_html=True
-        )
-        st.stop()
+    if not verify_session(session):
+        if not restore_session_from_cookie():
+            home_url = "https://www.markmentumresearch.com/login"
+            st.markdown(
+                f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+                unsafe_allow_html=True
+            )
+            st.stop()
 
 import base64
 from pathlib import Path
