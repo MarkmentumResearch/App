@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
 
-from utils.auth import verify_proof
+from utils.auth import verify_proof, make_proof, make_session
 
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
@@ -23,6 +23,7 @@ if tickerp and adv and info:
             st.stop()
 
         st.session_state["authenticated"] = True
+        session = make_session()
         
         qp = st.query_params
         dest = (qp.get("page") or "").strip().lower()
@@ -46,9 +47,9 @@ if tickerp and adv and info:
                 st.switch_page("pages/08_Deep_Dive_Dashboard.py")
                 st.stop()
 
-from utils.auth import make_proof
 
 if not st.session_state.get("authenticated"):
+    if not verify_session(session):
         home_url = "https://www.markmentumresearch.com/login"
         st.markdown(
             f'<meta http-equiv="refresh" content="0; url={home_url}" />',
@@ -205,6 +206,8 @@ def _mk_ticker_link(ticker: str) -> str:
     info_flag = "1" if info_on else "0"
 
     proof = make_proof()
+    
+
 
     return (
         f'<a href="?page=Deep%20Dive'
