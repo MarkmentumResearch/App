@@ -137,7 +137,7 @@ def delete_auth_cookie():
         path="/",
     )
 
-PROOF_TTL_SECONDS = 20  # 10–30 is fine for click-through
+PROOF_TTL_SECONDS = 450  # 10–30 is fine for click-through
 
 def make_proof(ttl_seconds: int = PROOF_TTL_SECONDS) -> str:
     """
