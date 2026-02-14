@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentum – Market Overview", layout="wide")
 
-from utils.auth import verify_proof, make_proof, make_session, verify_session, restore_session_from_cookie
+from utils.auth import verify_proof, make_proof, make_session, verify_session, restore_session_from_cookie2
 
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
@@ -51,7 +51,8 @@ if tickerp and adv and info:
 
 if not st.session_state.get("authenticated"):
     if not verify_session(session):
-        if not restore_session_from_cookie():
+        if not restore_session_from_cookie2():
+            st.stop()
             home_url = "https://www.markmentumresearch.com/login"
             st.markdown(
                 f'<meta http-equiv="refresh" content="0; url={home_url}" />',
