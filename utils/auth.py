@@ -116,8 +116,8 @@ def restore_session_from_cookie2() -> bool:
         return False
 
     member_id = verify_cookie_value(raw)   # exists + not expired
-    #if not member_id:
-    #    return False
+    if not member_id:
+        return False
 
     st.session_state["authenticated"] = True
     st.session_state["member_id"] = member_id
@@ -140,7 +140,7 @@ def delete_auth_cookie():
         path="/",
     )
 
-PROOF_TTL_SECONDS = 20  # 10–30 is fine for click-through
+PROOF_TTL_SECONDS = 60 * 60 * 4  # 10–30 is fine for click-through
 
 def make_proof(ttl_seconds: int = PROOF_TTL_SECONDS) -> str:
     """
