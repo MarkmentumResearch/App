@@ -1,8 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Markmentum - Performance Heatmap", layout="wide")
 
-from utils.auth import verify_proof, make_proof, make_session, verify_session, restore_session_from_cookie2
-
+from utils.auth import verify_proof, make_proof, restore_session_from_cookie2
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
@@ -23,9 +22,7 @@ if tickerp and adv and info:
             st.stop()
 
         st.session_state["authenticated"] = True
-        st.session_state["session"] = make_session()
-        session = st.session_state.get("session")
-        
+                
         qp = st.query_params
         dest = (qp.get("page") or "").strip().lower()
 
@@ -48,9 +45,7 @@ if tickerp and adv and info:
                 st.switch_page("pages/08_Deep_Dive_Dashboard.py")
                 st.stop()
 
-
 if not st.session_state.get("authenticated"):
-    if not verify_session(session):
         if not restore_session_from_cookie2():
             home_url = "https://www.markmentumresearch.com/login"
             st.markdown(

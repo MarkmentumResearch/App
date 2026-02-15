@@ -16,7 +16,7 @@ try:
 except Exception:
     Document = None
 
-from utils.auth import verify_proof, make_proof, make_session, verify_session, restore_session_from_cookie2
+from utils.auth import verify_proof, make_proof, restore_session_from_cookie2
 
 
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
@@ -125,7 +125,6 @@ def establish_session_once() -> bool:
     st.session_state["authenticated"] = True
     st.session_state["member_id"] = verified.get("id")
     st.session_state["auth_checked_at"] = now
-    st.session_state["session"] = make_session()
     #session = st.session_state.get("session")
     # write cookie for future visits
     st.query_params.clear()
@@ -133,11 +132,9 @@ def establish_session_once() -> bool:
         set_auth_cookie(st.session_state["member_id"])
 
     return True
-session = st.session_state.get("session")
 
 # --- Gate Morning Compass ---
 if not establish_session_once():
-    if not verify_session(session):
         if not restore_session_from_cookie2():
             home_url = "https://www.markmentumresearch.com/login"
             st.markdown(
