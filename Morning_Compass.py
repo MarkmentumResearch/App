@@ -18,7 +18,6 @@ except Exception:
 
 from utils.auth import verify_proof, make_proof, restore_session_from_cookie2
 
-
 ADV_VALUE_KEY  = "dd_show_advanced_charts_value"
 INFO_VALUE_KEY = "dd_show_information_charts_value"
 tickerp = st.query_params.get("ticker")
@@ -38,8 +37,6 @@ if tickerp and adv and info:
             st.stop()
 
         st.session_state["authenticated"] = True
-        st.session_state["session"] = make_session()
-        session = st.session_state.get("session")
         
         qp = st.query_params
         dest = (qp.get("page") or "").strip().lower()
@@ -62,7 +59,6 @@ if tickerp and adv and info:
 
                 st.switch_page("pages/08_Deep_Dive_Dashboard.py")
                 st.stop()
-
 
 #Token Authentication
 from utils.auth import set_auth_cookie, restore_session_from_cookie, restore_session_from_cookie2
@@ -171,7 +167,6 @@ if LOGO_PATH.exists():
         """,
         unsafe_allow_html=True,
     )
-
 
 # -------------------------
 # Helpers
