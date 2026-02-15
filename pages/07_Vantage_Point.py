@@ -44,15 +44,15 @@ if tickerp and adv and info:
 
                 st.switch_page("pages/08_Deep_Dive_Dashboard.py")
                 st.stop()
-
 if not st.session_state.get("authenticated"):
         if not restore_session_from_cookie2():
-            home_url = "https://www.markmentumresearch.com/login"
+            home_url = "https://www.markmentumresearch.com/reauth"
             st.markdown(
                 f'<meta http-equiv="refresh" content="0; url={home_url}" />',
                 unsafe_allow_html=True
             )
             st.stop()
+
             
 # 15_Vantage_Point.py — Vantage Point (Market Orientation only)
 from pathlib import Path

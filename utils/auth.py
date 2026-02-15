@@ -122,10 +122,7 @@ def restore_session_from_cookie2() -> bool:
     st.session_state["authenticated"] = True
     st.session_state["member_id"] = member_id
     st.session_state["auth_restored_at"] = int(time.time())
-    st.session_state["session"] = make_session()
-    session = st.session_state.get("session")
-
-
+    
     st.session_state[retry_key] = 0
     return True
 
@@ -182,41 +179,3 @@ def _session_secret() -> str:
     # You already have this in Render
     return os.environ.get("MR_SESSION_SECRET", "")
 
-SESSION_TTL = 60*60*12  # 10–30 is fine for click-through
-
-
-def make_session(ttl_seconds: int = SESSION_TTL) -> str:
-    """
-    Short-lived signed proof for param-based routing.
-    No member_id. Just proves the server minted the URL recently.
-    Format: "<exp>.<sig>"
-    """
-    secret = _session_secret()
-    if not secret:
-        return ""
-
-    exp = int(time.time()) + int(ttl_seconds)
-    payload = f"{exp}"
-    sig = _b64(hmac.new(secret.encode(), payload.encode(), hashlib.sha256).digest())
-    return f"{exp}.{sig}"
-
-def verify_session(session: str) -> bool:
-    """
-    Validates proof created by make_proof().
-    """
-    secret = _session_secret()
-    if not secret or not session:
-        return False
-
-    try:
-        exp_s, sig = session.split(".", 1)
-        exp = int(exp_s)
-    except Exception:
-        return False
-
-    if exp < int(time.time()):
-        return False
-
-    payload = f"{exp}"
-    expected = _b64(hmac.new(secret.encode(), payload.encode(), hashlib.sha256).digest())
-    return bool(expected) and hmac.compare_digest(expected, sig)

@@ -47,12 +47,13 @@ if tickerp and adv and info:
 
 if not st.session_state.get("authenticated"):
         if not restore_session_from_cookie2():
-            home_url = "https://www.markmentumresearch.com/login"
+            home_url = "https://www.markmentumresearch.com/reauth"
             st.markdown(
                 f'<meta http-equiv="refresh" content="0; url={home_url}" />',
                 unsafe_allow_html=True
             )
             st.stop()
+
 
 # 13_Trends.py
 # Markmentum — Trends & Changes (ST / MT / LT)
