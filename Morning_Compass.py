@@ -131,13 +131,12 @@ def establish_session_once() -> bool:
 
 # --- Gate Morning Compass ---
 if not establish_session_once():
-        if not restore_session_from_cookie2():
-            home_url = "https://www.markmentumresearch.com/reauth"
-            st.markdown(
-                f'<meta http-equiv="refresh" content="0; url={home_url}" />',
-                unsafe_allow_html=True
-            )
-            st.stop()
+    home_url = "https://www.markmentumresearch.com/reauth"
+    st.markdown(
+        f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+        unsafe_allow_html=True
+    )
+    st.stop()
 
 #st.cache_data.clear()
 

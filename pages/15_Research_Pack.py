@@ -5,13 +5,12 @@ from utils.auth import verify_proof, make_proof, restore_session_from_cookie2
 
 # --- Gate Morning Compass ---
 if not st.session_state.get("authenticated"):
-        if not restore_session_from_cookie2():
-            home_url = "https://www.markmentumresearch.com/reauth"
-            st.markdown(
-                f'<meta http-equiv="refresh" content="0; url={home_url}" />',
-                unsafe_allow_html=True
-            )
-            st.stop()
+    home_url = "https://www.markmentumresearch.com/reauth"
+    st.markdown(
+        f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+        unsafe_allow_html=True
+    )
+    st.stop()
 
 
 # 16_Reports_v4.py

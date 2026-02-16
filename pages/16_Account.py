@@ -5,13 +5,12 @@ from utils.auth import verify_proof, make_proof, restore_session_from_cookie2
 
 # --- Gate Morning Compass ---
 if not st.session_state.get("authenticated"):
-    if not restore_session_from_cookie2():
-        home_url = "https://www.markmentumresearch.com/login"
-        st.markdown(
-            f'<meta http-equiv="refresh" content="0; url={home_url}" />',
-            unsafe_allow_html=True
-        )
-        st.stop()
+    home_url = "https://www.markmentumresearch.com/reauth"
+    st.markdown(
+        f'<meta http-equiv="refresh" content="0; url={home_url}" />',
+        unsafe_allow_html=True
+    )
+    st.stop()
 
 
 # -------------------------
@@ -119,8 +118,8 @@ st.markdown("---")
 
 #from utils.auth import delete_auth_cookie
 
-#delete_auth_cookie()
-#st.session_state.clear()
+
+st.session_state.clear()
 
 ACCOUNT_URL = "https://www.markmentumresearch.com/account"
 
