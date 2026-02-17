@@ -141,7 +141,7 @@ st.markdown(
 <div style="max-width:900px; margin: 0 auto;">
 
 <p style="font-weight:600; margin:12px 0 18px;">
-Markets + Momentum = Markmentum Research.  The equation to achieve trading, investing, and portfolio management success.
+Markets + Momentum = Markmentum Research.  A structured framework for disciplined trading, investing, and portfolio management.
 </p>
 
 <p style="font-weight:600; margin:12px 0 18px;">
