@@ -1,3 +1,216 @@
 [2026-02-17 20:02:06] RUN: git rev-parse --is-inside-work-tree
 [2026-02-17 20:02:06] STDOUT: true
 [2026-02-17 20:02:06] RUN: git add -A
+[2026-02-17 20:02:10] STDERR: warning: in the working copy of 'data/market_read_day.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/market_read_mtd.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/market_read_qtd.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/market_read_wtd.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/model_score.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/model_score_calc.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/model_score_day_change.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/model_score_mtd_change.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/model_score_qtd_change.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/model_score_wtd_change.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_01.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_02.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_03.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_04.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_05.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_06.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_07.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_08.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_09.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_10.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_11.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_12.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_13.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_14.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_15.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_16.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_17.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_18.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_19.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_20.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_21.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_22.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_23.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_24.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_26.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_27.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_28.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_29.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_30.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_31.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_40.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_41.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_46.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_47.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_48.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_49.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_50.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_51.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_52.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_53.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_54.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_55.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_56.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_57.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_58.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_59.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_60.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_61.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_62.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_63.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_64.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_65.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_66.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_67.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_68.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_69.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_70.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_71.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_72.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_73.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_74.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_75.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_76.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_77.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_78.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_79.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_80.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_81.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_82.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_83.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_84.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_85.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_86.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_87.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_88.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_89.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_90.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_91.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_92.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_93.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/qry_graph_data_94.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/ticker_data.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-02-17 20:02:10] RUN: git status --porcelain
+[2026-02-17 20:02:10] STDOUT: M  data/Market_Read_daily.html
+M  data/Market_Read_monthly.html
+M  data/Market_Read_quarterly.html
+M  data/Market_Read_weekly.html
+M  data/bottom_line_daily.txt
+M  data/bottom_line_monthly.txt
+M  data/bottom_line_weekly.txt
+M  data/market_read_day.csv
+M  data/market_read_mtd.csv
+M  data/market_read_qtd.csv
+M  data/market_read_wtd.csv
+M  data/model_score.csv
+M  data/model_score_calc.csv
+M  data/model_score_day_change.csv
+M  data/model_score_mtd_change.csv
+M  data/model_score_qtd_change.csv
+M  data/model_score_wtd_change.csv
+M  data/qry_graph_data_01.csv
+M  data/qry_graph_data_02.csv
+M  data/qry_graph_data_03.csv
+M  data/qry_graph_data_04.csv
+M  data/qry_graph_data_05.csv
+M  data/qry_graph_data_06.csv
+M  data/qry_graph_data_07.csv
+M  data/qry_graph_data_08.csv
+M  data/qry_graph_data_09.csv
+M  data/qry_graph_data_10.csv
+M  data/qry_graph_data_11.csv
+M  data/qry_graph_data_12.csv
+M  data/qry_graph_data_13.csv
+M  data/qry_graph_data_14.csv
+M  data/qry_graph_data_15.csv
+M  data/qry_graph_data_16.csv
+M  data/qry_graph_data_17.csv
+M  data/qry_graph_data_18.csv
+M  data/qry_graph_data_19.csv
+M  data/qry_graph_data_20.csv
+M  data/qry_graph_data_21.csv
+M  data/qry_graph_data_22.csv
+M  data/qry_graph_data_23.csv
+M  data/qry_graph_data_24.csv
+M  data/qry_graph_data_25.csv
+M  data/qry_graph_data_26.csv
+M  data/qry_graph_data_27.csv
+M  data/qry_graph_data_28.csv
+M  data/qry_graph_data_29.csv
+M  data/qry_graph_data_30.csv
+M  data/qry_graph_data_31.csv
+M  data/qry_graph_data_36.csv
+M  data/qry_graph_data_37.csv
+M  data/qry_graph_data_38.csv
+M  data/qry_graph_data_39.csv
+M  data/qry_graph_data_40.csv
+M  data/qry_graph_data_41.csv
+M  data/qry_graph_data_46.csv
+M  data/qry_graph_data_47.csv
+M  data/qry_graph_data_48.csv
+M  data/qry_graph_data_49.csv
+M  data/qry_graph_data_50.csv
+M  data/qry_graph_data_51.csv
+M  data/qry_graph_data_52.csv
+M  data/qry_graph_data_53.csv
+M  data/qry_graph_data_54.csv
+M  data/qry_graph_data_55.csv
+M  data/qry_graph_data_56.csv
+M  data/qry_graph_data_57.csv
+M  data/qry_graph_data_58.csv
+M  data/qry_graph_data_59.csv
+M  data/qry_graph_data_60.csv
+M  data/qry_graph_data_61.csv
+M  data/qry_graph_data_62.csv
+M  data/qry_graph_data_63.csv
+M  data/qry_graph_data_64.csv
+M  data/qry_graph_data_65.csv
+M  data/qry_graph_data_66.csv
+M  data/qry_graph_data_67.csv
+M  data/qry_graph_data_68.csv
+M  data/qry_graph_data_69.csv
+M  data/qry_graph_data_70.csv
+M  data/qry_graph_data_71.csv
+M  data/qry_graph_data_72.csv
+M  data/qry_graph_data_73.csv
+M  data/qry_graph_data_74.csv
+M  data/qry_graph_data_75.csv
+M  data/qry_graph_data_76.csv
+M  data/qry_graph_data_77.csv
+M  data/qry_graph_data_78.csv
+M  data/qry_graph_data_79.csv
+M  data/qry_graph_data_80.csv
+M  data/qry_graph_data_81.csv
+M  data/qry_graph_data_82.csv
+M  data/qry_graph_data_83.csv
+M  data/qry_graph_data_84.csv
+M  data/qry_graph_data_85.csv
+M  data/qry_graph_data_86.csv
+M  data/qry_graph_data_87.csv
+M  data/qry_graph_data_88.csv
+M  data/qry_graph_data_89.csv
+M  data/qry_graph_data_90.csv
+M  data/qry_graph_data_91.csv
+M  data/qry_graph_data_92.csv
+M  data/qry_graph_data_93.csv
+M  data/qry_graph_data_94.csv
+M  data/signal_box.csv
+M  data/stat_box.csv
+M  data/ticker_data.csv
+M  data/tnx_correlation_bottom_line.docx
+M  data/usd_correlation_bottom_line.docx
+MM run_all_git.log
+[2026-02-17 20:02:10] RUN: git commit -m Nightly refresh 2026-02-17 20:02
+[2026-02-17 20:02:11] STDOUT: [main 9426772] Nightly refresh 2026-02-17 20:02
+ 109 files changed, 1493658 insertions(+), 1480655 deletions(-)
+[2026-02-17 20:02:11] RUN: git push
+[2026-02-17 20:02:28] STDERR: git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File data/stat_box.csv is 67.14 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/MarkmentumResearch/App.git
+   c39def8..9426772  main -> main
+[2026-02-17 20:02:28] Git: committed and pushed successfully.
