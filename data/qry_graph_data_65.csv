@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,qtd_return_pct
-GEOS,GEOSPACE TECHNOLOGIES ,MR Discretion,2026-02-20,-0.4488
-INTU,INTUIT INC.,Information Technology,2026-02-20,-0.4255
-IT,"GARTNER, INC.",Information Technology,2026-02-20,-0.3906
-APP,APPLOVIN CORP,Information Technology,2026-02-20,-0.3786
-WDAY,"WORKDAY, INC.",Information Technology,2026-02-20,-0.3584
-TTD,"THE TRADE DESK, INC.",Communication Services,2026-02-20,-0.3388
-FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,2026-02-20,-0.3279
-HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-02-20,-0.3271
-EPAM,"EPAM SYSTEMS, INC.",Information Technology,2026-02-20,-0.3223
-NOW,"SERVICENOW, INC.",Information Technology,2026-02-20,-0.3193
+INTU,INTUIT INC.,Information Technology,2026-02-23,-0.4572
+GEOS,GEOSPACE TECHNOLOGIES ,MR Discretion,2026-02-23,-0.453
+APP,APPLOVIN CORP,Information Technology,2026-02-23,-0.4351
+IT,"GARTNER, INC.",Information Technology,2026-02-23,-0.4254
+WDAY,"WORKDAY, INC.",Information Technology,2026-02-23,-0.3984
+EPAM,"EPAM SYSTEMS, INC.",Information Technology,2026-02-23,-0.3657
+HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-02-23,-0.3653
+TTD,"THE TRADE DESK, INC.",Communication Services,2026-02-23,-0.3633
+FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,2026-02-23,-0.3444
+NOW,"SERVICENOW, INC.",Information Technology,2026-02-23,-0.342
