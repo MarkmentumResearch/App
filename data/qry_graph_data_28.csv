@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-02-24,175.12
-INTC,INTEL ,Information Technology,2026-02-24,98.87
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-02-24,81.37
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-02-24,73.8
-F,FORD MOTOR COMPANY,Consumer Discretionary,2026-02-24,73.56
-XLF,SEL SECTOR:FINL S SPDR,Sector & Style ETFs,2026-02-24,64.11
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-02-24,58.58
-PYPL,"PAYPAL HOLDINGS, INC.",Financials,2026-02-24,58.56
-SLV,ISHARES:SILVER TRUST,Commodities,2026-02-24,56.01
-QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-02-24,55.02
+NVDA,NVIDIA ,Information Technology,2026-02-25,250.64
+INTC,INTEL ,Information Technology,2026-02-25,75.65
+NFLX,"NETFLIX, INC.",Communication Services,2026-02-25,69.32
+SLV,ISHARES:SILVER TRUST,Commodities,2026-02-25,64.93
+F,FORD MOTOR COMPANY,Consumer Discretionary,2026-02-25,58.97
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-02-25,56.37
+QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-02-25,55.71
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-02-25,54.81
+PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-02-25,53.08
+HPQ,HP INC.,Information Technology,2026-02-25,48.39

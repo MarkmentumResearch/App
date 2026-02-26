@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,qtd_return_pct
-INTU,INTUIT INC.,Information Technology,2026-02-24,-0.4585
-GEOS,GEOSPACE TECHNOLOGIES ,MR Discretion,2026-02-24,-0.4583
-APP,APPLOVIN CORP,Information Technology,2026-02-24,-0.4164
-IT,"GARTNER, INC.",Information Technology,2026-02-24,-0.416
-WDAY,"WORKDAY, INC.",Information Technology,2026-02-24,-0.3937
-EPAM,"EPAM SYSTEMS, INC.",Information Technology,2026-02-24,-0.3712
-HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-02-24,-0.3511
-TTD,"THE TRADE DESK, INC.",Communication Services,2026-02-24,-0.343
-NOW,"SERVICENOW, INC.",Information Technology,2026-02-24,-0.331
-HUM,HUMANA INC.,Health Care,2026-02-24,-0.3182
+GEOS,GEOSPACE TECHNOLOGIES ,MR Discretion,2026-02-25,-0.4358
+INTU,INTUIT INC.,Information Technology,2026-02-25,-0.4245
+IT,"GARTNER, INC.",Information Technology,2026-02-25,-0.408
+WDAY,"WORKDAY, INC.",Information Technology,2026-02-25,-0.3801
+APP,APPLOVIN CORP,Information Technology,2026-02-25,-0.3743
+GDDY,GODADDY INC.,Information Technology,2026-02-25,-0.3623
+EPAM,"EPAM SYSTEMS, INC.",Information Technology,2026-02-25,-0.3602
+TTD,"THE TRADE DESK, INC.",Communication Services,2026-02-25,-0.3372
+CSGP,"COSTAR GROUP, INC.",Real Estate,2026-02-25,-0.334
+NOW,"SERVICENOW, INC.",Information Technology,2026-02-25,-0.3196
