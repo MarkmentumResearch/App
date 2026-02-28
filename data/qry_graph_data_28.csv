@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-02-26,360.81
-QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-02-26,96.18
-NFLX,"NETFLIX, INC.",Communication Services,2026-02-26,85.64
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-02-26,71.67
-INTC,INTEL ,Information Technology,2026-02-26,71.46
-F,FORD MOTOR COMPANY,Consumer Discretionary,2026-02-26,61.46
-XLF,SEL SECTOR:FINL S SPDR,Sector & Style ETFs,2026-02-26,60.88
-HYG,ISHARES:IBOXX $HY CORP,Bonds,2026-02-26,54.53
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-02-26,53.6
-TTD,"THE TRADE DESK, INC.",Communication Services,2026-02-26,53.0
+NVDA,NVIDIA ,Information Technology,2026-02-27,311.64
+NFLX,"NETFLIX, INC.",Communication Services,2026-02-27,200.77
+PSKY,PARAMOUNT SKYDANCE ,Communication Services,2026-02-27,91.7
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-02-27,83.31
+XLF,SEL SECTOR:FINL S SPDR,Sector & Style ETFs,2026-02-27,82.0
+INTC,INTEL ,Information Technology,2026-02-27,79.33
+BAC,BANK OF AMERICA ,Financials,2026-02-27,77.73
+F,FORD MOTOR COMPANY,Consumer Discretionary,2026-02-27,73.16
+AAPL,APPLE INC.,Information Technology,2026-02-27,72.37
+SLV,ISHARES:SILVER TRUST,Commodities,2026-02-27,69.53
