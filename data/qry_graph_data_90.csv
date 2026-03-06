@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score,R/R Ratio
-SNPS,"SYNOPSYS, INC.",Information Technology,2026-03-04,-86.0,-3.6
-TRMB,TRIMBLE INC.,Information Technology,2026-03-04,-84.0,-7.8
-FTNT,"FORTINET, INC.",Information Technology,2026-03-04,-74.0,-5.1
-SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-03-04,-74.0,-3.4
-ODFL,"OLD DOMINION FREIGHT LINE, INC.",Industrials,2026-03-04,-72.0,-3.7
-HPQ,HP INC.,Information Technology,2026-03-04,-70.0,-4.2
-CMCSA,COMCAST ,Communication Services,2026-03-04,-64.0,-10.5
-APP,APPLOVIN CORP,Information Technology,2026-03-04,-60.0,-9.2
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-03-04,-55.0,-4.9
-ERIE,ERIE INDEMNITY COMPANY,Financials,2026-03-04,-54.0,-4.0
+NTAP,"NETAPP, INC.",Information Technology,2026-03-05,-75.0,-11.5
+DOW,DOW INC.,Materials,2026-03-05,-63.0,-23.3
+ARES,ARES MANAGEMENT CORP,Financials,2026-03-05,-60.0,-30.9
+ESS,"ESSEX PROPERTY TRUST, INC.",Real Estate,2026-03-05,-57.0,-3.1
+TRMB,TRIMBLE INC.,Information Technology,2026-03-05,-57.0,-4.5
+FTNT,"FORTINET, INC.",Information Technology,2026-03-05,-53.0,-5.7
+GEN,GEN DIGITAL INC.,Information Technology,2026-03-05,-53.0,-7.2
+PRU,"PRUDENTIAL FINANCIAL, INC.",Financials,2026-03-05,-53.0,-3.1
+AXP,AMERICAN EXPRESS COMPANY,Financials,2026-03-05,-51.0,-3.5
+LYB,LYONDELLBASELL INDUSTRIES NV,Materials,2026-03-05,-50.0,-17.7
