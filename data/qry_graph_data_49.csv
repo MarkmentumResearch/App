@@ -171,7 +171,7 @@ Date,Ticker,Ticker_name,Exposure,Category,Sharpe_Rank_wtd_change,current_Sharpe_
 2026-03-06,DVA,DAVITA INC.,Health Care,Health Care,-29.0,70.8,99.8
 2026-03-06,DVN,DEVON ENERGY ,Energy,Energy,-24.2,58.5,82.7
 2026-03-06,DXCM,"DEXCOM, INC.",Health Care,Health Care,-6.0,46.2,52.2
-2026-03-06,DXY,US DOLLAR INDEX,USD,Indices,-7.6,83.5,91.1
+2026-03-06,DXY,US DOLLAR INDEX,USD,Indices,-4.6,86.5,91.1
 2026-03-06,EA,ELECTRONIC ARTS INC.,Communication Services,Communication Services,15.5,30.8,15.3
 2026-03-06,EBAY,EBAY INC.,Consumer Discretionary,Consumer Discretionary,31.4,62.9,31.5
 2026-03-06,EC,ECOPETROL SA,,MR Discretion,53.9,69.2,15.3
@@ -253,7 +253,7 @@ Date,Ticker,Ticker_name,Exposure,Category,Sharpe_Rank_wtd_change,current_Sharpe_
 2026-03-06,FTI,TECHNIPFMC PLC,,MR Discretion,-29.0,63.7,92.7
 2026-03-06,FTNT,"FORTINET, INC.",Information Technology,Information Technology,40.9,80.8,39.9
 2026-03-06,FTV,FORTIVE ,Industrials,Industrials,-52.4,28.8,81.2
-2026-03-06,FVX,5 YR TSY YLD NDX,Yields,Yields,52.4,52.6,0.2
+2026-03-06,FVX,5 YR TSY YLD NDX,Yields,Yields,50.0,50.2,0.2
 2026-03-06,FXA,INVESCO:AU DOLLAR,,Currencies,5.1,58.9,53.8
 2026-03-06,FXB,INVESCO:GBP STERLING,,Currencies,11.2,18.1,6.9
 2026-03-06,FXC,INVESCO:CANADIAN DOLLAR,,Currencies,53.3,71.8,18.5
