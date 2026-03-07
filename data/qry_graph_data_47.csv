@@ -1,5 +1,4 @@
 Ticker,Ticker_name,Category,Date,change_pct
-WEAT,TEUCRIUM:WHEAT,Commodities,2026-03-06,-0.388
 TTD,"THE TRADE DESK, INC.",Communication Services,2026-03-06,-0.1656
 IT,"GARTNER, INC.",Information Technology,2026-03-06,-0.1417
 GL,GLOBE LIFE INC.,Financials,2026-03-06,-0.1407
@@ -9,3 +8,4 @@ INTU,INTUIT INC.,Information Technology,2026-03-06,-0.1199
 SM,SM ENERGY COMPANY,MR Discretion,2026-03-06,-0.1036
 USO,UNITED STATES OIL FUND,Commodities,2026-03-06,-0.1034
 WDAY,"WORKDAY, INC.",Information Technology,2026-03-06,-0.1002
+CNC,CENTENE ,Health Care,2026-03-06,-0.0985
