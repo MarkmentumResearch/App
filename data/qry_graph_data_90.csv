@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score,R/R Ratio
-DDOG,"DATADOG, INC.",Information Technology,2026-03-06,-53.0,-8.9
-LYB,LYONDELLBASELL INDUSTRIES NV,Materials,2026-03-06,-53.0,-3.4
-NOW,"SERVICENOW, INC.",Information Technology,2026-03-06,-53.0,-4.0
-GDDY,GODADDY INC.,Information Technology,2026-03-06,-43.0,-3.4
-PANW,"PALO ALTO NETWORKS, INC.",Information Technology,2026-03-06,-36.0,-3.8
-DBA,INVESCO DB MS AGRI,Commodities,2026-03-06,-35.0,-3.0
-INTU,INTUIT INC.,Information Technology,2026-03-06,-33.0,-3.4
-GEN,GEN DIGITAL INC.,Information Technology,2026-03-06,-32.0,-4.4
-FXC,INVESCO:CANADIAN DOLLAR,Currencies,2026-03-06,-31.0,-3.9
-IBM,INTERNATIONAL BUSINESS MACHINES ,Information Technology,2026-03-06,-30.0,-6.5
+DDOG,"DATADOG, INC.",Information Technology,2026-03-09,-63.0,-4.6
+APO,"APOLLO GLOBAL MANAGEMENT, INC.",Financials,2026-03-09,-38.0,-3.3
+CVNA,CARVANA CO.,Consumer Discretionary,2026-03-09,-36.0,-5.6
+LYV,"LIVE NATION ENTERTAINMENT, INC.",Communication Services,2026-03-09,-35.0,-3.5
+ETN,EATON  PUBLIC LIMITED COMPANY,Industrials,2026-03-09,-34.0,-4.4
+HAS,"HASBRO, INC.",Consumer Discretionary,2026-03-09,-25.0,-4.3
+TXN,TEXAS INSTRUMENTS INC.,Information Technology,2026-03-09,-15.0,-3.6
+AVGO,BROADCOM INC.,Information Technology,2026-03-09,-14.0,-5.1
+CRESY,CRESUD INC.,MR Discretion,2026-03-09,-14.0,-3.7
+CFG,"CITIZENS FINANCIAL GROUP, INC.",Financials,2026-03-09,-10.0,-3.6
