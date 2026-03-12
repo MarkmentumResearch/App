@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,qtd_return_pct
-IT,"GARTNER, INC.",Information Technology,2026-03-10,-0.3695
-STLA,STELLANTIS NV,MR Discretion,2026-03-10,-0.3664
-WDAY,"WORKDAY, INC.",Information Technology,2026-03-10,-0.3366
-ARES,ARES MANAGEMENT CORP,Financials,2026-03-10,-0.3276
-HUM,HUMANA INC.,Health Care,2026-03-10,-0.3221
-INTU,INTUIT INC.,Information Technology,2026-03-10,-0.3147
-CSGP,"COSTAR GROUP, INC.",Real Estate,2026-03-10,-0.311
-EPAM,"EPAM SYSTEMS, INC.",Information Technology,2026-03-10,-0.306
-HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-03-10,-0.3057
-KKR,KKR & CO. INC.,Financials,2026-03-10,-0.2943
+STLA,STELLANTIS NV,MR Discretion,2026-03-11,-0.3673
+IT,"GARTNER, INC.",Information Technology,2026-03-11,-0.3642
+ARES,ARES MANAGEMENT CORP,Financials,2026-03-11,-0.3599
+WDAY,"WORKDAY, INC.",Information Technology,2026-03-11,-0.3582
+INTU,INTUIT INC.,Information Technology,2026-03-11,-0.3351
+HUM,HUMANA INC.,Health Care,2026-03-11,-0.3326
+CSGP,"COSTAR GROUP, INC.",Real Estate,2026-03-11,-0.3257
+KKR,KKR & CO. INC.,Financials,2026-03-11,-0.3165
+APP,APPLOVIN CORP,Information Technology,2026-03-11,-0.3152
+FICO,FAIR ISAAC ,Information Technology,2026-03-11,-0.3108
