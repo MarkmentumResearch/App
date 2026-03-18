@@ -1,2 +1,4 @@
 Ticker,Ticker_name,Category,Date,ST_Trend,MT_Trend,ST_Trend_Change,MT_Trend_Change,prem_disc,ChaseScore,model_score
-DELL,DELL TECHNOLOGIES INC.,Information Technology,2026-03-16,0.0859,0.0313,0.0028,0.0135,-0.4275,-0.4821,-24.0
+DELL,DELL TECHNOLOGIES INC.,Information Technology,2026-03-17,0.0866,0.0314,0.0007,0.0136,-0.4616,-0.5169,-24.0
+EBAY,EBAY INC.,Consumer Discretionary,2026-03-17,0.028,0.0151,0.0026,0.0027,-0.1159,-0.1288,-34.0
+ANET,"ARISTA NETWORKS, INC.",Information Technology,2026-03-17,0.007,0.0055,0.0081,0.0035,-0.0199,-0.0213,-6.0
