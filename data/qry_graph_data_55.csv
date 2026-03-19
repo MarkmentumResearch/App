@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-FISV,"FISERV, INC.",Financials,2026-03-17,112.0,12.0,-100.0
-DHI,"D.R. HORTON, INC.",Consumer Discretionary,2026-03-17,95.0,49.0,-46.0
-FFIV,"F5, INC.",Information Technology,2026-03-17,94.0,-8.0,-102.0
-LRCX,LAM RESEARCH ,Information Technology,2026-03-17,92.0,77.0,-15.0
-EWS,ISHARES:MSCI SINGAPORE,Foreign,2026-03-17,86.0,71.0,-15.0
-RVTY,"REVVITY, INC.",Health Care,2026-03-17,86.0,93.0,7.0
-TDG,TRANSDIGM GROUP INC.,Industrials,2026-03-17,84.0,43.0,-41.0
-EME,"EMCOR GROUP, INC.",Industrials,2026-03-17,83.0,65.0,-18.0
-HUBB,HUBBELL INC.,Industrials,2026-03-17,83.0,73.0,-10.0
-CMRE,COSTAMARE INC.,MR Discretion,2026-03-17,82.0,91.0,9.0
+LRCX,LAM RESEARCH ,Information Technology,2026-03-18,92.0,77.0,-15.0
+CBOE,"CBOE GLOBAL MARKETS, INC.",Financials,2026-03-18,89.0,60.0,-29.0
+DOV,DOVER ,Industrials,2026-03-18,88.0,70.0,-18.0
+AAPL,APPLE INC.,Information Technology,2026-03-18,83.0,63.0,-20.0
+C,CITIGROUP INC.,Financials,2026-03-18,83.0,63.0,-20.0
+HUBB,HUBBELL INC.,Industrials,2026-03-18,83.0,73.0,-10.0
+LII,LENNOX INTERNATIONAL INC.,Industrials,2026-03-18,82.0,49.0,-33.0
+JKHY,"JACK HENRY & ASSOCIATES, INC.",Financials,2026-03-18,79.0,-14.0,-93.0
+AMAT,"APPLIED MATERIALS, INC.",Information Technology,2026-03-18,77.0,52.0,-25.0
+FISV,"FISERV, INC.",Financials,2026-03-18,77.0,-23.0,-100.0
