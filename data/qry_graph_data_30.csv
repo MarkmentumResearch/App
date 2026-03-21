@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score
-INTU,INTUIT INC.,Information Technology,2026-03-19,-102.0
-VRSK,"VERISK ANALYTICS, INC.",Industrials,2026-03-19,-102.0
-FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,2026-03-19,-90.0
-WDAY,"WORKDAY, INC.",Information Technology,2026-03-19,-90.0
-ROP,"ROPER TECHNOLOGIES, INC.",Information Technology,2026-03-19,-85.0
-XYZ,"BLOCK, INC.",Financials,2026-03-19,-83.0
-BKNG,BOOKING HOLDINGS INC.,Consumer Discretionary,2026-03-19,-79.0
-MOH,"MOLINA HEALTHCARE, INC.",Health Care,2026-03-19,-74.0
-IT,"GARTNER, INC.",Information Technology,2026-03-19,-73.0
-NWSA,NEWS CORP.,Communication Services,2026-03-19,-73.0
+VRSK,"VERISK ANALYTICS, INC.",Industrials,2026-03-20,-102.0
+BKNG,BOOKING HOLDINGS INC.,Consumer Discretionary,2026-03-20,-85.0
+ROP,"ROPER TECHNOLOGIES, INC.",Information Technology,2026-03-20,-85.0
+XYZ,"BLOCK, INC.",Financials,2026-03-20,-83.0
+INTU,INTUIT INC.,Information Technology,2026-03-20,-82.0
+FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,2026-03-20,-77.0
+IT,"GARTNER, INC.",Information Technology,2026-03-20,-73.0
+WDAY,"WORKDAY, INC.",Information Technology,2026-03-20,-73.0
+VRSN,"VERISIGN, INC.",Information Technology,2026-03-20,-70.0
+GDDY,GODADDY INC.,Information Technology,2026-03-20,-69.0
