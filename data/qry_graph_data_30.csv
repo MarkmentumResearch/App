@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score
-VRSK,"VERISK ANALYTICS, INC.",Industrials,2026-03-20,-102.0
-BKNG,BOOKING HOLDINGS INC.,Consumer Discretionary,2026-03-20,-85.0
-ROP,"ROPER TECHNOLOGIES, INC.",Information Technology,2026-03-20,-85.0
-XYZ,"BLOCK, INC.",Financials,2026-03-20,-83.0
-INTU,INTUIT INC.,Information Technology,2026-03-20,-82.0
-FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,2026-03-20,-77.0
-IT,"GARTNER, INC.",Information Technology,2026-03-20,-73.0
-WDAY,"WORKDAY, INC.",Information Technology,2026-03-20,-73.0
-VRSN,"VERISIGN, INC.",Information Technology,2026-03-20,-70.0
-GDDY,GODADDY INC.,Information Technology,2026-03-20,-69.0
+INTU,INTUIT INC.,Information Technology,2026-03-23,-102.0
+VRSK,"VERISK ANALYTICS, INC.",Industrials,2026-03-23,-102.0
+XYZ,"BLOCK, INC.",Financials,2026-03-23,-93.0
+CRWD,"CROWDSTRIKE HOLDINGS, INC.",Information Technology,2026-03-23,-88.0
+FTNT,"FORTINET, INC.",Information Technology,2026-03-23,-85.0
+IT,"GARTNER, INC.",Information Technology,2026-03-23,-85.0
+ROP,"ROPER TECHNOLOGIES, INC.",Information Technology,2026-03-23,-85.0
+ADBE,ADOBE INC.,Information Technology,2026-03-23,-74.0
+WDAY,"WORKDAY, INC.",Information Technology,2026-03-23,-72.0
+VRSN,"VERISIGN, INC.",Information Technology,2026-03-23,-70.0

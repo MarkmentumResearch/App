@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-GILD,"GILEAD SCIENCES, INC.",Health Care,2026-03-20,-96.0,-17.0,79.0
-HCA,"HCA HEALTHCARE, INC.",Health Care,2026-03-20,-95.0,-20.0,75.0
-JNJ,JOHNSON & JOHNSON,Health Care,2026-03-20,-94.0,-10.0,84.0
-INVH,INVITATION HOMES INC.,Real Estate,2026-03-20,-91.0,-16.0,75.0
-L,LOEWS ,Financials,2026-03-20,-85.0,-20.0,65.0
-AMGN,AMGEN INC.,Health Care,2026-03-20,-78.0,-18.0,60.0
-TSN,"TYSON FOODS, INC.",Consumer Staples,2026-03-20,-77.0,-13.0,64.0
-WELL,WELLTOWER INC.,Real Estate,2026-03-20,-77.0,-11.0,66.0
-LLY,ELI LILLY AND COMPANY,Health Care,2026-03-20,-75.0,-35.0,40.0
-SOLV,SOLVENTUM ,Health Care,2026-03-20,-75.0,-63.0,12.0
+CMRE,COSTAMARE INC.,MR Discretion,2026-03-23,-77.0,-16.0,61.0
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-03-23,-69.0,-17.0,52.0
+MA,MASTERCARD INC..,Financials,2026-03-23,-68.0,-62.0,6.0
+AME,"AMETEK, INC.",Industrials,2026-03-23,-66.0,-14.0,52.0
+FFIV,"F5, INC.",Information Technology,2026-03-23,-64.0,-35.0,29.0
+FTNT,"FORTINET, INC.",Information Technology,2026-03-23,-61.0,-85.0,-24.0
+SNDK,SANDISK CORPORATION,Information Technology,2026-03-23,-56.0,24.0,80.0
+MRK,"MERCK & CO., INC.",Health Care,2026-03-23,-55.0,-12.0,43.0
+JBL,JABIL INC.,Information Technology,2026-03-23,-53.0,38.0,91.0
+AIZ,"ASSURANT, INC.",Financials,2026-03-23,-52.0,-43.0,9.0

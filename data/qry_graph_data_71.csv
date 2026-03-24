@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_day_change,current_model_score,previous_model_score
-PSA,PUBLIC STORAGE.,Real Estate,2026-03-20,-60.0,-36.0,24.0
-FIX,"COMFORT SYSTEMS USA, INC.",Industrials,2026-03-20,-59.0,32.0,91.0
-DXCM,"DEXCOM, INC.",Health Care,2026-03-20,-53.0,-33.0,20.0
-EWA,ISHARES:MSCI AUSTRALIA,Foreign,2026-03-20,-53.0,-14.0,39.0
-INCY,INCYTE ,Health Care,2026-03-20,-53.0,-20.0,33.0
-PCAR,PACCAR INC,Industrials,2026-03-20,-53.0,-20.0,33.0
-VICI,VICI PROPERTIES INC.,Real Estate,2026-03-20,-52.0,-10.0,42.0
-ZTS,ZOETIS INC.,Health Care,2026-03-20,-52.0,-29.0,23.0
-TAP,MOLSON COORS BEVERAGE COMPANY,Consumer Staples,2026-03-20,-50.0,-26.0,24.0
-GILD,"GILEAD SCIENCES, INC.",Health Care,2026-03-20,-47.0,-17.0,30.0
+CMRE,COSTAMARE INC.,MR Discretion,2026-03-23,-77.0,-16.0,61.0
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-03-23,-69.0,-17.0,52.0
+MA,MASTERCARD INC..,Financials,2026-03-23,-68.0,-62.0,6.0
+AME,"AMETEK, INC.",Industrials,2026-03-23,-66.0,-14.0,52.0
+FFIV,"F5, INC.",Information Technology,2026-03-23,-64.0,-35.0,29.0
+FTNT,"FORTINET, INC.",Information Technology,2026-03-23,-61.0,-85.0,-24.0
+SNDK,SANDISK CORPORATION,Information Technology,2026-03-23,-56.0,24.0,80.0
+MRK,"MERCK & CO., INC.",Health Care,2026-03-23,-55.0,-12.0,43.0
+JBL,JABIL INC.,Information Technology,2026-03-23,-53.0,38.0,91.0
+AIZ,"ASSURANT, INC.",Financials,2026-03-23,-52.0,-43.0,9.0
