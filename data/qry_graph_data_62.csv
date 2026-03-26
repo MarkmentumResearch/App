@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_mtd_change,current_model_score,previous_model_score
-CNR,"CORE NATURAL RESOURCES, INC.",MR Discretion,2026-03-24,-106.0,-70.0,36.0
-AKAM,"AKAMAI TECHNOLOGIES, INC.",Information Technology,2026-03-24,-103.0,-64.0,39.0
-XYZ,"BLOCK, INC.",Financials,2026-03-24,-87.0,-87.0,-0.0
-VRSK,"VERISK ANALYTICS, INC.",Industrials,2026-03-24,-83.0,-83.0,-0.0
-INTU,INTUIT INC.,Information Technology,2026-03-24,-82.0,-82.0,-0.0
-BKNG,BOOKING HOLDINGS INC.,Consumer Discretionary,2026-03-24,-79.0,-79.0,0.0
-FVX,5 YR TSY YLD NDX,Yields,2026-03-24,-79.0,-61.0,18.0
-ORCL,ORACLE ,Information Technology,2026-03-24,-79.0,-25.0,54.0
-MSFT,MICROSOFT ,Information Technology,2026-03-24,-71.0,-16.0,55.0
-EPU,ISHARES:MSCI PERU,Foreign,2026-03-24,-70.0,0.0,70.0
+INTU,INTUIT INC.,Information Technology,2026-03-25,-102.0,-102.0,-0.0
+MSFT,MICROSOFT ,Information Technology,2026-03-25,-96.0,-41.0,55.0
+NVDA,NVIDIA ,Information Technology,2026-03-25,-95.0,-47.0,48.0
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-03-25,-85.0,-8.0,77.0
+XYZ,"BLOCK, INC.",Financials,2026-03-25,-83.0,-83.0,-0.0
+CNR,"CORE NATURAL RESOURCES, INC.",MR Discretion,2026-03-25,-82.0,-46.0,36.0
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-03-25,-79.0,-5.0,74.0
+ORCL,ORACLE ,Information Technology,2026-03-25,-79.0,-25.0,54.0
+QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-03-25,-79.0,-14.0,65.0
+NQ=F,NASDAQ 100 FUTURES,Futures,2026-03-25,-77.0,-29.0,48.0

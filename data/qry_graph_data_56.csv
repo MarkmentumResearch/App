@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-CTVA,"CORTEVA, INC.",Materials,2026-03-24,-83.0,-28.0,55.0
-OKE,"ONEOK, INC.",Energy,2026-03-24,-81.0,-67.0,14.0
-JBL,JABIL INC.,Information Technology,2026-03-24,-76.0,15.0,91.0
-CMRE,COSTAMARE INC.,MR Discretion,2026-03-24,-71.0,-10.0,61.0
-GOOGL,ALPHABET INC.,Communication Services,2026-03-24,-71.0,-17.0,54.0
-CNR,"CORE NATURAL RESOURCES, INC.",MR Discretion,2026-03-24,-68.0,-70.0,-2.0
-SLB,SCHLUMBERGER N.V.,Energy,2026-03-24,-62.0,-9.0,53.0
-FSLR,"FIRST SOLAR, INC.",Information Technology,2026-03-24,-61.0,-39.0,22.0
-BTI,BRITISH AMERICAN TOBACCO P.L.C.,MR Discretion,2026-03-24,-59.0,0.0,59.0
-MOH,"MOLINA HEALTHCARE, INC.",Health Care,2026-03-24,-59.0,-74.0,-15.0
+JBL,JABIL INC.,Information Technology,2026-03-25,-101.0,-10.0,91.0
+SNDK,SANDISK CORPORATION,Information Technology,2026-03-25,-83.0,-3.0,80.0
+CTVA,"CORTEVA, INC.",Materials,2026-03-25,-74.0,-3.0,71.0
+GOOGL,ALPHABET INC.,Communication Services,2026-03-25,-71.0,-17.0,54.0
+T,AT&T INC.,Communication Services,2026-03-25,-70.0,-8.0,62.0
+FFIV,"F5, INC.",Information Technology,2026-03-25,-65.0,-36.0,29.0
+MRK,"MERCK & CO., INC.",Health Care,2026-03-25,-65.0,-22.0,43.0
+DLR,"DIGITAL REALTY TRUST, INC.",Real Estate,2026-03-25,-63.0,-18.0,45.0
+NVDA,NVIDIA ,Information Technology,2026-03-25,-62.0,-47.0,15.0
+SLB,SCHLUMBERGER N.V.,Energy,2026-03-25,-62.0,-9.0,53.0

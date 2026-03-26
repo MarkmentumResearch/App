@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score,R/R Ratio
-DELL,DELL TECHNOLOGIES INC.,Information Technology,2026-03-24,-43.0,-13.6
-GPN,GLOBAL PAYMENTS INC.,Financials,2026-03-24,-38.0,-7.1
-V,VISA INC.,Financials,2026-03-24,-37.0,-3.1
-ES=F,E-MINI S&P 500 FUTURES,Futures,2026-03-24,-29.0,-4.9
-CTVA,"CORTEVA, INC.",Materials,2026-03-24,-28.0,-3.6
-RMD,RESMED INC.,Health Care,2026-03-24,-20.0,-3.3
-STLD,"STEEL DYNAMICS, INC.",Materials,2026-03-24,-20.0,-15.2
-CI,THE CIGNA GROUP,Health Care,2026-03-24,-17.0,-3.2
-CVNA,CARVANA CO.,Consumer Discretionary,2026-03-24,-14.0,-6.0
-TRGP,TARGA RESOURCES CORP.,Energy,2026-03-24,-13.0,-3.5
+KVUE,KENVUE INC.,Consumer Staples,2026-03-25,-44.0,-3.1
+DELL,DELL TECHNOLOGIES INC.,Information Technology,2026-03-25,-43.0,-5.8
+FFIV,"F5, INC.",Information Technology,2026-03-25,-36.0,-3.2
+EXE,EXPAND ENERGY ,Energy,2026-03-25,-32.0,-17.6
+VRSN,"VERISIGN, INC.",Information Technology,2026-03-25,-26.0,-9.7
+MRK,"MERCK & CO., INC.",Health Care,2026-03-25,-22.0,-7.5
+ZTS,ZOETIS INC.,Health Care,2026-03-25,-12.0,-3.2
+CVNA,CARVANA CO.,Consumer Discretionary,2026-03-25,-11.0,-9.4
+JBL,JABIL INC.,Information Technology,2026-03-25,-10.0,-12.5
+SLB,SCHLUMBERGER N.V.,Energy,2026-03-25,-9.0,-3.1
