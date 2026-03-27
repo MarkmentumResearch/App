@@ -1,1 +1,4 @@
 Ticker,Ticker_name,Category,Date,ST_Trend,MT_Trend,ST_Trend_Change,MT_Trend_Change,prem_disc,ChaseScore,model_score
+EWS,ISHARES:MSCI SINGAPORE,Foreign,2026-03-26,0.0007,0.0004,0.0041,0.0005,-0.4788,-0.4791,41.0
+BF.B,BROWN-FORMAN ,Consumer Staples,2026-03-26,0.0105,0.0027,0.0637,0.0469,-0.1575,-0.1653,44.0
+CNR,"CORE NATURAL RESOURCES, INC.",MR Discretion,2026-03-26,0.0639,0.0389,0.0012,0.0032,-0.0209,-0.046,-27.0
