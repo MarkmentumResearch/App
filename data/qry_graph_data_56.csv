@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-KVUE,KENVUE INC.,Consumer Staples,2026-03-26,-83.0,-69.0,14.0
-T,AT&T INC.,Communication Services,2026-03-26,-75.0,-13.0,62.0
-CTVA,"CORTEVA, INC.",Materials,2026-03-26,-74.0,-3.0,71.0
-FXA,INVESCO:AU DOLLAR,Currencies,2026-03-26,-72.0,-3.0,69.0
-SNDK,SANDISK CORPORATION,Information Technology,2026-03-26,-65.0,15.0,80.0
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-03-26,-62.0,-10.0,52.0
-SLB,SCHLUMBERGER N.V.,Energy,2026-03-26,-62.0,-9.0,53.0
-GOOGL,ALPHABET INC.,Communication Services,2026-03-26,-61.0,-13.0,48.0
-APD,"AIR PRODUCTS AND CHEMICALS, INC.",Materials,2026-03-26,-60.0,-38.0,22.0
-BTI,BRITISH AMERICAN TOBACCO P.L.C.,MR Discretion,2026-03-26,-59.0,0.0,59.0
+CMI,CUMMINS INC.,Industrials,2026-03-27,-85.0,-20.0,65.0
+TGT,TARGET ,Consumer Staples,2026-03-27,-83.0,-57.0,26.0
+SLB,SCHLUMBERGER N.V.,Energy,2026-03-27,-77.0,-23.0,54.0
+MSI,"MOTOROLA SOLUTIONS, INC.",Information Technology,2026-03-27,-75.0,-18.0,57.0
+T,AT&T INC.,Communication Services,2026-03-27,-75.0,-13.0,62.0
+CTVA,"CORTEVA, INC.",Materials,2026-03-27,-74.0,-3.0,71.0
+EIS,ISHARES:MSCI ISRAEL,Foreign,2026-03-27,-73.0,-1.0,72.0
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-03-27,-68.0,-30.0,38.0
+BG,BUNGE LIMITED,Consumer Staples,2026-03-27,-65.0,4.0,69.0
+MRK,"MERCK & CO., INC.",Health Care,2026-03-27,-65.0,-22.0,43.0

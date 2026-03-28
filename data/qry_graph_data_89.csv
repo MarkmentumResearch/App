@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score,R/R Ratio
-GEV,GE VERNOVA INC.,Industrials,2026-03-26,101.0,4.9
-STX,SEAGATE TECHNOLOGY HOLDINGS,Information Technology,2026-03-26,86.0,14.3
-KLAC,KLA ,Information Technology,2026-03-26,84.0,9.3
-AMAT,"APPLIED MATERIALS, INC.",Information Technology,2026-03-26,77.0,45.1
-EME,"EMCOR GROUP, INC.",Industrials,2026-03-26,71.0,9.8
-MPWR,"MONOLITHIC POWER SYSTEMS, INC.",Information Technology,2026-03-26,65.0,3.3
-TER,"TERADYNE, INC.",Information Technology,2026-03-26,61.0,3.0
-WDC,WESTERN DIGITAL ,Information Technology,2026-03-26,61.0,10.1
-JBL,JABIL INC.,Information Technology,2026-03-26,56.0,3.3
-PWR,"QUANTA SERVICES, INC.",Industrials,2026-03-26,52.0,20.5
+GEV,GE VERNOVA INC.,Industrials,2026-03-27,101.0,106.5
+MPWR,"MONOLITHIC POWER SYSTEMS, INC.",Information Technology,2026-03-27,93.0,3.3
+CMRE,COSTAMARE INC.,MR Discretion,2026-03-27,91.0,8.2
+STX,SEAGATE TECHNOLOGY HOLDINGS,Information Technology,2026-03-27,86.0,5.4
+WDC,WESTERN DIGITAL ,Information Technology,2026-03-27,86.0,4.2
+KLAC,KLA ,Information Technology,2026-03-27,84.0,9.6
+TER,"TERADYNE, INC.",Information Technology,2026-03-27,84.0,4.4
+DOV,DOVER ,Industrials,2026-03-27,83.0,3.2
+Q,"QNITY ELECTRONICS, INC.",Information Technology,2026-03-27,83.0,3.7
+AMAT,"APPLIED MATERIALS, INC.",Information Technology,2026-03-27,77.0,11.6
