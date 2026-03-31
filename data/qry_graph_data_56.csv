@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-CMI,CUMMINS INC.,Industrials,2026-03-27,-85.0,-20.0,65.0
-TGT,TARGET ,Consumer Staples,2026-03-27,-83.0,-57.0,26.0
-SLB,SCHLUMBERGER N.V.,Energy,2026-03-27,-77.0,-23.0,54.0
-MSI,"MOTOROLA SOLUTIONS, INC.",Information Technology,2026-03-27,-75.0,-18.0,57.0
-T,AT&T INC.,Communication Services,2026-03-27,-75.0,-13.0,62.0
-CTVA,"CORTEVA, INC.",Materials,2026-03-27,-74.0,-3.0,71.0
-EIS,ISHARES:MSCI ISRAEL,Foreign,2026-03-27,-73.0,-1.0,72.0
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-03-27,-68.0,-30.0,38.0
-BG,BUNGE LIMITED,Consumer Staples,2026-03-27,-65.0,4.0,69.0
-MRK,"MERCK & CO., INC.",Health Care,2026-03-27,-65.0,-22.0,43.0
+CMRE,COSTAMARE INC.,MR Discretion,2026-03-30,-136.0,-45.0,91.0
+WDC,WESTERN DIGITAL ,Information Technology,2026-03-30,-97.0,-11.0,86.0
+KLAC,KLA ,Information Technology,2026-03-30,-93.0,-9.0,84.0
+AMAT,"APPLIED MATERIALS, INC.",Information Technology,2026-03-30,-92.0,-15.0,77.0
+JBL,JABIL INC.,Information Technology,2026-03-30,-84.0,-10.0,74.0
+SNDK,SANDISK CORPORATION,Information Technology,2026-03-30,-81.0,-12.0,69.0
+GRMN,GARMIN LTD,Consumer Discretionary,2026-03-30,-78.0,-18.0,60.0
+MP,MP MATERIALS CORP,MR Discretion,2026-03-30,-76.0,-13.0,63.0
+SWKS,"SKYWORKS SOLUTIONS, INC.",Information Technology,2026-03-30,-76.0,-1.0,75.0
+STX,SEAGATE TECHNOLOGY HOLDINGS,Information Technology,2026-03-30,-73.0,13.0,86.0

@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,qtd_return_pct
-TTD,"THE TRADE DESK, INC.",Communication Services,2026-03-27,-0.4394
-APP,APPLOVIN CORP,Information Technology,2026-03-27,-0.4343
-WDAY,"WORKDAY, INC.",Information Technology,2026-03-27,-0.4218
-HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-03-27,-0.4163
-CSGP,"COSTAR GROUP, INC.",Real Estate,2026-03-27,-0.4085
-FICO,FAIR ISAAC ,Information Technology,2026-03-27,-0.402
-IT,"GARTNER, INC.",Information Technology,2026-03-27,-0.3839
-STLA,STELLANTIS NV,MR Discretion,2026-03-27,-0.3838
-INTU,INTUIT INC.,Information Technology,2026-03-27,-0.3713
-EL,THE ESTEE LAUDER COMPANIES INC.,Consumer Staples,2026-03-27,-0.358
+APP,APPLOVIN CORP,Information Technology,2026-03-30,-0.4478
+HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-03-30,-0.4239
+TTD,"THE TRADE DESK, INC.",Communication Services,2026-03-30,-0.4202
+WDAY,"WORKDAY, INC.",Information Technology,2026-03-30,-0.4005
+CSGP,"COSTAR GROUP, INC.",Real Estate,2026-03-30,-0.392
+STLA,STELLANTIS NV,MR Discretion,2026-03-30,-0.3802
+FICO,FAIR ISAAC ,Information Technology,2026-03-30,-0.3801
+IT,"GARTNER, INC.",Information Technology,2026-03-30,-0.3692
+INTU,INTUIT INC.,Information Technology,2026-03-30,-0.3523
+HUM,HUMANA INC.,Health Care,2026-03-30,-0.3519
