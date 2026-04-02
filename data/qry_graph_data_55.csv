@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-KR,THE KROGER CO.,Consumer Staples,2026-04-01,85.0,-17.0,-102.0
-FISV,"FISERV, INC.",Financials,2026-04-01,82.0,19.0,-63.0
-UNH,UNITEDHEALTH GROUP INC.,Health Care,2026-04-01,82.0,19.0,-63.0
-CANE,TEUCRIUM:SUGAR,Commodities,2026-04-01,78.0,1.0,-77.0
-INTU,INTUIT INC.,Information Technology,2026-04-01,74.0,10.0,-64.0
-BRO,"BROWN & BROWN, INC.",Financials,2026-04-01,68.0,27.0,-41.0
-WDAY,"WORKDAY, INC.",Information Technology,2026-04-01,65.0,19.0,-46.0
-ROP,"ROPER TECHNOLOGIES, INC.",Information Technology,2026-04-01,62.0,10.0,-52.0
-BTC=F,BITCOIN FUTURES,Futures,2026-04-01,61.0,11.0,-50.0
-TYL,"TYLER TECHNOLOGIES, INC.",Information Technology,2026-04-01,61.0,19.0,-42.0
+CF,"CF INDUSTRIES HOLDINGS, INC.",Materials,2026-04-01,94.0,27.0,-67.0
+COMT,ISHARES:GSCI COMM DYN RS,Commodities,2026-04-01,91.0,43.0,-48.0
+CANE,TEUCRIUM:SUGAR,Commodities,2026-04-01,89.0,12.0,-77.0
+HAS,"HASBRO, INC.",Consumer Discretionary,2026-04-01,88.0,71.0,-17.0
+NEM,NEWMONT ,Materials,2026-04-01,79.0,79.0,0.0
+TKO,"TKO GROUP HOLDINGS, INC.",Communication Services,2026-04-01,77.0,77.0,0.0
+FTNT,"FORTINET, INC.",Information Technology,2026-04-01,76.0,29.0,-47.0
+TDY,TELEDYNE TECHNOLOGIES INC.,Information Technology,2026-04-01,76.0,59.0,-17.0
+EQT,EQT ,Energy,2026-04-01,75.0,52.0,-23.0
+LOW,"LOWE'S COMPANIES, INC.",Consumer Discretionary,2026-04-01,75.0,75.0,0.0
