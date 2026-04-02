@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score,R/R Ratio
-COIN,"COINBASE GLOBAL, INC.",Financials,2026-03-31,-69.0,-7.1
-INTU,INTUIT INC.,Information Technology,2026-03-31,-69.0,-3.2
-CPRT,"COPART, INC.",Industrials,2026-03-31,-47.0,-4.6
-PANW,"PALO ALTO NETWORKS, INC.",Information Technology,2026-03-31,-44.0,-6.2
-NVDA,NVIDIA ,Information Technology,2026-03-31,-38.0,-9.8
-ROST,"ROSS STORES, INC.",Consumer Discretionary,2026-03-31,-37.0,-3.1
-VLTO,VERALTO ,Industrials,2026-03-31,-36.0,-5.3
-ADBE,ADOBE INC.,Information Technology,2026-03-31,-32.0,-10.0
-BKNG,BOOKING HOLDINGS INC.,Consumer Discretionary,2026-03-31,-32.0,-3.6
-TTD,"THE TRADE DESK, INC.",Communication Services,2026-03-31,-32.0,-21.1
+DG,DOLLAR GENERAL ,Consumer Staples,2026-04-01,-24.0,-3.2
+EWC,ISHARES:MSCI CANADA,Foreign,2026-04-01,-24.0,-9.6
+FICO,FAIR ISAAC ,Information Technology,2026-04-01,-24.0,-5.4
+GDX,VANECK:GOLD MINERS,Commodities,2026-04-01,-24.0,-83.9
+GLD,SPDR GOLD,Commodities,2026-04-01,-24.0,-12.6
+IWF,ISHARES:RUSS 1000 GR ETF,Sector & Style ETFs,2026-04-01,-24.0,-44.0
+LII,LENNOX INTERNATIONAL INC.,Industrials,2026-04-01,-24.0,-6.6
+OEF,ISHARES:S&P 100,Sector & Style ETFs,2026-04-01,-24.0,-3.3
+SILJ,ETFMG PRIME JR SILVR MNR,Commodities,2026-04-01,-24.0,-24.4
+ULTA,"ULTA BEAUTY, INC.",Consumer Discretionary,2026-04-01,-24.0,-4.8
