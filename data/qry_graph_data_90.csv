@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score,R/R Ratio
-ANET,"ARISTA NETWORKS, INC.",Information Technology,2026-04-01,-56.0,-5.4
-IWF,ISHARES:RUSS 1000 GR ETF,Sector & Style ETFs,2026-04-01,-55.0,-44.0
-LYV,"LIVE NATION ENTERTAINMENT, INC.",Communication Services,2026-04-01,-55.0,-7.2
-FICO,FAIR ISAAC ,Information Technology,2026-04-01,-53.0,-5.4
-ELV,"ELEVANCE HEALTH, INC.",Health Care,2026-04-01,-50.0,-4.7
-CRWD,"CROWDSTRIKE HOLDINGS, INC.",Information Technology,2026-04-01,-48.0,-9.4
-PANW,"PALO ALTO NETWORKS, INC.",Information Technology,2026-04-01,-44.0,-4.9
-VRTX,VERTEX PHARMACEUTICALS INC.,Health Care,2026-04-01,-44.0,-3.6
-COIN,"COINBASE GLOBAL, INC.",Financials,2026-04-01,-39.0,-3.8
-AAPL,APPLE INC.,Information Technology,2026-04-01,-38.0,-4.8
+ELV,"ELEVANCE HEALTH, INC.",Health Care,2026-04-02,-59.0,-4.1
+CRM,"SALESFORCE, INC.",Information Technology,2026-04-02,-48.0,-3.5
+MTUM,ISHARES:MSCI USA MOM FCT,Sector & Style ETFs,2026-04-02,-44.0,-5.6
+CI,THE CIGNA GROUP,Health Care,2026-04-02,-40.0,-4.0
+CPRT,"COPART, INC.",Industrials,2026-04-02,-38.0,-3.5
+MSFT,MICROSOFT ,Information Technology,2026-04-02,-38.0,-7.0
+SBLK,STAR BULK CARRIERS CORP.,MR Discretion,2026-04-02,-37.0,-122.0
+NVDA,NVIDIA ,Information Technology,2026-04-02,-34.0,-11.5
+ADBE,ADOBE INC.,Information Technology,2026-04-02,-33.0,-4.2
+OTIS,OTIS WORLDWIDE ,Industrials,2026-04-02,-32.0,-17.7

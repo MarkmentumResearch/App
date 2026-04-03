@@ -1,654 +1,654 @@
 Date,Ticker,Ticker_name,Exposure,Category,model_score_wtd_change,current_model_score,previous_model_score
-2026-04-01,A,"AGILENT TECHNOLOGIES, INC.",Health Care,Health Care,-52.0,4.0,56.0
-2026-04-01,AAPL,APPLE INC.,Information Technology,Information Technology,-131.0,-38.0,93.0
-2026-04-01,ABBV,ABBVIE INC.,Health Care,Health Care,-26.0,18.0,44.0
-2026-04-01,ABNB,"AIRBNB, INC.",Consumer Discretionary,Consumer Discretionary,-31.0,-17.0,14.0
-2026-04-01,ABT,ABBOTT LABORATORIES,Health Care,Health Care,-33.0,-21.0,12.0
-2026-04-01,ACGL,ARCH CAPITAL GROUP LTD.,Financials,Financials,-14.0,5.0,19.0
-2026-04-01,ACN,ACCENTURE PUBLIC LIMITED COMPANY,Information Technology,Information Technology,28.0,12.0,-16.0
-2026-04-01,ADBE,ADOBE INC.,Information Technology,Information Technology,-8.0,-6.0,2.0
-2026-04-01,ADI,"ANALOG DEVICES, INC.",Information Technology,Information Technology,-22.0,40.0,62.0
-2026-04-01,ADM,ARCHER-DANIELS-MIDLAND COMPANY.,Consumer Staples,Consumer Staples,-4.0,34.0,38.0
-2026-04-01,ADP,"AUTOMATIC DATA PROCESSING, INC.",Industrials,Industrials,20.0,4.0,-16.0
-2026-04-01,ADSK,"AUTODESK, INC.",Information Technology,Information Technology,-26.0,-12.0,14.0
-2026-04-01,AEE,AMEREN ,Utilities,Utilities,-25.0,59.0,84.0
-2026-04-01,AEP,"AMERICAN ELECTRIC POWER COMPANY, INC.",Utilities,Utilities,14.0,66.0,52.0
-2026-04-01,AES,THE AES ,Utilities,Utilities,2.0,1.0,-1.0
-2026-04-01,AFL,AFLAC INC.,Financials,Financials,7.0,40.0,33.0
-2026-04-01,AIG,"AMERICAN INTERNATIONAL GROUP, INC.",Financials,Financials,1.0,13.0,12.0
-2026-04-01,AIZ,"ASSURANT, INC.",Financials,Financials,-48.0,-21.0,27.0
-2026-04-01,AJG,ARTHUR J. GALLAGHER & CO.,Financials,Financials,-35.0,-21.0,14.0
-2026-04-01,AKAM,"AKAMAI TECHNOLOGIES, INC.",Information Technology,Information Technology,31.0,4.0,-27.0
-2026-04-01,ALB,ALBEMARLE ,Materials,Materials,-12.0,39.0,51.0
-2026-04-01,ALGN,"ALIGN TECHNOLOGY, INC.",Health Care,Health Care,41.0,65.0,24.0
-2026-04-01,ALL,THE ALLSTATE ,Financials,Financials,-1.0,-21.0,-20.0
-2026-04-01,ALLE,ALLEGION PUBLIC LIMITED COMPANY,Industrials,Industrials,-45.0,-21.0,24.0
-2026-04-01,AMAT,"APPLIED MATERIALS, INC.",Information Technology,Information Technology,-31.0,46.0,77.0
-2026-04-01,AMCR,AMCOR PLC,Materials,Materials,-6.0,23.0,29.0
-2026-04-01,AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,Information Technology,-5.0,-5.0,0.0
-2026-04-01,AME,"AMETEK, INC.",Industrials,Industrials,-41.0,-7.0,34.0
-2026-04-01,AMGN,AMGEN INC.,Health Care,Health Care,-27.0,8.0,35.0
-2026-04-01,AMP,"AMERIPRISE FINANCIAL, INC.",Financials,Financials,-33.0,-21.0,12.0
-2026-04-01,AMT,AMERICAN TOWER ,Real Estate,Real Estate,24.0,28.0,4.0
-2026-04-01,AMZN,"AMAZON.COM, INC.",Consumer Discretionary,Consumer Discretionary,-5.0,-14.0,-9.0
-2026-04-01,ANET,"ARISTA NETWORKS, INC.",Information Technology,Information Technology,-31.0,-56.0,-25.0
-2026-04-01,AON,AON PLC,Financials,Financials,-28.0,4.0,32.0
-2026-04-01,AOS,A. O. SMITH ,Industrials,Industrials,-13.0,-13.0,0.0
-2026-04-01,APA,APA ,Energy,Energy,42.0,20.0,-22.0
-2026-04-01,APD,"AIR PRODUCTS AND CHEMICALS, INC.",Materials,Materials,48.0,10.0,-38.0
-2026-04-01,APH,AMPHENOL ,Information Technology,Information Technology,67.0,47.0,-20.0
-2026-04-01,APO,"APOLLO GLOBAL MANAGEMENT, INC.",Financials,Financials,-7.0,-21.0,-14.0
-2026-04-01,APP,APPLOVIN CORP,Information Technology,Information Technology,25.0,6.0,-19.0
-2026-04-01,APTV,APTIV PLC,Consumer Discretionary,Consumer Discretionary,-45.0,-4.0,41.0
-2026-04-01,ARE,"ALEXANDRIA REAL ESTATE EQUITIES, INC.",Real Estate,Real Estate,-40.0,-4.0,36.0
-2026-04-01,ARES,ARES MANAGEMENT CORP,Financials,Financials,-19.0,-5.0,14.0
-2026-04-01,ASC,ARDMORE SHIPPING ,,MR Discretion,26.0,81.0,55.0
-2026-04-01,ATO,ATMOS ENERGY ,Utilities,Utilities,-5.0,84.0,89.0
-2026-04-01,AVB,"AVALONBAY COMMUNITIES, INC.",Real Estate,Real Estate,-50.0,-38.0,12.0
-2026-04-01,AVGO,BROADCOM INC.,Information Technology,Information Technology,-21.0,4.0,25.0
-2026-04-01,AVY,AVERY DENNISON ,Materials,Materials,50.0,50.0,0.0
-2026-04-01,AWK,"AMERICAN WATER WORKS COMPANY, INC.",Utilities,Utilities,5.0,22.0,17.0
-2026-04-01,AXON,"AXON ENTERPRISE, INC.",Industrials,Industrials,7.0,-31.0,-38.0
-2026-04-01,AXP,AMERICAN EXPRESS COMPANY,Financials,Financials,-65.0,-9.0,56.0
-2026-04-01,AZO,"AUTOZONE, INC.",Consumer Discretionary,Consumer Discretionary,-2.0,40.0,42.0
-2026-04-01,BA,THE BOEING COMPANY,Industrials,Industrials,-24.0,-13.0,11.0
-2026-04-01,BAC,BANK OF AMERICA ,Financials,Financials,-51.0,5.0,56.0
-2026-04-01,BALL,BALL ,Materials,Materials,12.0,40.0,28.0
-2026-04-01,BAX,BAXTER INTERNATIONAL INC.,Health Care,Health Care,-12.0,4.0,16.0
-2026-04-01,BBY,"BEST BUY CO., INC.",Consumer Discretionary,Consumer Discretionary,51.0,34.0,-17.0
-2026-04-01,BDX,"BECTON, DICKINSON AND COMPANY",Health Care,Health Care,-4.0,23.0,27.0
-2026-04-01,BEN,"FRANKLIN RESOURCES, INC.",Financials,Financials,4.0,15.0,11.0
-2026-04-01,BF.B,BROWN-FORMAN ,Consumer Staples,Consumer Staples,33.0,39.0,6.0
-2026-04-01,BG,BUNGE LIMITED,Consumer Staples,Consumer Staples,44.0,48.0,4.0
-2026-04-01,BIIB,BIOGEN INC.,Health Care,Health Care,-19.0,25.0,44.0
-2026-04-01,BK,THE BANK OF NEW YORK MELLON ,Financials,Financials,-33.0,29.0,62.0
-2026-04-01,BKNG,BOOKING HOLDINGS INC.,Consumer Discretionary,Consumer Discretionary,-23.0,-48.0,-25.0
-2026-04-01,BKR,BAKER HUGHES COMPANY,Energy,Energy,-20.0,51.0,71.0
-2026-04-01,BLDR,"BUILDERS FIRSTSOURCE, INC.",Industrials,Industrials,15.0,2.0,-13.0
-2026-04-01,BLK,"BLACKROCK, INC.",Financials,Financials,-65.0,-13.0,52.0
-2026-04-01,BMY,BRISTOL-MYERS SQUIBB COMPANY,Health Care,Health Care,7.0,60.0,53.0
-2026-04-01,BR,"BROADRIDGE FINANCIAL SOLUTIONS, INC.",Industrials,Industrials,-27.0,-38.0,-11.0
-2026-04-01,BRK.B,"BERKSHIRE HATHAWAY INC.,",Financials,Financials,18.0,-15.0,-33.0
-2026-04-01,BRO,"BROWN & BROWN, INC.",Financials,Financials,14.0,-27.0,-41.0
-2026-04-01,BSX,BOSTON SCIENTIFIC ,Health Care,Health Care,1.0,-35.0,-36.0
-2026-04-01,BTC=F,BITCOIN FUTURES,,Futures,30.0,-20.0,-50.0
-2026-04-01,BTI,BRITISH AMERICAN TOBACCO P.L.C.,,MR Discretion,-42.0,3.0,45.0
-2026-04-01,BTU,PEABODY ENERGY ,,MR Discretion,-9.0,-8.0,1.0
-2026-04-01,BX,BLACKSTONE INC,Financials,Financials,-35.0,-21.0,14.0
-2026-04-01,BXP,"BOSTON PROPERTIES, INC.",Real Estate,Real Estate,-96.0,-38.0,58.0
-2026-04-01,C,CITIGROUP INC.,Financials,Financials,-20.0,12.0,32.0
-2026-04-01,CAG,"CONAGRA BRANDS, INC.",Consumer Staples,Consumer Staples,18.0,18.0,0.0
-2026-04-01,CAH,"CARDINAL HEALTH, INC.",Health Care,Health Care,7.0,40.0,33.0
-2026-04-01,CALM,"CAL-MAINE FOODS, INC.",,MR Discretion,-10.0,43.0,53.0
-2026-04-01,CANE,TEUCRIUM:SUGAR,,Commodities,89.0,12.0,-77.0
-2026-04-01,CARR,CARRIER GLOBAL ,Industrials,Industrials,-31.0,3.0,34.0
-2026-04-01,CAT,CATERPILLAR INC.,Industrials,Industrials,-9.0,46.0,55.0
-2026-04-01,CB,CHUBB LTD,Financials,Financials,-23.0,4.0,27.0
-2026-04-01,CBOE,"CBOE GLOBAL MARKETS, INC.",Financials,Financials,-16.0,28.0,44.0
-2026-04-01,CBRE,"CBRE GROUP, INC.",Real Estate,Real Estate,-39.0,-12.0,27.0
-2026-04-01,CCI,CROWN CASTLE INC.,Real Estate,Real Estate,27.0,9.0,-18.0
-2026-04-01,CCJ,CAMECO ,,MR Discretion,28.0,40.0,12.0
-2026-04-01,CCL,CARNIVAL CORP,Consumer Discretionary,Consumer Discretionary,-24.0,-22.0,2.0
-2026-04-01,CDNS,"CADENCE DESIGN SYSTEMS, INC.",Information Technology,Information Technology,21.0,-21.0,-42.0
-2026-04-01,CDW,CDW ,Information Technology,Information Technology,16.0,-10.0,-26.0
-2026-04-01,CEG,CONSTELLATION ENERGY,Utilities,Utilities,-25.0,-13.0,12.0
-2026-04-01,CF,"CF INDUSTRIES HOLDINGS, INC.",Materials,Materials,94.0,27.0,-67.0
-2026-04-01,CFG,"CITIZENS FINANCIAL GROUP, INC.",Financials,Financials,-62.0,12.0,74.0
-2026-04-01,CHD,"CHURCH & DWIGHT CO., INC.",Consumer Staples,Consumer Staples,-39.0,-12.0,27.0
-2026-04-01,CHRW,"C.H. ROBINSON WORLDWIDE, INC.",Industrials,Industrials,-18.0,10.0,28.0
-2026-04-01,CHTR,"CHARTER COMMUNICATIONS, INC.",Communication Services,Communication Services,-42.0,-47.0,-5.0
-2026-04-01,CI,THE CIGNA GROUP,Health Care,Health Care,-36.0,-27.0,9.0
-2026-04-01,CIEN,CIENA CORPORATION,Information Technology,Information Technology,-50.0,-8.0,42.0
-2026-04-01,CINF,CINCINNATI FINANCIAL ,Financials,Financials,65.0,45.0,-20.0
-2026-04-01,CL,COLGATE-PALMOLIVE COMPANY,Consumer Staples,Consumer Staples,-15.0,9.0,24.0
-2026-04-01,CLX,THE CLOROX COMPANY,Consumer Staples,Consumer Staples,-30.0,4.0,34.0
-2026-04-01,CMBT,CMB.TECH NV,,MR Discretion,-9.0,36.0,45.0
-2026-04-01,CMCSA,COMCAST ,Communication Services,Communication Services,-46.0,18.0,64.0
-2026-04-01,CME,CME GROUP INC.,Financials,Financials,45.0,30.0,-15.0
-2026-04-01,CMG,"CHIPOTLE MEXICAN GRILL, INC.",Consumer Discretionary,Consumer Discretionary,-5.0,-16.0,-11.0
-2026-04-01,CMI,CUMMINS INC.,Industrials,Industrials,65.0,47.0,-18.0
-2026-04-01,CMRE,COSTAMARE INC.,,MR Discretion,-37.0,54.0,91.0
-2026-04-01,CMS,CMS ENERGY ,Utilities,Utilities,2.0,30.0,28.0
-2026-04-01,CNC,CENTENE ,Health Care,Health Care,-9.0,-23.0,-14.0
-2026-04-01,CNP,"CENTERPOINT ENERGY, INC.",Utilities,Utilities,-31.0,53.0,84.0
-2026-04-01,CNR,"CORE NATURAL RESOURCES, INC.",,MR Discretion,32.0,30.0,-2.0
-2026-04-01,COF,CAPITAL ONE FINANCIAL ,Financials,Financials,-8.0,-12.0,-4.0
-2026-04-01,COIN,"COINBASE GLOBAL, INC.",Financials,Financials,14.0,-39.0,-53.0
-2026-04-01,COMT,ISHARES:GSCI COMM DYN RS,,Commodities,91.0,43.0,-48.0
-2026-04-01,COO,"THE COOPER COMPANIES, INC.",Health Care,Health Care,-8.0,3.0,11.0
-2026-04-01,COP,CONOCOPHILLIPS,Energy,Energy,58.0,36.0,-22.0
-2026-04-01,COR,"CENCORA, INC.",Health Care,Health Care,16.0,49.0,33.0
-2026-04-01,CORN,TEUCRIUM:CORN,,Commodities,43.0,15.0,-28.0
-2026-04-01,COST,COSTCO WHOLESALE ,Consumer Staples,Consumer Staples,0.0,-5.0,-5.0
-2026-04-01,CPAY,"FLEETCOR TECHNOLOGIES, INC.",Financials,Financials,-50.0,-15.0,35.0
-2026-04-01,CPB,CAMPBELL SOUP COMPANY,Consumer Staples,Consumer Staples,11.0,11.0,0.0
-2026-04-01,CPER,UNITED STATES COPPER IDX,,Commodities,-10.0,27.0,37.0
-2026-04-01,CPRT,"COPART, INC.",Industrials,Industrials,-50.0,-38.0,12.0
-2026-04-01,CPT,CAMDEN PROPERTY TRUST,Real Estate,Real Estate,-21.0,-21.0,0.0
-2026-04-01,CRESY,CRESUD INC.,,MR Discretion,-44.0,-51.0,-7.0
-2026-04-01,CRH,CRH PUBLIC LIMITED COMPANY,Materials,Materials,-45.0,13.0,58.0
-2026-04-01,CRL,CHARLES RIVER LABORATORIES,Health Care,Health Care,-30.0,6.0,36.0
-2026-04-01,CRM,"SALESFORCE, INC.",Information Technology,Information Technology,5.0,-21.0,-26.0
-2026-04-01,CRWD,"CROWDSTRIKE HOLDINGS, INC.",Information Technology,Information Technology,-23.0,-48.0,-25.0
-2026-04-01,CSCO,"CISCO SYSTEMS, INC.",Information Technology,Information Technology,10.0,44.0,34.0
-2026-04-01,CSGP,"COSTAR GROUP, INC.",Real Estate,Real Estate,-22.0,-38.0,-16.0
-2026-04-01,CSX,CSX ,Industrials,Industrials,-45.0,17.0,62.0
-2026-04-01,CTAS,CINTAS ,Industrials,Industrials,-8.0,-21.0,-13.0
-2026-04-01,CTRA,COTERRA ENERGY INC.,Energy,Energy,53.0,31.0,-22.0
-2026-04-01,CTSH,COGNIZANT TECHNOLOGY SOLUTIONS ,Information Technology,Information Technology,2.0,5.0,3.0
-2026-04-01,CTVA,"CORTEVA, INC.",Materials,Materials,41.0,38.0,-3.0
-2026-04-01,CVNA,CARVANA CO.,Consumer Discretionary,Consumer Discretionary,17.0,3.0,-14.0
-2026-04-01,CVS,CVS HEALTH ,Health Care,Health Care,-34.0,-21.0,13.0
-2026-04-01,CVX,CHEVRON ,Energy,Energy,2.0,-6.0,-8.0
-2026-04-01,D,"DOMINION ENERGY, INC.",Utilities,Utilities,-21.0,34.0,55.0
-2026-04-01,DAL,"DELTA AIR LINES, INC.",Industrials,Industrials,-39.0,6.0,45.0
-2026-04-01,DASH,"DOORDASH, INC.",Consumer Discretionary,Consumer Discretionary,18.0,-38.0,-56.0
-2026-04-01,DBA,INVESCO DB MS AGRI,,Commodities,5.0,-30.0,-35.0
-2026-04-01,DBB,INVESCO DB MS BMTL,,Commodities,63.0,54.0,-9.0
-2026-04-01,DBC,INVESCO DB CM IDX,,Commodities,60.0,43.0,-17.0
-2026-04-01,DD,"DUPONT DE NEMOURS, INC.",Materials,Materials,61.0,84.0,23.0
-2026-04-01,DDOG,"DATADOG, INC.",Information Technology,Information Technology,-10.0,-5.0,5.0
-2026-04-01,DE,DEERE & COMPANY,Industrials,Industrials,25.0,55.0,30.0
-2026-04-01,DECK,DECKERS OUTDOOR ,Consumer Discretionary,Consumer Discretionary,-15.0,-18.0,-3.0
-2026-04-01,DELL,DELL TECHNOLOGIES INC.,Information Technology,Information Technology,13.0,-14.0,-27.0
-2026-04-01,DG,DOLLAR GENERAL ,Consumer Staples,Consumer Staples,-26.0,8.0,34.0
-2026-04-01,DGX,QUEST DIAGNOSTICS INC.,Health Care,Health Care,-17.0,38.0,55.0
-2026-04-01,DHI,"D.R. HORTON, INC.",Consumer Discretionary,Consumer Discretionary,-33.0,32.0,65.0
-2026-04-01,DHR,DANAHER ,Health Care,Health Care,-22.0,12.0,34.0
-2026-04-01,DHT,"DHT HOLDINGS, INC.",,MR Discretion,-34.0,35.0,69.0
-2026-04-01,DIA,SPDR DOW JONES INDUS AVG,,Sector & Style ETFs,-25.0,-14.0,11.0
-2026-04-01,DIS,THE WALT DISNEY COMPANY,Communication Services,Communication Services,10.0,-23.0,-33.0
-2026-04-01,DJI,DOW JONES INDUSTRIAL AVG INDEX,,Indices,-23.0,-29.0,-6.0
-2026-04-01,DLR,"DIGITAL REALTY TRUST, INC.",Real Estate,Real Estate,29.0,3.0,-26.0
-2026-04-01,DLTR,"DOLLAR TREE, INC.",Consumer Staples,Consumer Staples,10.0,35.0,25.0
-2026-04-01,DOC,"HEALTHDOC PROPERTIES, INC.",Real Estate,Real Estate,-39.0,23.0,62.0
-2026-04-01,DOV,DOVER ,Industrials,Industrials,-36.0,47.0,83.0
-2026-04-01,DOW,DOW INC.,Materials,Materials,14.0,-37.0,-51.0
-2026-04-01,DPZ,"DOMINO'S PIZZA, INC.",Consumer Discretionary,Consumer Discretionary,-25.0,-21.0,4.0
-2026-04-01,DRI,"DARDEN RESTAURANTS, INC.",Consumer Discretionary,Consumer Discretionary,12.0,30.0,18.0
-2026-04-01,DTE,DTE ENERGY COMPANY,Utilities,Utilities,-23.0,30.0,53.0
-2026-04-01,DUK,DUKE ENERGY ,Utilities,Utilities,21.0,95.0,74.0
-2026-04-01,DVA,DAVITA INC.,Health Care,Health Care,6.0,12.0,6.0
-2026-04-01,DVN,DEVON ENERGY ,Energy,Energy,57.0,35.0,-22.0
-2026-04-01,DXCM,"DEXCOM, INC.",Health Care,Health Care,-3.0,-21.0,-18.0
-2026-04-01,DXY,US DOLLAR INDEX,USD,Indices,24.0,-27.0,-51.0
-2026-04-01,EA,ELECTRONIC ARTS INC.,Communication Services,Communication Services,-16.0,-4.0,12.0
-2026-04-01,EBAY,EBAY INC.,Consumer Discretionary,Consumer Discretionary,10.0,2.0,-8.0
-2026-04-01,EC,ECOPETROL SA,,MR Discretion,39.0,2.0,-37.0
-2026-04-01,ECH,ISHARES:MSCI CHILE,,Foreign,22.0,22.0,0.0
-2026-04-01,ECL,ECOLAB INC.,Materials,Materials,21.0,21.0,0.0
-2026-04-01,ED,"CONSOLIDATED EDISON, INC.",Utilities,Utilities,0.0,66.0,66.0
-2026-04-01,EDEN,ISHARES:MSCI DENMARK,,Foreign,-65.0,-18.0,47.0
-2026-04-01,EDV,VANGUARD EXT DUR T;ETF,Bonds,Bonds,0.0,55.0,55.0
-2026-04-01,EFNL,ISHARES:MSCI FINLAND,,Foreign,48.0,24.0,-24.0
-2026-04-01,EFX,EQUIFAX INC.,Industrials,Industrials,-9.0,-21.0,-12.0
-2026-04-01,EG,"EVEREST GROUP, LTD.",Financials,Financials,-7.0,2.0,9.0
-2026-04-01,EIDO,ISHARES:MSCI INDONESIA,,Foreign,-43.0,12.0,55.0
-2026-04-01,EIRL,ISHARES:MSCI IRELAND,,Foreign,-19.0,-3.0,16.0
-2026-04-01,EIS,ISHARES:MSCI ISRAEL,,Foreign,21.0,20.0,-1.0
-2026-04-01,EIX,EDISON INTERNATIONAL,Utilities,Utilities,-12.0,-4.0,8.0
-2026-04-01,EL,THE ESTEE LAUDER COMPANIES INC.,Consumer Staples,Consumer Staples,18.0,20.0,2.0
-2026-04-01,ELV,"ELEVANCE HEALTH, INC.",Health Care,Health Care,-76.0,-50.0,26.0
-2026-04-01,EME,"EMCOR GROUP, INC.",Industrials,Industrials,-27.0,10.0,37.0
-2026-04-01,EMR,EMERSON ELECTRIC CO.,Industrials,Industrials,31.0,11.0,-20.0
-2026-04-01,ENZL,ISHARES:MSCI NEW ZLND,,Foreign,-21.0,15.0,36.0
-2026-04-01,EOG,"EOG RESOURCES, INC.",Energy,Energy,70.0,48.0,-22.0
-2026-04-01,EPAM,"EPAM SYSTEMS, INC.",Information Technology,Information Technology,-19.0,-26.0,-7.0
-2026-04-01,EPHE,ISHARES:MSCI PHILIPPINES,,Foreign,-13.0,3.0,16.0
-2026-04-01,EPOL,ISHARES:MSCI POLAND,,Foreign,14.0,14.0,0.0
-2026-04-01,EPU,ISHARES:MSCI PERU,,Foreign,14.0,35.0,21.0
-2026-04-01,EQIX,"EQUINIX, INC.",Real Estate,Real Estate,-42.0,-22.0,20.0
-2026-04-01,EQR,EQUITY RESIDENTIAL,Real Estate,Real Estate,-24.0,-5.0,19.0
-2026-04-01,EQT,EQT ,Energy,Energy,75.0,52.0,-23.0
-2026-04-01,ERIE,ERIE INDEMNITY COMPANY,Financials,Financials,-3.0,-23.0,-20.0
-2026-04-01,ES,EVERSOURCE ENERGY,Utilities,Utilities,-9.0,22.0,31.0
-2026-04-01,ES=F,E-MINI S&P 500 FUTURES,,Futures,-18.0,-22.0,-4.0
-2026-04-01,ESS,"ESSEX PROPERTY TRUST, INC.",Real Estate,Real Estate,-50.0,-38.0,12.0
-2026-04-01,ETN,EATON  PUBLIC LIMITED COMPANY,Industrials,Industrials,-36.0,-14.0,22.0
-2026-04-01,ETR,ENTERGY ,Utilities,Utilities,-42.0,21.0,63.0
-2026-04-01,EVRG,"EVERGY, INC.",Utilities,Utilities,0.0,77.0,77.0
-2026-04-01,EW,EDWARDS LIFESCIENCES ,Health Care,Health Care,-21.0,-33.0,-12.0
-2026-04-01,EWA,ISHARES:MSCI AUSTRALIA,,Foreign,-49.0,-13.0,36.0
-2026-04-01,EWC,ISHARES:MSCI CANADA,,Foreign,-32.0,-1.0,31.0
-2026-04-01,EWD,ISHARES:MSCI SWEDEN,,Foreign,-13.0,-13.0,0.0
-2026-04-01,EWG,ISHARES:MSCI GERMANY,,Foreign,-13.0,-13.0,0.0
-2026-04-01,EWH,ISHARES:MSCI HONG KONG,,Foreign,39.0,76.0,37.0
-2026-04-01,EWI,ISHARES:MSCI ITALY,,Foreign,3.0,3.0,0.0
-2026-04-01,EWJ,ISHARES:MSCI JAPAN,,Foreign,10.0,21.0,11.0
-2026-04-01,EWK,ISHARES:MSCI BELGIUM,,Foreign,40.0,40.0,0.0
-2026-04-01,EWL,ISHARES:MSCI SWITZERLAND,,Foreign,32.0,32.0,0.0
-2026-04-01,EWM,ISHARES:MSCI MALAYSIA,,Foreign,-14.0,40.0,54.0
-2026-04-01,EWN,ISHARES:MSCI NETHERLANDS,,Foreign,42.0,4.0,-38.0
-2026-04-01,EWO,ISHARES:MSCI AUSTRIA,,Foreign,41.0,41.0,0.0
-2026-04-01,EWP,ISHARES:MSCI SPAIN,,Foreign,-40.0,-6.0,34.0
-2026-04-01,EWQ,ISHARES:MSCI FRANCE,,Foreign,-3.0,31.0,34.0
-2026-04-01,EWS,ISHARES:MSCI SINGAPORE,,Foreign,-69.0,-5.0,64.0
-2026-04-01,EWT,ISHARES:MSCI TAIWAN,,Foreign,1.0,8.0,7.0
-2026-04-01,EWU,ISHARES:MSCI UK,,Foreign,19.0,48.0,29.0
-2026-04-01,EWW,ISHARES:MSCI MEXICO,,Foreign,-20.0,3.0,23.0
-2026-04-01,EWY,ISHARES:MSCI S KOREA,,Foreign,25.0,37.0,12.0
-2026-04-01,EWZ,ISHARES:MSCI BRAZIL,,Foreign,-46.0,23.0,69.0
-2026-04-01,EXC,EXELON ,Utilities,Utilities,0.0,34.0,34.0
-2026-04-01,EXE,EXPAND ENERGY ,Energy,Energy,45.0,26.0,-19.0
-2026-04-01,EXPD,EXPEDITORS INTERNATIONAL OF WASHINGTON,Industrials,Industrials,-25.0,19.0,44.0
-2026-04-01,EXPE,"EXPEDIA GROUP, INC.",Consumer Discretionary,Consumer Discretionary,-10.0,-5.0,5.0
-2026-04-01,EXR,EXTRA SPACE STORAGE INC.,Real Estate,Real Estate,-12.0,8.0,20.0
-2026-04-01,F,FORD MOTOR COMPANY,Consumer Discretionary,Consumer Discretionary,-45.0,-21.0,24.0
-2026-04-01,FANG,"DIAMONDBACK ENERGY, INC.",Energy,Energy,33.0,7.0,-26.0
-2026-04-01,FAST,FASTENAL COMPANY,Industrials,Industrials,-7.0,29.0,36.0
-2026-04-01,FCX,FREEPORT-MCMORAN INC.,Materials,Materials,-5.0,32.0,37.0
-2026-04-01,FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,Financials,54.0,7.0,-47.0
-2026-04-01,FDX,FEDEX ,Industrials,Industrials,-8.0,15.0,23.0
-2026-04-01,FE,FIRSTENERGY CORP.,Utilities,Utilities,-25.0,34.0,59.0
-2026-04-01,FFIV,"F5, INC.",Information Technology,Information Technology,0.0,2.0,2.0
-2026-04-01,FICO,FAIR ISAAC ,Information Technology,Information Technology,-53.0,-53.0,-0.0
-2026-04-01,FIS,FIDELITY NATIONAL INFORMATION SERVICES,Financials,Financials,0.0,-38.0,-38.0
-2026-04-01,FISV,"FISERV, INC.",Financials,Financials,51.0,-12.0,-63.0
-2026-04-01,FITB,FIFTH THIRD BANCORP,Financials,Financials,-22.0,22.0,44.0
-2026-04-01,FIX,"COMFORT SYSTEMS USA, INC.",Industrials,Industrials,22.0,64.0,42.0
-2026-04-01,FOXA,FOX ,Communication Services,Communication Services,43.0,-5.0,-48.0
-2026-04-01,FRO,FRONTLINE PLC,,MR Discretion,24.0,45.0,21.0
-2026-04-01,FRT,FEDERAL REALTY INVESTMENT TRUST,Real Estate,Real Estate,-5.0,4.0,9.0
-2026-04-01,FSLR,"FIRST SOLAR, INC.",Information Technology,Information Technology,-31.0,-5.0,26.0
-2026-04-01,FTI,TECHNIPFMC PLC,,MR Discretion,2.0,60.0,58.0
-2026-04-01,FTNT,"FORTINET, INC.",Information Technology,Information Technology,76.0,29.0,-47.0
-2026-04-01,FTV,FORTIVE ,Industrials,Industrials,-21.0,-17.0,4.0
-2026-04-01,FVX,5 YR TSY YLD NDX,Yields,Yields,7.0,-44.0,-51.0
-2026-04-01,FXA,INVESCO:AU DOLLAR,,Currencies,-14.0,-3.0,11.0
-2026-04-01,FXB,INVESCO:GBP STERLING,,Currencies,-22.0,17.0,39.0
-2026-04-01,FXC,INVESCO:CANADIAN DOLLAR,,Currencies,22.0,33.0,11.0
-2026-04-01,FXE,INVESCO:EURO,,Currencies,-25.0,8.0,33.0
-2026-04-01,FXY,INVESCO:JAPANESE YEN,,Currencies,-44.0,3.0,47.0
-2026-04-01,GD,GENERAL DYNAMICS ,Industrials,Industrials,-26.0,9.0,35.0
-2026-04-01,GDDY,GODADDY INC.,Information Technology,Information Technology,21.0,-21.0,-42.0
-2026-04-01,GDX,VANECK:GOLD MINERS,,Commodities,0.0,0.0,0.0
-2026-04-01,GDXJ,VANECK:JR GOLD MINERS,,Commodities,0.0,0.0,0.0
-2026-04-01,GE,GENERAL ELECTRIC COMPANY,Industrials,Industrials,7.0,-6.0,-13.0
-2026-04-01,GEHC,GE HEALTHCARE TECHNOLOGIES INC.,Health Care,Health Care,-89.0,-16.0,73.0
-2026-04-01,GEN,GEN DIGITAL INC.,Information Technology,Information Technology,-6.0,-4.0,2.0
-2026-04-01,GEOS,GEOSPACE TECHNOLOGIES ,,MR Discretion,0.0,-35.0,-35.0
-2026-04-01,GEV,GE VERNOVA INC.,Industrials,Industrials,-89.0,12.0,101.0
-2026-04-01,GGB,GERDAU SA,,MR Discretion,-20.0,13.0,33.0
-2026-04-01,GILD,"GILEAD SCIENCES, INC.",Health Care,Health Care,-35.0,-15.0,20.0
-2026-04-01,GIS,"GENERAL MILLS, INC.",Consumer Staples,Consumer Staples,-21.0,-21.0,0.0
-2026-04-01,GL,GLOBE LIFE INC.,Financials,Financials,65.0,53.0,-12.0
-2026-04-01,GLATF,GLOBAL ATOMIC ,,MR Discretion,19.0,24.0,5.0
-2026-04-01,GLD,SPDR GOLD,Gold,Commodities,0.0,0.0,0.0
-2026-04-01,GLW,CORNING INC.,Information Technology,Information Technology,-32.0,31.0,63.0
-2026-04-01,GM,GENERAL MOTORS COMPANY,Consumer Discretionary,Consumer Discretionary,23.0,47.0,24.0
-2026-04-01,GNK,GENCO SHIPPING & TRADING LIMITED,,MR Discretion,-33.0,50.0,83.0
-2026-04-01,GNRC,GENERAC HOLDINGS INC.,Industrials,Industrials,8.0,31.0,23.0
-2026-04-01,GOOGL,ALPHABET INC.,Communication Services,Communication Services,60.0,47.0,-13.0
-2026-04-01,GPC,GENUINE PARTS COMPANY,Consumer Discretionary,Consumer Discretionary,30.0,57.0,27.0
-2026-04-01,GPN,GLOBAL PAYMENTS INC.,Financials,Financials,12.0,-21.0,-33.0
-2026-04-01,GREK,GLBL X MSCI GREECE,,Foreign,-11.0,-5.0,6.0
-2026-04-01,GRMN,GARMIN LTD,Consumer Discretionary,Consumer Discretionary,-49.0,11.0,60.0
-2026-04-01,GS,"THE GOLDMAN SACHS GROUP, INC.",Financials,Financials,-50.0,22.0,72.0
-2026-04-01,GWW,"W.W. GRAINGER, INC.",Industrials,Industrials,-7.0,5.0,12.0
-2026-04-01,HAL,HALLIBURTON COMPANY,Energy,Energy,43.0,31.0,-12.0
-2026-04-01,HAS,"HASBRO, INC.",Consumer Discretionary,Consumer Discretionary,88.0,71.0,-17.0
-2026-04-01,HBAN,HUNTINGTON BANCSHARES INC.,Financials,Financials,-40.0,22.0,62.0
-2026-04-01,HCA,"HCA HEALTHCARE, INC.",Health Care,Health Care,43.0,23.0,-20.0
-2026-04-01,HD,"THE HOME DEPOT, INC.",Consumer Discretionary,Consumer Discretionary,31.0,31.0,0.0
-2026-04-01,HIG,THE HARTFORD FINANCIAL SERVICES GROUP,Financials,Financials,73.0,50.0,-23.0
-2026-04-01,HII,"HUNTINGTON INGALLS INDUSTRIES, INC.",Industrials,Industrials,4.0,27.0,23.0
-2026-04-01,HLT,HILTON WORLDWIDE HOLDINGS INC.,Consumer Discretionary,Consumer Discretionary,19.0,21.0,2.0
-2026-04-01,HLX,"HELIX ENERGY SOLUTIONS GROUP, INC.",,MR Discretion,63.0,40.0,-23.0
-2026-04-01,HOLX,"HOLOGIC, INC.",Health Care,Health Care,-33.0,-43.0,-10.0
-2026-04-01,HON,HONEYWELL INTERNATIONAL INC.,Industrials,Industrials,42.0,55.0,13.0
-2026-04-01,HOOD,"ROBINHOOD MARKETS, INC.",Financials,Financials,25.0,6.0,-19.0
-2026-04-01,HPE,HEWLETT PACKARD ENTERPRISE COMPANY,Information Technology,Information Technology,-25.0,8.0,33.0
-2026-04-01,HPQ,HP INC.,Information Technology,Information Technology,69.0,23.0,-46.0
-2026-04-01,HRL,HORMEL FOODS ,Consumer Staples,Consumer Staples,40.0,43.0,3.0
-2026-04-01,HSIC,"HENRY SCHEIN, INC.",Health Care,Health Care,-15.0,8.0,23.0
-2026-04-01,HST,"HOST HOTELS & RESORTS, INC.",Real Estate,Real Estate,-88.0,-23.0,65.0
-2026-04-01,HSY,THE HERSHEY COMPANY,Consumer Staples,Consumer Staples,-18.0,2.0,20.0
-2026-04-01,HUBB,HUBBELL INC.,Industrials,Industrials,-75.0,-22.0,53.0
-2026-04-01,HUM,HUMANA INC.,Health Care,Health Care,-37.0,6.0,43.0
-2026-04-01,HWM,HOWMET AEROSPACE INC.,Industrials,Industrials,23.0,56.0,33.0
-2026-04-01,HYD,VANECK:HIGH YIELD MUNI,,Bonds,-22.0,14.0,36.0
-2026-04-01,HYG,ISHARES:IBOXX $HY CORP,Bonds,Bonds,-46.0,-13.0,33.0
-2026-04-01,IBKR,"INTERACTIVE BROKERS GROUP, INC.",Financials,Financials,-21.0,3.0,24.0
-2026-04-01,IBM,INTERNATIONAL BUSINESS MACHINES ,Information Technology,Information Technology,4.0,-21.0,-25.0
-2026-04-01,ICE,"INTERCONTINENTAL EXCHANGE, INC.",Financials,Financials,-57.0,-21.0,36.0
-2026-04-01,ICL,ICL GROUP LTD,,MR Discretion,-60.0,-35.0,25.0
-2026-04-01,IDXX,"IDEXX LABORATORIES, INC.",Health Care,Health Care,-18.0,9.0,27.0
-2026-04-01,IEF,ISHARES:7-10 TRS BD ETF,Bonds,Bonds,-58.0,15.0,73.0
-2026-04-01,IEX,IDEX ,Industrials,Industrials,-14.0,-10.0,4.0
-2026-04-01,IFF,INTERNATIONAL FLAVORS & FRAGRANCES INC.,Materials,Materials,-66.0,-13.0,53.0
-2026-04-01,INCY,INCYTE ,Health Care,Health Care,38.0,71.0,33.0
-2026-04-01,INDA,ISHARES:MSCI INDIA,,Foreign,-16.0,-5.0,11.0
-2026-04-01,INTC,INTEL ,Information Technology,Information Technology,-72.0,-19.0,53.0
-2026-04-01,INTU,INTUIT INC.,Information Technology,Information Technology,43.0,-21.0,-64.0
-2026-04-01,INVH,INVITATION HOMES INC.,Real Estate,Real Estate,-27.0,-38.0,-11.0
-2026-04-01,IP,INTERNATIONAL PAPER COMPANY,Materials,Materials,-27.0,-13.0,14.0
-2026-04-01,IQV,IQVIA HOLDINGS INC,Health Care,Health Care,-22.0,-5.0,17.0
-2026-04-01,IR,INGERSOLL RAND INC.,Industrials,Industrials,-38.0,-14.0,24.0
-2026-04-01,IRM,IRON MOUNTAIN INC.,Real Estate,Real Estate,16.0,4.0,-12.0
-2026-04-01,ISRG,"INTUITIVE SURGICAL, INC.",Health Care,Health Care,15.0,4.0,-11.0
-2026-04-01,IT,"GARTNER, INC.",Information Technology,Information Technology,10.0,-37.0,-47.0
-2026-04-01,ITW,ILLINOIS TOOL WORKS INC.,Industrials,Industrials,-22.0,15.0,37.0
-2026-04-01,IVZ,INVESCO LTD.,Financials,Financials,-24.0,22.0,46.0
-2026-04-01,IWD,ISHARES:RUSS 1000 VL ETF,,Sector & Style ETFs,-20.0,-7.0,13.0
-2026-04-01,IWF,ISHARES:RUSS 1000 GR ETF,,Sector & Style ETFs,-68.0,-55.0,13.0
-2026-04-01,IWM,ISHARES:RUSS 2000 ETF,,Sector & Style ETFs,-30.0,12.0,42.0
-2026-04-01,J,JACOBS SOLUTIONS INC.,Industrials,Industrials,-58.0,-31.0,27.0
-2026-04-01,JBHT,"J. B. HUNT TRANSPORT SERVICES, INC.",Industrials,Industrials,28.0,48.0,20.0
-2026-04-01,JBL,JABIL INC.,Information Technology,Information Technology,-58.0,16.0,74.0
-2026-04-01,JCI,JOHNSON CONTROLS INTERNATIONAL PLC,Industrials,Industrials,-5.0,32.0,37.0
-2026-04-01,JKHY,"JACK HENRY & ASSOCIATES, INC.",Financials,Financials,14.0,46.0,32.0
-2026-04-01,JNJ,JOHNSON & JOHNSON,Health Care,Health Care,41.0,77.0,36.0
-2026-04-01,JNK,SPDR BBG HIGH YIELD BD,,Bonds,-53.0,-20.0,33.0
-2026-04-01,JPM,JPMORGAN CHASE & CO.,Financials,Financials,-4.0,5.0,9.0
-2026-04-01,KDP,KEURIG DR PEPPER INC.,Consumer Staples,Consumer Staples,-14.0,9.0,23.0
-2026-04-01,KEY,KEYCORP,Financials,Financials,-62.0,12.0,74.0
-2026-04-01,KEYS,"KEYSIGHT TECHNOLOGIES, INC.",Information Technology,Information Technology,-16.0,20.0,36.0
-2026-04-01,KHC,THE KRAFT HEINZ COMPANY,Consumer Staples,Consumer Staples,-46.0,7.0,53.0
-2026-04-01,KIM,KIMCO REALTY .,Real Estate,Real Estate,-8.0,9.0,17.0
-2026-04-01,KKR,KKR & CO. INC.,Financials,Financials,29.0,-5.0,-34.0
-2026-04-01,KLAC,KLA ,Information Technology,Information Technology,-47.0,37.0,84.0
-2026-04-01,KMB,KIMBERLY-CLARK ,Consumer Staples,Consumer Staples,-80.0,-35.0,45.0
-2026-04-01,KMI,"KINDER MORGAN, INC.",Energy,Energy,24.0,61.0,37.0
-2026-04-01,KO,THE COCA-COLA COMPANY,Consumer Staples,Consumer Staples,1.0,31.0,30.0
-2026-04-01,KR,THE KROGER CO.,Consumer Staples,Consumer Staples,59.0,-43.0,-102.0
-2026-04-01,KVUE,KENVUE INC.,Consumer Staples,Consumer Staples,12.0,-30.0,-42.0
-2026-04-01,L,LOEWS ,Financials,Financials,22.0,61.0,39.0
-2026-04-01,LDOS,"LEIDOS HOLDINGS, INC.",Industrials,Industrials,-22.0,-20.0,2.0
-2026-04-01,LEN,LENNAR ,Consumer Discretionary,Consumer Discretionary,-63.0,-35.0,28.0
-2026-04-01,LH,LABORATORY  OF AMERICA HOLDINGS,Health Care,Health Care,11.0,34.0,23.0
-2026-04-01,LHX,"L3HARRIS TECHNOLOGIES, INC.",Industrials,Industrials,-3.0,27.0,30.0
-2026-04-01,LII,LENNOX INTERNATIONAL INC.,Industrials,Industrials,-73.0,-32.0,41.0
-2026-04-01,LIN,LINDE PUBLIC LIMITED COMPANY,Materials,Materials,-4.0,-5.0,-1.0
-2026-04-01,LLY,ELI LILLY AND COMPANY,Health Care,Health Care,-4.0,5.0,9.0
-2026-04-01,LMT,LOCKHEED MARTIN ,Industrials,Industrials,-3.0,20.0,23.0
-2026-04-01,LNT,ALLIANT ENERGY ,Utilities,Utilities,-8.0,76.0,84.0
-2026-04-01,LOW,"LOWE'S COMPANIES, INC.",Consumer Discretionary,Consumer Discretionary,75.0,75.0,0.0
-2026-04-01,LQD,ISHARES:IBOXX $IG CORP,Bonds,Bonds,-6.0,30.0,36.0
-2026-04-01,LRCX,LAM RESEARCH ,Information Technology,Information Technology,-1.0,36.0,37.0
-2026-04-01,LULU,LULULEMON ATHLETICA INC.,Consumer Discretionary,Consumer Discretionary,20.0,-13.0,-33.0
-2026-04-01,LUV,SOUTHWEST AIRLINES CO.,Industrials,Industrials,17.0,17.0,0.0
-2026-04-01,LVS,LAS VEGAS SANDS CORP.,Consumer Discretionary,Consumer Discretionary,17.0,26.0,9.0
-2026-04-01,LW,"LAMB WESTON HOLDINGS, INC.",Consumer Staples,Consumer Staples,-10.0,33.0,43.0
-2026-04-01,LYB,LYONDELLBASELL INDUSTRIES NV,Materials,Materials,55.0,4.0,-51.0
-2026-04-01,LYV,"LIVE NATION ENTERTAINMENT, INC.",Communication Services,Communication Services,-45.0,-55.0,-10.0
-2026-04-01,MA,MASTERCARD INC..,Financials,Financials,15.0,4.0,-11.0
-2026-04-01,MAA,"MID-AMERICA APARTMENT COMMUNITIES, INC.",Real Estate,Real Estate,-1.0,-21.0,-20.0
-2026-04-01,MAR,"MARRIOTT INTERNATIONAL, INC.",Consumer Discretionary,Consumer Discretionary,-37.0,-5.0,32.0
-2026-04-01,MAS,MASCO ,Industrials,Industrials,-20.0,4.0,24.0
-2026-04-01,MCD,MCDONALD'S ,Consumer Discretionary,Consumer Discretionary,-15.0,20.0,35.0
-2026-04-01,MCHI,ISHARES:MSCI CHINA,,Foreign,-26.0,35.0,61.0
-2026-04-01,MCHP,MICROCHIP TECHNOLOGY INC.,Information Technology,Information Technology,-78.0,-18.0,60.0
-2026-04-01,MCK,MCKESSON ,Health Care,Health Care,-18.0,17.0,35.0
-2026-04-01,MCO,MOODY'S ,Financials,Financials,-27.0,-38.0,-11.0
-2026-04-01,MDLZ,"MONDELEZ INTERNATIONAL, INC.",Consumer Staples,Consumer Staples,40.0,62.0,22.0
-2026-04-01,MDT,MEDTRONIC PUBLIC LIMITED COMPANY,Health Care,Health Care,8.0,8.0,0.0
-2026-04-01,MDY,SPDR S&P MIDCAP 400 ETF,,Sector & Style ETFs,18.0,31.0,13.0
-2026-04-01,MET,"METLIFE, INC.",Financials,Financials,-61.0,-5.0,56.0
-2026-04-01,META,"META PLATFORMS, INC.",Communication Services,Communication Services,4.0,-24.0,-28.0
-2026-04-01,MGM,MGM RESORTS INTERNATIONAL,Consumer Discretionary,Consumer Discretionary,0.0,-10.0,-10.0
-2026-04-01,MKC,"MCCORMICK & COMPANY, INC.",Consumer Staples,Consumer Staples,10.0,44.0,34.0
-2026-04-01,MLM,"MARTIN MARIETTA MATERIALS, INC.",Materials,Materials,-21.0,-21.0,0.0
-2026-04-01,MMM,3M COMPANY,Industrials,Industrials,-47.0,-13.0,34.0
-2026-04-01,MNST,MONSTER BEVERAGE ,Consumer Staples,Consumer Staples,-26.0,2.0,28.0
-2026-04-01,MO,"ALTRIA GROUP, INC.",Consumer Staples,Consumer Staples,0.0,59.0,59.0
-2026-04-01,MOH,"MOLINA HEALTHCARE, INC.",Health Care,Health Care,18.0,-20.0,-38.0
-2026-04-01,MOS,THE MOSAIC COMPANY,Materials,Materials,-67.0,-11.0,56.0
-2026-04-01,MP,MP MATERIALS CORP,,MR Discretion,-114.0,-51.0,63.0
-2026-04-01,MPC,MARATHON PETROLEUM ,Energy,Energy,52.0,26.0,-26.0
-2026-04-01,MPWR,"MONOLITHIC POWER SYSTEMS, INC.",Information Technology,Information Technology,-83.0,10.0,93.0
-2026-04-01,MRK,"MERCK & CO., INC.",Health Care,Health Care,21.0,-1.0,-22.0
-2026-04-01,MRNA,"MODERNA, INC.",Health Care,Health Care,-13.0,-3.0,10.0
-2026-04-01,MRSH,"MARSH & MCLENNAN COMPANIES, INC.",Financials,Financials,45.0,12.0,-33.0
-2026-04-01,MS,MORGAN STANLEY,Financials,Financials,-34.0,22.0,56.0
-2026-04-01,MSCI,MSCI INC.,Financials,Financials,-16.0,-12.0,4.0
-2026-04-01,MSFT,MICROSOFT ,Information Technology,Information Technology,-27.0,-38.0,-11.0
-2026-04-01,MSI,"MOTOROLA SOLUTIONS, INC.",Information Technology,Information Technology,-15.0,-33.0,-18.0
-2026-04-01,MTB,M&T BANK ,Financials,Financials,-31.0,22.0,53.0
-2026-04-01,MTCH,"MATCH GROUP, INC.",Communication Services,Communication Services,-3.0,23.0,26.0
-2026-04-01,MTD,METTLER-TOLEDO INTERNATIONAL INC.,Health Care,Health Care,-47.0,20.0,67.0
-2026-04-01,MTUM,ISHARES:MSCI USA MOM FCT,,Sector & Style ETFs,-44.0,-35.0,9.0
-2026-04-01,MU,"MICRON TECHNOLOGY, INC.",Information Technology,Information Technology,45.0,37.0,-8.0
-2026-04-01,MUB,ISHARES:NATL MUNI BOND,,Bonds,13.0,49.0,36.0
-2026-04-01,NCLH,NORWEGIAN CRUISE LINE HOLDINGS LTD.,Consumer Discretionary,Consumer Discretionary,-10.0,-21.0,-11.0
-2026-04-01,NDAQ,"NASDAQ, INC.",Financials,Financials,12.0,-12.0,-24.0
-2026-04-01,NDSN,NORDSON ,Industrials,Industrials,-18.0,18.0,36.0
-2026-04-01,NDX,NASDAQ 100 INDEX,,Indices,19.0,-22.0,-41.0
-2026-04-01,NEE,"NEXTERA ENERGY, INC.",Utilities,Utilities,-23.0,42.0,65.0
-2026-04-01,NEM,NEWMONT ,Materials,Materials,79.0,79.0,0.0
-2026-04-01,NFLX,"NETFLIX, INC.",Communication Services,Communication Services,43.0,-5.0,-48.0
-2026-04-01,NI,NISOURCE INC.,Utilities,Utilities,-25.0,61.0,86.0
-2026-04-01,NKE,"NIKE, INC.",Consumer Discretionary,Consumer Discretionary,-63.0,-36.0,27.0
-2026-04-01,NOC,NORTHROP GRUMMAN ,Industrials,Industrials,-31.0,16.0,47.0
-2026-04-01,NORW,GLBL X MSCI NORWAY ETF,,Foreign,17.0,44.0,27.0
-2026-04-01,NOV,NOV INC.,,MR Discretion,26.0,69.0,43.0
-2026-04-01,NOW,"SERVICENOW, INC.",Information Technology,Information Technology,25.0,-21.0,-46.0
-2026-04-01,NQ=F,NASDAQ 100 FUTURES,,Futures,37.0,-4.0,-41.0
-2026-04-01,NRG,"NRG ENERGY, INC.",Utilities,Utilities,-33.0,-5.0,28.0
-2026-04-01,NSC,NORFOLK SOUTHERN ,Industrials,Industrials,12.0,56.0,44.0
-2026-04-01,NTAP,"NETAPP, INC.",Information Technology,Information Technology,0.0,-21.0,-21.0
-2026-04-01,NTRS,NORTHERN TRUST ,Financials,Financials,-34.0,19.0,53.0
-2026-04-01,NUE,NUCOR ,Materials,Materials,-26.0,20.0,46.0
-2026-04-01,NVDA,NVIDIA ,Information Technology,Information Technology,26.0,-12.0,-38.0
-2026-04-01,NVR,"NVR, INC.",Consumer Discretionary,Consumer Discretionary,-3.0,-3.0,0.0
-2026-04-01,NWSA,NEWS CORP.,Communication Services,Communication Services,24.0,3.0,-21.0
-2026-04-01,NXPI,NXP SEMICONDUCTORS NV,Information Technology,Information Technology,-15.0,31.0,46.0
-2026-04-01,O,REALTY INCOME ,Real Estate,Real Estate,-10.0,20.0,30.0
-2026-04-01,ODFL,"OLD DOMINION FREIGHT LINE, INC.",Industrials,Industrials,-29.0,22.0,51.0
-2026-04-01,OEF,ISHARES:S&P 100,,Sector & Style ETFs,-28.0,-32.0,-4.0
-2026-04-01,OKE,"ONEOK, INC.",Energy,Energy,49.0,10.0,-39.0
-2026-04-01,OMC,OMNICOM GROUP INC.,Communication Services,Communication Services,-45.0,-21.0,24.0
-2026-04-01,ON,ON SEMICONDUCTOR ,Information Technology,Information Technology,-36.0,11.0,47.0
-2026-04-01,ORCL,ORACLE ,Information Technology,Information Technology,-1.0,-26.0,-25.0
-2026-04-01,ORLY,"O'REILLY AUTOMOTIVE, INC.",Consumer Discretionary,Consumer Discretionary,16.0,29.0,13.0
-2026-04-01,OTIS,OTIS WORLDWIDE ,Industrials,Industrials,-7.0,-7.0,0.0
-2026-04-01,OXY,OCCIDENTAL PETROLEUM ,Energy,Energy,42.0,20.0,-22.0
-2026-04-01,PAM,PAMPA ENERGIA SA,,MR Discretion,-3.0,-21.0,-18.0
-2026-04-01,PANW,"PALO ALTO NETWORKS, INC.",Information Technology,Information Technology,-18.0,-44.0,-26.0
-2026-04-01,PAYC,"PAYCOM SOFTWARE, INC.",Industrials,Industrials,7.0,12.0,5.0
-2026-04-01,PAYX,"PAYCHEX, INC.",Industrials,Industrials,9.0,-5.0,-14.0
-2026-04-01,PBR,BRAZILIAN PETROLEUM  - PETROBRAS,,MR Discretion,61.0,31.0,-30.0
-2026-04-01,PCAR,PACCAR INC,Industrials,Industrials,-1.0,32.0,33.0
-2026-04-01,PCG,PG&E ,Utilities,Utilities,20.0,40.0,20.0
-2026-04-01,PEG,PUBLIC SERVICE ENTERPRISE GROUP INC.,Utilities,Utilities,47.0,47.0,0.0
-2026-04-01,PEP,"PEPSICO, INC.",Consumer Staples,Consumer Staples,21.0,44.0,23.0
-2026-04-01,PFE,PFIZER INC.,Health Care,Health Care,27.0,42.0,15.0
-2026-04-01,PFF,ISHARES:PREF AND INC SEC,,Bonds,-40.0,-4.0,36.0
-2026-04-01,PFG,"PRINCIPAL FINANCIAL GROUP, INC.",Financials,Financials,44.0,57.0,13.0
-2026-04-01,PG,THE PROCTER & GAMBLE COMPANY,Consumer Staples,Consumer Staples,-3.0,-3.0,0.0
-2026-04-01,PGR,THE PROGRESSIVE ,Financials,Financials,30.0,-4.0,-34.0
-2026-04-01,PH,PARKER-HANNIFIN ,Industrials,Industrials,-24.0,20.0,44.0
-2026-04-01,PHM,"PULTEGROUP, INC.",Consumer Discretionary,Consumer Discretionary,-41.0,21.0,62.0
-2026-04-01,PKG,PACKAGING  OF AMERICA,Materials,Materials,-9.0,26.0,35.0
-2026-04-01,PLD,"PROLOGIS, INC.",Real Estate,Real Estate,16.0,40.0,24.0
-2026-04-01,PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,Information Technology,58.0,33.0,-25.0
-2026-04-01,PM,PHILIP MORRIS INTERNATIONAL INC.,Consumer Staples,Consumer Staples,-77.0,-36.0,41.0
-2026-04-01,PNC,"THE PNC FINANCIAL SERVICES GROUP, INC.",Financials,Financials,-30.0,12.0,42.0
-2026-04-01,PNR,PENTAIR PUBLIC LIMITED COMPANY,Industrials,Industrials,-39.0,-30.0,9.0
-2026-04-01,PNW,PINNACLE WEST CAPITAL ,Utilities,Utilities,0.0,76.0,76.0
-2026-04-01,PODD,INSULET ,Health Care,Health Care,-13.0,-11.0,2.0
-2026-04-01,POOL,POOL ,Consumer Discretionary,Consumer Discretionary,-11.0,40.0,51.0
-2026-04-01,POWA,INVESCO BLOOMBERG PRICING POWER,,Sector & Style ETFs,-14.0,-14.0,0.0
-2026-04-01,PPG,"PPG INDUSTRIES, INC.",Materials,Materials,17.0,48.0,31.0
-2026-04-01,PPL,PPL ,Utilities,Utilities,-41.0,-5.0,36.0
-2026-04-01,PPLT,ABRDN:PHYSICAL PLATINUM,,Commodities,43.0,40.0,-3.0
-2026-04-01,PRU,"PRUDENTIAL FINANCIAL, INC.",Financials,Financials,-50.0,-10.0,40.0
-2026-04-01,PSA,PUBLIC STORAGE.,Real Estate,Real Estate,25.0,15.0,-10.0
-2026-04-01,PSKY,PARAMOUNT SKYDANCE ,Communication Services,Communication Services,-19.0,12.0,31.0
-2026-04-01,PSX,PHILLIPS 66,Energy,Energy,70.0,50.0,-20.0
-2026-04-01,PTC,PTC INC.,Information Technology,Information Technology,45.0,12.0,-33.0
-2026-04-01,PWR,"QUANTA SERVICES, INC.",Industrials,Industrials,10.0,62.0,52.0
-2026-04-01,PYPL,"PAYPAL HOLDINGS, INC.",Financials,Financials,0.0,-5.0,-5.0
-2026-04-01,Q,"QNITY ELECTRONICS, INC.",Information Technology,Information Technology,-83.0,-0.0,83.0
-2026-04-01,QAT,ISHARES:MSCI QATAR,,Foreign,-58.0,-13.0,45.0
-2026-04-01,QCOM,QUALCOMM INC.,Information Technology,Information Technology,-18.0,-38.0,-20.0
-2026-04-01,QQQ,INVESCO QQQ TRUST 1,,Sector & Style ETFs,19.0,-7.0,-26.0
-2026-04-01,QUAL,ISHARES:MSCI USA QF,,Sector & Style ETFs,-10.0,-7.0,3.0
-2026-04-01,RCL,ROYAL CARIBBEAN CRUISES LTD.,Consumer Discretionary,Consumer Discretionary,-48.0,21.0,69.0
-2026-04-01,REG,REGENCY CENTERS ,Real Estate,Real Estate,-19.0,8.0,27.0
-2026-04-01,REGN,"REGENERON PHARMACEUTICALS, INC.",Health Care,Health Care,-2.0,12.0,14.0
-2026-04-01,RF,REGIONS FINANCIAL ,Financials,Financials,11.0,22.0,11.0
-2026-04-01,RIG,TRANSOCEAN LTD,,MR Discretion,28.0,34.0,6.0
-2026-04-01,RJF,"RAYMOND JAMES FINANCIAL, INC.",Financials,Financials,-23.0,-21.0,2.0
-2026-04-01,RL,RALPH LAUREN ,Consumer Discretionary,Consumer Discretionary,-40.0,-13.0,27.0
-2026-04-01,RMD,RESMED INC.,Health Care,Health Care,-48.0,-15.0,33.0
-2026-04-01,ROK,"ROCKWELL AUTOMATION, INC.",Industrials,Industrials,-11.0,22.0,33.0
-2026-04-01,ROKU,"ROKU, INC.",,MR Discretion,-34.0,-5.0,29.0
-2026-04-01,ROL,"ROLLINS, INC.",Industrials,Industrials,-14.0,10.0,24.0
-2026-04-01,ROP,"ROPER TECHNOLOGIES, INC.",Information Technology,Information Technology,59.0,7.0,-52.0
-2026-04-01,ROST,"ROSS STORES, INC.",Consumer Discretionary,Consumer Discretionary,32.0,23.0,-9.0
-2026-04-01,RSG,"REPUBLIC SERVICES, INC.",Industrials,Industrials,43.0,22.0,-21.0
-2026-04-01,RSP,INVESCO S&P500 EWGHT,,Sector & Style ETFs,-27.0,-14.0,13.0
-2026-04-01,RTX,RTX ,Industrials,Industrials,31.0,18.0,-13.0
-2026-04-01,RUT,RUSSELL 2000 INDEX,,Indices,-22.0,-4.0,18.0
-2026-04-01,RVTY,"REVVITY, INC.",Health Care,Health Care,-14.0,48.0,62.0
-2026-04-01,SBAC,SBA COMMUNICATIONS ,Real Estate,Real Estate,27.0,27.0,-0.0
-2026-04-01,SBLK,STAR BULK CARRIERS CORP.,,MR Discretion,-34.0,-11.0,23.0
-2026-04-01,SBUX,STARBUCKS ,Consumer Discretionary,Consumer Discretionary,7.0,20.0,13.0
-2026-04-01,SCHP,SCHWAB STR:US TIPS,,Bonds,4.0,39.0,35.0
-2026-04-01,SCHW,THE CHARLES SCHWAB ,Financials,Financials,-82.0,-42.0,40.0
-2026-04-01,SD,"SANDRIDGE ENERGY, INC.",,MR Discretion,-78.0,-30.0,48.0
-2026-04-01,SDY,SPDR S&P DIVIDEND,,Sector & Style ETFs,10.0,52.0,42.0
-2026-04-01,SHW,THE SHERWIN-WILLIAMS COMPANY,Materials,Materials,13.0,13.0,0.0
-2026-04-01,SHY,ISHARES:1-3 TRS BD ETF,Bonds,Bonds,29.0,47.0,18.0
-2026-04-01,SILJ,ETFMG PRIME JR SILVR MNR,,Commodities,0.0,0.0,0.0
-2026-04-01,SJM,THE J. M. SMUCKER COMPANY,Consumer Staples,Consumer Staples,5.0,14.0,9.0
-2026-04-01,SLB,SCHLUMBERGER N.V.,Energy,Energy,28.0,19.0,-9.0
-2026-04-01,SLV,ISHARES:SILVER TRUST,,Commodities,0.0,0.0,0.0
-2026-04-01,SM,SM ENERGY COMPANY,,MR Discretion,50.0,7.0,-43.0
-2026-04-01,SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,Information Technology,15.0,15.0,-0.0
-2026-04-01,SMH,VANECK:SEMICONDUCTOR,,Sector & Style ETFs,-24.0,20.0,44.0
-2026-04-01,SNA,SNAP-ON INC.,Industrials,Industrials,12.0,47.0,35.0
-2026-04-01,SNDK,SANDISK CORPORATION,Information Technology,Information Technology,-10.0,59.0,69.0
-2026-04-01,SNPS,"SYNOPSYS, INC.",Information Technology,Information Technology,32.0,-6.0,-38.0
-2026-04-01,SO,THE SOUTHERN COMPANY,Utilities,Utilities,-55.0,22.0,77.0
-2026-04-01,SOLV,SOLVENTUM ,Health Care,Health Care,-45.0,-12.0,33.0
-2026-04-01,SOYB,TEUCRIUM:SOYBEAN,,Commodities,-3.0,35.0,38.0
-2026-04-01,SPG,"SIMON PROPERTY GROUP, INC.",Real Estate,Real Estate,-47.0,-14.0,33.0
-2026-04-01,SPGI,S&P GLOBAL INC.,Financials,Financials,-29.0,-12.0,17.0
-2026-04-01,SPHB,INVESCO S&P500 HI BE,,Sector & Style ETFs,11.0,-7.0,-18.0
-2026-04-01,SPLV,INVESCO S&P500 LOWVL,,Sector & Style ETFs,-13.0,52.0,65.0
-2026-04-01,SPX,S&P 500 INDEX,,Indices,6.0,-22.0,-28.0
-2026-04-01,SPY,SPDR S&P 500 ETF,,Sector & Style ETFs,-3.0,-7.0,-4.0
-2026-04-01,SRE,SEMPRA,Utilities,Utilities,-13.0,2.0,15.0
-2026-04-01,STE,STERIS PUBLIC LIMITED COMPANY,Health Care,Health Care,-37.0,9.0,46.0
-2026-04-01,STIP,ISHARES:0-5 TIPS BD ETF,Bonds,Bonds,-12.0,35.0,47.0
-2026-04-01,STLA,STELLANTIS NV,,MR Discretion,-42.0,7.0,49.0
-2026-04-01,STLD,"STEEL DYNAMICS, INC.",Materials,Materials,15.0,50.0,35.0
-2026-04-01,STNG,SCORPIO TANKERS INC.,,MR Discretion,-6.0,53.0,59.0
-2026-04-01,STT,STATE STREET ,Financials,Financials,-34.0,12.0,46.0
-2026-04-01,STX,SEAGATE TECHNOLOGY HOLDINGS,Information Technology,Information Technology,-49.0,37.0,86.0
-2026-04-01,STZ,"CONSTELLATION BRANDS, INC.",Consumer Staples,Consumer Staples,-53.0,-31.0,22.0
-2026-04-01,SW,SMURFIT WESTROCK PUBLIC LIMITED COMPANY,Materials,Materials,-44.0,12.0,56.0
-2026-04-01,SWK,"STANLEY BLACK & DECKER, INC.",Industrials,Industrials,13.0,2.0,-11.0
-2026-04-01,SWKS,"SKYWORKS SOLUTIONS, INC.",Information Technology,Information Technology,-107.0,-32.0,75.0
-2026-04-01,SYF,SYNCHRONY FINANCIAL,Financials,Financials,-31.0,-5.0,26.0
-2026-04-01,SYK,STRYKER ,Health Care,Health Care,26.0,26.0,0.0
-2026-04-01,SYY,SYSCO ,Consumer Staples,Consumer Staples,-46.0,-22.0,24.0
-2026-04-01,T,AT&T INC.,Communication Services,Communication Services,39.0,26.0,-13.0
-2026-04-01,TAGS,TEUCRIUM:AGRICULTURAL,,Commodities,59.0,24.0,-35.0
-2026-04-01,TAP,MOLSON COORS BEVERAGE COMPANY,Consumer Staples,Consumer Staples,-36.0,4.0,40.0
-2026-04-01,TDG,TRANSDIGM GROUP INC.,Industrials,Industrials,-3.0,-38.0,-35.0
-2026-04-01,TDW,TIDEWATER INC.,,MR Discretion,6.0,12.0,6.0
-2026-04-01,TDY,TELEDYNE TECHNOLOGIES INC.,Information Technology,Information Technology,76.0,59.0,-17.0
-2026-04-01,TECH,BIO-TECHNE ,Health Care,Health Care,-34.0,12.0,46.0
-2026-04-01,TECK,TECK RESOURCES LIMITED,,MR Discretion,-16.0,21.0,37.0
-2026-04-01,TEL,TE CONNECTIVITY LTD,Information Technology,Information Technology,-15.0,12.0,27.0
-2026-04-01,TER,"TERADYNE, INC.",Information Technology,Information Technology,-48.0,36.0,84.0
-2026-04-01,TFC,TRUIST FINANCIAL ,Financials,Financials,11.0,22.0,11.0
-2026-04-01,TGT,TARGET ,Consumer Staples,Consumer Staples,31.0,-10.0,-41.0
-2026-04-01,THD,ISHARES:MSCI THAI,,Foreign,17.0,23.0,6.0
-2026-04-01,TIP,ISHARES:TIPS BD ETF,Bonds,Bonds,25.0,52.0,27.0
-2026-04-01,TJX,"THE TJX COMPANIES, INC.",Consumer Discretionary,Consumer Discretionary,13.0,17.0,4.0
-2026-04-01,TKO,"TKO GROUP HOLDINGS, INC.",Communication Services,Communication Services,77.0,77.0,0.0
-2026-04-01,TLT,ISHARES:20+ TRS BD ETF,Bonds,Bonds,-29.0,26.0,55.0
-2026-04-01,TMO,THERMO FISHER SCIENTIFIC INC.,Health Care,Health Care,-45.0,3.0,48.0
-2026-04-01,TMUS,"T-MOBILE US, INC.",Communication Services,Communication Services,-33.0,-38.0,-5.0
-2026-04-01,TNX,10 Y TSY YLD NDX,Yields,Yields,27.0,-34.0,-61.0
-2026-04-01,TPL,TEXAS PACIFIC LAND ,Energy,Energy,-9.0,-11.0,-2.0
-2026-04-01,TPR,"TAPESTRY, INC.",Consumer Discretionary,Consumer Discretionary,53.0,35.0,-18.0
-2026-04-01,TRGP,TARGA RESOURCES CORP.,Energy,Energy,21.0,35.0,14.0
-2026-04-01,TRMB,TRIMBLE INC.,Information Technology,Information Technology,-5.0,12.0,17.0
-2026-04-01,TROW,"T. ROWE PRICE GROUP, INC.",Financials,Financials,-2.0,29.0,31.0
-2026-04-01,TRV,"THE TRAVELERS COMPANIES, INC.",Financials,Financials,74.0,56.0,-18.0
-2026-04-01,TS,TENARIS SA,,MR Discretion,44.0,42.0,-2.0
-2026-04-01,TSCO,TRACTOR SUPPLY COMPANY,Consumer Discretionary,Consumer Discretionary,-21.0,-21.0,0.0
-2026-04-01,TSLA,"TESLA, INC.",Consumer Discretionary,Consumer Discretionary,24.0,40.0,16.0
-2026-04-01,TSN,"TYSON FOODS, INC.",Consumer Staples,Consumer Staples,-45.0,-12.0,33.0
-2026-04-01,TT,TRANE TECHNOLOGIES PLC,Industrials,Industrials,-60.0,-32.0,28.0
-2026-04-01,TTD,"THE TRADE DESK, INC.",Communication Services,Communication Services,31.0,-32.0,-63.0
-2026-04-01,TTWO,"TAKE-TWO INTERACTIVE SOFTWARE, INC.",Communication Services,Communication Services,15.0,4.0,-11.0
-2026-04-01,TUR,ISHARES:MSCI TURKEY,,Foreign,-74.0,-13.0,61.0
-2026-04-01,TXN,TEXAS INSTRUMENTS INC.,Information Technology,Information Technology,-25.0,32.0,57.0
-2026-04-01,TXT,TEXTRON INC.,Industrials,Industrials,-48.0,-21.0,27.0
-2026-04-01,TYL,"TYLER TECHNOLOGIES, INC.",Information Technology,Information Technology,30.0,-12.0,-42.0
-2026-04-01,TYX,30 Y TSY YLD NDX,Yields,Yields,20.0,-31.0,-51.0
-2026-04-01,UAL,"UNITED AIRLINES HOLDINGS, INC.",Industrials,Industrials,-20.0,4.0,24.0
-2026-04-01,UBER,"UBER TECHNOLOGIES, INC.",Industrials,Industrials,27.0,-5.0,-32.0
-2026-04-01,UDR,"UDR, INC.",Real Estate,Real Estate,-23.0,-21.0,2.0
-2026-04-01,UHS,"UNIVERSAL HEALTH SERVICES, INC.",Health Care,Health Care,-53.0,-42.0,11.0
-2026-04-01,ULTA,"ULTA BEAUTY, INC.",Consumer Discretionary,Consumer Discretionary,14.0,14.0,0.0
-2026-04-01,UNG,UNITED STATES NAT GAS,Energy Complex,Commodities,1.0,11.0,10.0
-2026-04-01,UNH,UNITEDHEALTH GROUP INC.,Health Care,Health Care,52.0,-11.0,-63.0
-2026-04-01,UNP,UNION PACIFIC ,Industrials,Industrials,29.0,56.0,27.0
-2026-04-01,UPS,"UNITED PARCEL SERVICE, INC.",Industrials,Industrials,53.0,55.0,2.0
-2026-04-01,URA,GLBL X URANIUM ETF,,Commodities,40.0,75.0,35.0
-2026-04-01,URI,"UNITED RENTALS, INC.",Industrials,Industrials,-61.0,-21.0,40.0
-2026-04-01,URNM,SPROTT URANIUM MINERS,,MR Discretion,-37.0,-13.0,24.0
-2026-04-01,USB,U.S. BANCORP,Financials,Financials,3.0,22.0,19.0
-2026-04-01,USO,UNITED STATES OIL FUND,Energy Complex,Commodities,65.0,48.0,-17.0
-2026-04-01,UUP,INVESCO DB USD IDX BL,,Currencies,-17.0,-37.0,-20.0
-2026-04-01,V,VISA INC.,Financials,Financials,-10.0,-21.0,-11.0
-2026-04-01,VAL,VALARIS LIMITED,,MR Discretion,1.0,34.0,33.0
-2026-04-01,VICI,VICI PROPERTIES INC.,Real Estate,Real Estate,19.0,27.0,8.0
-2026-04-01,VIX,CBOE MKT VOLATILITY IDX,,Volatility,51.0,32.0,-19.0
-2026-04-01,VLO,VALERO ENERGY ,Energy,Energy,37.0,23.0,-14.0
-2026-04-01,VLTO,VERALTO ,Industrials,Industrials,-18.0,-38.0,-20.0
-2026-04-01,VMC,VULCAN MATERIALS COMPANY,Materials,Materials,5.0,5.0,0.0
-2026-04-01,VNM,VANECK:VIETNAM,,Foreign,19.0,55.0,36.0
-2026-04-01,VRSK,"VERISK ANALYTICS, INC.",Industrials,Industrials,17.0,-21.0,-38.0
-2026-04-01,VRSN,"VERISIGN, INC.",Information Technology,Information Technology,43.0,3.0,-40.0
-2026-04-01,VRTX,VERTEX PHARMACEUTICALS INC.,Health Care,Health Care,-52.0,-44.0,8.0
-2026-04-01,VST,VISTRA CORP.,Utilities,Utilities,-9.0,-39.0,-30.0
-2026-04-01,VTR,"VENTAS, INC.",Real Estate,Real Estate,0.0,37.0,37.0
-2026-04-01,VTRS,VIATRIS INC.,Health Care,Health Care,16.0,39.0,23.0
-2026-04-01,VXN,CBOE NASDAQ MKT VOL NDX,,Volatility,62.0,47.0,-15.0
-2026-04-01,VZ,VERIZON COMMUNICATIONS INC.,Communication Services,Communication Services,-17.0,3.0,20.0
-2026-04-01,WAB,WESTINGHOUSE AIR BRAKE TECHNOLOGIES ,Industrials,Industrials,-52.0,21.0,73.0
-2026-04-01,WAT,WATERS ,Health Care,Health Care,-36.0,4.0,40.0
-2026-04-01,WBD,"WARNER BROS. DISCOVERY, INC.",Communication Services,Communication Services,40.0,63.0,23.0
-2026-04-01,WDAY,"WORKDAY, INC.",Information Technology,Information Technology,18.0,-28.0,-46.0
-2026-04-01,WDC,WESTERN DIGITAL ,Information Technology,Information Technology,-35.0,51.0,86.0
-2026-04-01,WEAT,TEUCRIUM:WHEAT,,Commodities,62.0,34.0,-28.0
-2026-04-01,WEC,"WEC ENERGY GROUP, INC.",Utilities,Utilities,-47.0,37.0,84.0
-2026-04-01,WELL,WELLTOWER INC.,Real Estate,Real Estate,49.0,86.0,37.0
-2026-04-01,WFC,WELLS FARGO & COMPANY,Financials,Financials,-53.0,5.0,58.0
-2026-04-01,WM,"WASTE MANAGEMENT, INC.",Industrials,Industrials,-26.0,-12.0,14.0
-2026-04-01,WMB,"THE WILLIAMS COMPANIES, INC.",Energy,Energy,-67.0,-15.0,52.0
-2026-04-01,WMT,WALMART INC.,Consumer Staples,Consumer Staples,-34.0,31.0,65.0
-2026-04-01,WRB,W. R. BERKLEY ,Financials,Financials,-37.0,-20.0,17.0
-2026-04-01,WSM,"WILLIAMS-SONOMA, INC.",Consumer Discretionary,Consumer Discretionary,-4.0,5.0,9.0
-2026-04-01,WST,"WEST PHARMACEUTICAL SERVICES, INC.",Health Care,Health Care,-54.0,-20.0,34.0
-2026-04-01,WTW,WILLIS TOWERS WATSON,Financials,Financials,-42.0,-38.0,4.0
-2026-04-01,WY,WEYERHAEUSER COMPANY,Real Estate,Real Estate,-7.0,6.0,13.0
-2026-04-01,WYNN,"WYNN RESORTS, LIMITED",Consumer Discretionary,Consumer Discretionary,-15.0,12.0,27.0
-2026-04-01,XEL,XCEL ENERGY INC.,Utilities,Utilities,-11.0,44.0,55.0
-2026-04-01,XES,SPDR S&P OIL&GAS E&S,,MR Discretion,37.0,43.0,6.0
-2026-04-01,XLB,SEL SECTOR:MATRLS SPDR,,Sector & Style ETFs,34.0,65.0,31.0
-2026-04-01,XLC,SEL SECTOR:COMM SVC SPDR,,Sector & Style ETFs,-1.0,-14.0,-13.0
-2026-04-01,XLE,SEL SECTOR:ENERGY SPDR,,Sector & Style ETFs,65.0,43.0,-22.0
-2026-04-01,XLF,SEL SECTOR:FINL S SPDR,,Sector & Style ETFs,-3.0,-12.0,-9.0
-2026-04-01,XLI,SEL SECTOR:INDUST SPDR,,Sector & Style ETFs,36.0,26.0,-10.0
-2026-04-01,XLK,SEL SECTOR:TECH SPDR,,Sector & Style ETFs,0.0,12.0,12.0
-2026-04-01,XLP,SEL SECTOR:C STP SPDR,,Sector & Style ETFs,20.0,20.0,0.0
-2026-04-01,XLRE,SEL SECTOR:RL EST SPDR,,Sector & Style ETFs,-28.0,27.0,55.0
-2026-04-01,XLU,SEL SECTOR:UTIL SPDR,,Sector & Style ETFs,-8.0,53.0,61.0
-2026-04-01,XLV,SEL SECTOR:H CARE SPDR,,Sector & Style ETFs,-55.0,-14.0,41.0
-2026-04-01,XLY,SEL SECTOR:C DSC SPDR,,Sector & Style ETFs,15.0,31.0,16.0
-2026-04-01,XOM,EXXON MOBIL ,Energy,Energy,60.0,52.0,-8.0
-2026-04-01,XOP,SPDR S&P OIL&GAS EXP,,MR Discretion,71.0,34.0,-37.0
-2026-04-01,XYL,XYLEM INC.,Industrials,Industrials,-39.0,-12.0,27.0
-2026-04-01,XYZ,"BLOCK, INC.",Financials,Financials,19.0,5.0,-14.0
-2026-04-01,YUM,"YUM! BRANDS, INC.",Consumer Discretionary,Consumer Discretionary,23.0,36.0,13.0
-2026-04-01,ZBH,"ZIMMER BIOMET HOLDINGS, INC.",Health Care,Health Care,7.0,3.0,-4.0
-2026-04-01,ZBRA,ZEBRA TECHNOLOGIES ,Information Technology,Information Technology,-15.0,22.0,37.0
-2026-04-01,ZTS,ZOETIS INC.,Health Care,Health Care,-7.0,2.0,9.0
+2026-04-02,A,"AGILENT TECHNOLOGIES, INC.",Health Care,Health Care,-44.0,12.0,56.0
+2026-04-02,AAPL,APPLE INC.,Information Technology,Information Technology,-82.0,11.0,93.0
+2026-04-02,ABBV,ABBVIE INC.,Health Care,Health Care,-33.0,11.0,44.0
+2026-04-02,ABNB,"AIRBNB, INC.",Consumer Discretionary,Consumer Discretionary,-31.0,-17.0,14.0
+2026-04-02,ABT,ABBOTT LABORATORIES,Health Care,Health Care,-33.0,-21.0,12.0
+2026-04-02,ACGL,ARCH CAPITAL GROUP LTD.,Financials,Financials,-24.0,-5.0,19.0
+2026-04-02,ACN,ACCENTURE PUBLIC LIMITED COMPANY,Information Technology,Information Technology,6.0,-10.0,-16.0
+2026-04-02,ADBE,ADOBE INC.,Information Technology,Information Technology,-35.0,-33.0,2.0
+2026-04-02,ADI,"ANALOG DEVICES, INC.",Information Technology,Information Technology,-22.0,40.0,62.0
+2026-04-02,ADM,ARCHER-DANIELS-MIDLAND COMPANY.,Consumer Staples,Consumer Staples,-9.0,29.0,38.0
+2026-04-02,ADP,"AUTOMATIC DATA PROCESSING, INC.",Industrials,Industrials,4.0,-12.0,-16.0
+2026-04-02,ADSK,"AUTODESK, INC.",Information Technology,Information Technology,-52.0,-38.0,14.0
+2026-04-02,AEE,AMEREN ,Utilities,Utilities,-55.0,29.0,84.0
+2026-04-02,AEP,"AMERICAN ELECTRIC POWER COMPANY, INC.",Utilities,Utilities,-18.0,34.0,52.0
+2026-04-02,AES,THE AES ,Utilities,Utilities,-6.0,-7.0,-1.0
+2026-04-02,AFL,AFLAC INC.,Financials,Financials,4.0,21.0,17.0
+2026-04-02,AIG,"AMERICAN INTERNATIONAL GROUP, INC.",Financials,Financials,1.0,13.0,12.0
+2026-04-02,AIZ,"ASSURANT, INC.",Financials,Financials,-39.0,-12.0,27.0
+2026-04-02,AJG,ARTHUR J. GALLAGHER & CO.,Financials,Financials,-35.0,-21.0,14.0
+2026-04-02,AKAM,"AKAMAI TECHNOLOGIES, INC.",Information Technology,Information Technology,4.0,-23.0,-27.0
+2026-04-02,ALB,ALBEMARLE ,Materials,Materials,0.0,51.0,51.0
+2026-04-02,ALGN,"ALIGN TECHNOLOGY, INC.",Health Care,Health Care,15.0,35.0,20.0
+2026-04-02,ALL,THE ALLSTATE ,Financials,Financials,-1.0,-21.0,-20.0
+2026-04-02,ALLE,ALLEGION PUBLIC LIMITED COMPANY,Industrials,Industrials,-65.0,-41.0,24.0
+2026-04-02,AMAT,"APPLIED MATERIALS, INC.",Information Technology,Information Technology,-18.0,59.0,77.0
+2026-04-02,AMCR,AMCOR PLC,Materials,Materials,-6.0,23.0,29.0
+2026-04-02,AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,Information Technology,-5.0,-5.0,0.0
+2026-04-02,AME,"AMETEK, INC.",Industrials,Industrials,-14.0,20.0,34.0
+2026-04-02,AMGN,AMGEN INC.,Health Care,Health Care,21.0,56.0,35.0
+2026-04-02,AMP,"AMERIPRISE FINANCIAL, INC.",Financials,Financials,-54.0,-42.0,12.0
+2026-04-02,AMT,AMERICAN TOWER ,Real Estate,Real Estate,0.0,4.0,4.0
+2026-04-02,AMZN,"AMAZON.COM, INC.",Consumer Discretionary,Consumer Discretionary,4.0,-5.0,-9.0
+2026-04-02,ANET,"ARISTA NETWORKS, INC.",Information Technology,Information Technology,36.0,11.0,-25.0
+2026-04-02,AON,AON PLC,Financials,Financials,-28.0,4.0,32.0
+2026-04-02,AOS,A. O. SMITH ,Industrials,Industrials,48.0,48.0,0.0
+2026-04-02,APA,APA ,Energy,Energy,42.0,20.0,-22.0
+2026-04-02,APD,"AIR PRODUCTS AND CHEMICALS, INC.",Materials,Materials,51.0,13.0,-38.0
+2026-04-02,APH,AMPHENOL ,Information Technology,Information Technology,29.0,9.0,-20.0
+2026-04-02,APO,"APOLLO GLOBAL MANAGEMENT, INC.",Financials,Financials,9.0,-5.0,-14.0
+2026-04-02,APP,APPLOVIN CORP,Information Technology,Information Technology,-1.0,-20.0,-19.0
+2026-04-02,APTV,APTIV PLC,Consumer Discretionary,Consumer Discretionary,-53.0,-12.0,41.0
+2026-04-02,ARE,"ALEXANDRIA REAL ESTATE EQUITIES, INC.",Real Estate,Real Estate,-13.0,23.0,36.0
+2026-04-02,ARES,ARES MANAGEMENT CORP,Financials,Financials,8.0,22.0,14.0
+2026-04-02,ASC,ARDMORE SHIPPING ,,MR Discretion,0.0,55.0,55.0
+2026-04-02,ATO,ATMOS ENERGY ,Utilities,Utilities,-59.0,30.0,89.0
+2026-04-02,AVB,"AVALONBAY COMMUNITIES, INC.",Real Estate,Real Estate,-42.0,-30.0,12.0
+2026-04-02,AVGO,BROADCOM INC.,Information Technology,Information Technology,-13.0,12.0,25.0
+2026-04-02,AVY,AVERY DENNISON ,Materials,Materials,50.0,50.0,0.0
+2026-04-02,AWK,"AMERICAN WATER WORKS COMPANY, INC.",Utilities,Utilities,-7.0,10.0,17.0
+2026-04-02,AXON,"AXON ENTERPRISE, INC.",Industrials,Industrials,-11.0,-49.0,-38.0
+2026-04-02,AXP,AMERICAN EXPRESS COMPANY,Financials,Financials,-68.0,-12.0,56.0
+2026-04-02,AZO,"AUTOZONE, INC.",Consumer Discretionary,Consumer Discretionary,-14.0,12.0,26.0
+2026-04-02,BA,THE BOEING COMPANY,Industrials,Industrials,-34.0,-23.0,11.0
+2026-04-02,BAC,BANK OF AMERICA ,Financials,Financials,-61.0,-5.0,56.0
+2026-04-02,BALL,BALL ,Materials,Materials,2.0,30.0,28.0
+2026-04-02,BAX,BAXTER INTERNATIONAL INC.,Health Care,Health Care,-22.0,-6.0,16.0
+2026-04-02,BBY,"BEST BUY CO., INC.",Consumer Discretionary,Consumer Discretionary,40.0,23.0,-17.0
+2026-04-02,BDX,"BECTON, DICKINSON AND COMPANY",Health Care,Health Care,0.0,23.0,23.0
+2026-04-02,BEN,"FRANKLIN RESOURCES, INC.",Financials,Financials,-19.0,-8.0,11.0
+2026-04-02,BF.B,BROWN-FORMAN ,Consumer Staples,Consumer Staples,33.0,39.0,6.0
+2026-04-02,BG,BUNGE LIMITED,Consumer Staples,Consumer Staples,36.0,40.0,4.0
+2026-04-02,BIIB,BIOGEN INC.,Health Care,Health Care,-19.0,25.0,44.0
+2026-04-02,BK,THE BANK OF NEW YORK MELLON ,Financials,Financials,-33.0,29.0,62.0
+2026-04-02,BKNG,BOOKING HOLDINGS INC.,Consumer Discretionary,Consumer Discretionary,13.0,-12.0,-25.0
+2026-04-02,BKR,BAKER HUGHES COMPANY,Energy,Energy,5.0,76.0,71.0
+2026-04-02,BLDR,"BUILDERS FIRSTSOURCE, INC.",Industrials,Industrials,15.0,2.0,-13.0
+2026-04-02,BLK,"BLACKROCK, INC.",Financials,Financials,-82.0,-30.0,52.0
+2026-04-02,BMY,BRISTOL-MYERS SQUIBB COMPANY,Health Care,Health Care,7.0,60.0,53.0
+2026-04-02,BR,"BROADRIDGE FINANCIAL SOLUTIONS, INC.",Industrials,Industrials,-27.0,-38.0,-11.0
+2026-04-02,BRK.B,"BERKSHIRE HATHAWAY INC.,",Financials,Financials,2.0,-31.0,-33.0
+2026-04-02,BRO,"BROWN & BROWN, INC.",Financials,Financials,36.0,-5.0,-41.0
+2026-04-02,BSX,BOSTON SCIENTIFIC ,Health Care,Health Care,48.0,12.0,-36.0
+2026-04-02,BTC=F,BITCOIN FUTURES,,Futures,9.0,-41.0,-50.0
+2026-04-02,BTI,BRITISH AMERICAN TOBACCO P.L.C.,,MR Discretion,-70.0,-25.0,45.0
+2026-04-02,BTU,PEABODY ENERGY ,,MR Discretion,6.0,7.0,1.0
+2026-04-02,BX,BLACKSTONE INC,Financials,Financials,-35.0,-21.0,14.0
+2026-04-02,BXP,"BOSTON PROPERTIES, INC.",Real Estate,Real Estate,-70.0,-12.0,58.0
+2026-04-02,C,CITIGROUP INC.,Financials,Financials,-20.0,12.0,32.0
+2026-04-02,CAG,"CONAGRA BRANDS, INC.",Consumer Staples,Consumer Staples,47.0,47.0,0.0
+2026-04-02,CAH,"CARDINAL HEALTH, INC.",Health Care,Health Care,-4.0,29.0,33.0
+2026-04-02,CALM,"CAL-MAINE FOODS, INC.",,MR Discretion,-18.0,35.0,53.0
+2026-04-02,CANE,TEUCRIUM:SUGAR,,Commodities,89.0,12.0,-77.0
+2026-04-02,CARR,CARRIER GLOBAL ,Industrials,Industrials,-31.0,3.0,34.0
+2026-04-02,CAT,CATERPILLAR INC.,Industrials,Industrials,4.0,59.0,55.0
+2026-04-02,CB,CHUBB LTD,Financials,Financials,-32.0,-5.0,27.0
+2026-04-02,CBOE,"CBOE GLOBAL MARKETS, INC.",Financials,Financials,-51.0,-7.0,44.0
+2026-04-02,CBRE,"CBRE GROUP, INC.",Real Estate,Real Estate,-39.0,-12.0,27.0
+2026-04-02,CCI,CROWN CASTLE INC.,Real Estate,Real Estate,16.0,-2.0,-18.0
+2026-04-02,CCJ,CAMECO ,,MR Discretion,27.0,39.0,12.0
+2026-04-02,CCL,CARNIVAL CORP,Consumer Discretionary,Consumer Discretionary,18.0,20.0,2.0
+2026-04-02,CDNS,"CADENCE DESIGN SYSTEMS, INC.",Information Technology,Information Technology,21.0,-21.0,-42.0
+2026-04-02,CDW,CDW ,Information Technology,Information Technology,33.0,7.0,-26.0
+2026-04-02,CEG,CONSTELLATION ENERGY,Utilities,Utilities,-70.0,-58.0,12.0
+2026-04-02,CF,"CF INDUSTRIES HOLDINGS, INC.",Materials,Materials,102.0,35.0,-67.0
+2026-04-02,CFG,"CITIZENS FINANCIAL GROUP, INC.",Financials,Financials,-62.0,12.0,74.0
+2026-04-02,CHD,"CHURCH & DWIGHT CO., INC.",Consumer Staples,Consumer Staples,-39.0,-12.0,27.0
+2026-04-02,CHRW,"C.H. ROBINSON WORLDWIDE, INC.",Industrials,Industrials,-18.0,10.0,28.0
+2026-04-02,CHTR,"CHARTER COMMUNICATIONS, INC.",Communication Services,Communication Services,8.0,3.0,-5.0
+2026-04-02,CI,THE CIGNA GROUP,Health Care,Health Care,-49.0,-40.0,9.0
+2026-04-02,CIEN,CIENA CORPORATION,Information Technology,Information Technology,-14.0,28.0,42.0
+2026-04-02,CINF,CINCINNATI FINANCIAL ,Financials,Financials,65.0,45.0,-20.0
+2026-04-02,CL,COLGATE-PALMOLIVE COMPANY,Consumer Staples,Consumer Staples,12.0,36.0,24.0
+2026-04-02,CLX,THE CLOROX COMPANY,Consumer Staples,Consumer Staples,-20.0,14.0,34.0
+2026-04-02,CMBT,CMB.TECH NV,,MR Discretion,10.0,55.0,45.0
+2026-04-02,CMCSA,COMCAST ,Communication Services,Communication Services,-76.0,-12.0,64.0
+2026-04-02,CME,CME GROUP INC.,Financials,Financials,29.0,14.0,-15.0
+2026-04-02,CMG,"CHIPOTLE MEXICAN GRILL, INC.",Consumer Discretionary,Consumer Discretionary,-10.0,-21.0,-11.0
+2026-04-02,CMI,CUMMINS INC.,Industrials,Industrials,65.0,47.0,-18.0
+2026-04-02,CMRE,COSTAMARE INC.,,MR Discretion,-40.0,37.0,77.0
+2026-04-02,CMS,CMS ENERGY ,Utilities,Utilities,35.0,63.0,28.0
+2026-04-02,CNC,CENTENE ,Health Care,Health Care,-9.0,-23.0,-14.0
+2026-04-02,CNP,"CENTERPOINT ENERGY, INC.",Utilities,Utilities,-41.0,43.0,84.0
+2026-04-02,CNR,"CORE NATURAL RESOURCES, INC.",,MR Discretion,38.0,36.0,-2.0
+2026-04-02,COF,CAPITAL ONE FINANCIAL ,Financials,Financials,-8.0,-12.0,-4.0
+2026-04-02,COIN,"COINBASE GLOBAL, INC.",Financials,Financials,41.0,-12.0,-53.0
+2026-04-02,COMT,ISHARES:GSCI COMM DYN RS,,Commodities,91.0,43.0,-48.0
+2026-04-02,COO,"THE COOPER COMPANIES, INC.",Health Care,Health Care,10.0,21.0,11.0
+2026-04-02,COP,CONOCOPHILLIPS,Energy,Energy,25.0,3.0,-22.0
+2026-04-02,COR,"CENCORA, INC.",Health Care,Health Care,-47.0,-14.0,33.0
+2026-04-02,CORN,TEUCRIUM:CORN,,Commodities,52.0,24.0,-28.0
+2026-04-02,COST,COSTCO WHOLESALE ,Consumer Staples,Consumer Staples,-9.0,-14.0,-5.0
+2026-04-02,CPAY,"FLEETCOR TECHNOLOGIES, INC.",Financials,Financials,5.0,40.0,35.0
+2026-04-02,CPB,CAMPBELL SOUP COMPANY,Consumer Staples,Consumer Staples,21.0,21.0,0.0
+2026-04-02,CPER,UNITED STATES COPPER IDX,,Commodities,17.0,54.0,37.0
+2026-04-02,CPRT,"COPART, INC.",Industrials,Industrials,-50.0,-38.0,12.0
+2026-04-02,CPT,CAMDEN PROPERTY TRUST,Real Estate,Real Estate,-5.0,-5.0,0.0
+2026-04-02,CRESY,CRESUD INC.,,MR Discretion,-44.0,-51.0,-7.0
+2026-04-02,CRH,CRH PUBLIC LIMITED COMPANY,Materials,Materials,-39.0,19.0,58.0
+2026-04-02,CRL,CHARLES RIVER LABORATORIES,Health Care,Health Care,-30.0,6.0,36.0
+2026-04-02,CRM,"SALESFORCE, INC.",Information Technology,Information Technology,-22.0,-48.0,-26.0
+2026-04-02,CRWD,"CROWDSTRIKE HOLDINGS, INC.",Information Technology,Information Technology,20.0,-5.0,-25.0
+2026-04-02,CSCO,"CISCO SYSTEMS, INC.",Information Technology,Information Technology,8.0,42.0,34.0
+2026-04-02,CSGP,"COSTAR GROUP, INC.",Real Estate,Real Estate,-22.0,-38.0,-16.0
+2026-04-02,CSX,CSX ,Industrials,Industrials,-15.0,47.0,62.0
+2026-04-02,CTAS,CINTAS ,Industrials,Industrials,1.0,-12.0,-13.0
+2026-04-02,CTRA,COTERRA ENERGY INC.,Energy,Energy,70.0,48.0,-22.0
+2026-04-02,CTSH,COGNIZANT TECHNOLOGY SOLUTIONS ,Information Technology,Information Technology,-8.0,-5.0,3.0
+2026-04-02,CTVA,"CORTEVA, INC.",Materials,Materials,4.0,1.0,-3.0
+2026-04-02,CVNA,CARVANA CO.,Consumer Discretionary,Consumer Discretionary,27.0,13.0,-14.0
+2026-04-02,CVS,CVS HEALTH ,Health Care,Health Care,-34.0,-21.0,13.0
+2026-04-02,CVX,CHEVRON ,Energy,Energy,32.0,24.0,-8.0
+2026-04-02,D,"DOMINION ENERGY, INC.",Utilities,Utilities,-25.0,30.0,55.0
+2026-04-02,DAL,"DELTA AIR LINES, INC.",Industrials,Industrials,-65.0,-20.0,45.0
+2026-04-02,DASH,"DOORDASH, INC.",Consumer Discretionary,Consumer Discretionary,44.0,-12.0,-56.0
+2026-04-02,DBA,INVESCO DB MS AGRI,,Commodities,8.0,-27.0,-35.0
+2026-04-02,DBB,INVESCO DB MS BMTL,,Commodities,79.0,70.0,-9.0
+2026-04-02,DBC,INVESCO DB CM IDX,,Commodities,60.0,43.0,-17.0
+2026-04-02,DD,"DUPONT DE NEMOURS, INC.",Materials,Materials,30.0,53.0,23.0
+2026-04-02,DDOG,"DATADOG, INC.",Information Technology,Information Technology,-31.0,-26.0,5.0
+2026-04-02,DE,DEERE & COMPANY,Industrials,Industrials,47.0,77.0,30.0
+2026-04-02,DECK,DECKERS OUTDOOR ,Consumer Discretionary,Consumer Discretionary,5.0,2.0,-3.0
+2026-04-02,DELL,DELL TECHNOLOGIES INC.,Information Technology,Information Technology,-8.0,-35.0,-27.0
+2026-04-02,DG,DOLLAR GENERAL ,Consumer Staples,Consumer Staples,-16.0,18.0,34.0
+2026-04-02,DGX,QUEST DIAGNOSTICS INC.,Health Care,Health Care,9.0,64.0,55.0
+2026-04-02,DHI,"D.R. HORTON, INC.",Consumer Discretionary,Consumer Discretionary,-52.0,13.0,65.0
+2026-04-02,DHR,DANAHER ,Health Care,Health Care,-22.0,12.0,34.0
+2026-04-02,DHT,"DHT HOLDINGS, INC.",,MR Discretion,-9.0,60.0,69.0
+2026-04-02,DIA,SPDR DOW JONES INDUS AVG,,Sector & Style ETFs,1.0,12.0,11.0
+2026-04-02,DIS,THE WALT DISNEY COMPANY,Communication Services,Communication Services,10.0,-23.0,-33.0
+2026-04-02,DJI,DOW JONES INDUSTRIAL AVG INDEX,,Indices,2.0,-4.0,-6.0
+2026-04-02,DLR,"DIGITAL REALTY TRUST, INC.",Real Estate,Real Estate,29.0,3.0,-26.0
+2026-04-02,DLTR,"DOLLAR TREE, INC.",Consumer Staples,Consumer Staples,10.0,35.0,25.0
+2026-04-02,DOC,"HEALTHDOC PROPERTIES, INC.",Real Estate,Real Estate,-39.0,23.0,62.0
+2026-04-02,DOV,DOVER ,Industrials,Industrials,-70.0,13.0,83.0
+2026-04-02,DOW,DOW INC.,Materials,Materials,35.0,-16.0,-51.0
+2026-04-02,DPZ,"DOMINO'S PIZZA, INC.",Consumer Discretionary,Consumer Discretionary,-15.0,-11.0,4.0
+2026-04-02,DRI,"DARDEN RESTAURANTS, INC.",Consumer Discretionary,Consumer Discretionary,-52.0,-34.0,18.0
+2026-04-02,DTE,DTE ENERGY COMPANY,Utilities,Utilities,-23.0,30.0,53.0
+2026-04-02,DUK,DUKE ENERGY ,Utilities,Utilities,-34.0,40.0,74.0
+2026-04-02,DVA,DAVITA INC.,Health Care,Health Care,-1.0,5.0,6.0
+2026-04-02,DVN,DEVON ENERGY ,Energy,Energy,52.0,30.0,-22.0
+2026-04-02,DXCM,"DEXCOM, INC.",Health Care,Health Care,-3.0,-21.0,-18.0
+2026-04-02,DXY,US DOLLAR INDEX,USD,Indices,24.0,-27.0,-51.0
+2026-04-02,EA,ELECTRONIC ARTS INC.,Communication Services,Communication Services,-26.0,-14.0,12.0
+2026-04-02,EBAY,EBAY INC.,Consumer Discretionary,Consumer Discretionary,10.0,2.0,-8.0
+2026-04-02,EC,ECOPETROL SA,,MR Discretion,37.0,0.0,-37.0
+2026-04-02,ECH,ISHARES:MSCI CHILE,,Foreign,22.0,22.0,0.0
+2026-04-02,ECL,ECOLAB INC.,Materials,Materials,84.0,84.0,0.0
+2026-04-02,ED,"CONSOLIDATED EDISON, INC.",Utilities,Utilities,-52.0,14.0,66.0
+2026-04-02,EDEN,ISHARES:MSCI DENMARK,,Foreign,-48.0,-1.0,47.0
+2026-04-02,EDV,VANGUARD EXT DUR T;ETF,Bonds,Bonds,-25.0,30.0,55.0
+2026-04-02,EFNL,ISHARES:MSCI FINLAND,,Foreign,39.0,15.0,-24.0
+2026-04-02,EFX,EQUIFAX INC.,Industrials,Industrials,0.0,-12.0,-12.0
+2026-04-02,EG,"EVEREST GROUP, LTD.",Financials,Financials,-22.0,-13.0,9.0
+2026-04-02,EIDO,ISHARES:MSCI INDONESIA,,Foreign,-3.0,52.0,55.0
+2026-04-02,EIRL,ISHARES:MSCI IRELAND,,Foreign,-2.0,14.0,16.0
+2026-04-02,EIS,ISHARES:MSCI ISRAEL,,Foreign,21.0,20.0,-1.0
+2026-04-02,EIX,EDISON INTERNATIONAL,Utilities,Utilities,2.0,22.0,20.0
+2026-04-02,EL,THE ESTEE LAUDER COMPANIES INC.,Consumer Staples,Consumer Staples,18.0,20.0,2.0
+2026-04-02,ELV,"ELEVANCE HEALTH, INC.",Health Care,Health Care,-85.0,-59.0,26.0
+2026-04-02,EME,"EMCOR GROUP, INC.",Industrials,Industrials,-27.0,10.0,37.0
+2026-04-02,EMR,EMERSON ELECTRIC CO.,Industrials,Industrials,31.0,11.0,-20.0
+2026-04-02,ENZL,ISHARES:MSCI NEW ZLND,,Foreign,-21.0,15.0,36.0
+2026-04-02,EOG,"EOG RESOURCES, INC.",Energy,Energy,56.0,34.0,-22.0
+2026-04-02,EPAM,"EPAM SYSTEMS, INC.",Information Technology,Information Technology,13.0,6.0,-7.0
+2026-04-02,EPHE,ISHARES:MSCI PHILIPPINES,,Foreign,-13.0,3.0,16.0
+2026-04-02,EPOL,ISHARES:MSCI POLAND,,Foreign,20.0,20.0,0.0
+2026-04-02,EPU,ISHARES:MSCI PERU,,Foreign,51.0,72.0,21.0
+2026-04-02,EQIX,"EQUINIX, INC.",Real Estate,Real Estate,-29.0,-12.0,17.0
+2026-04-02,EQR,EQUITY RESIDENTIAL,Real Estate,Real Estate,-65.0,-30.0,35.0
+2026-04-02,EQT,EQT ,Energy,Energy,52.0,15.0,-37.0
+2026-04-02,ERIE,ERIE INDEMNITY COMPANY,Financials,Financials,-3.0,-23.0,-20.0
+2026-04-02,ES,EVERSOURCE ENERGY,Utilities,Utilities,5.0,36.0,31.0
+2026-04-02,ES=F,E-MINI S&P 500 FUTURES,,Futures,7.0,3.0,-4.0
+2026-04-02,ESS,"ESSEX PROPERTY TRUST, INC.",Real Estate,Real Estate,-24.0,-12.0,12.0
+2026-04-02,ETN,EATON  PUBLIC LIMITED COMPANY,Industrials,Industrials,-36.0,-14.0,22.0
+2026-04-02,ETR,ENTERGY ,Utilities,Utilities,-52.0,11.0,63.0
+2026-04-02,EVRG,"EVERGY, INC.",Utilities,Utilities,-24.0,53.0,77.0
+2026-04-02,EW,EDWARDS LIFESCIENCES ,Health Care,Health Care,16.0,4.0,-12.0
+2026-04-02,EWA,ISHARES:MSCI AUSTRALIA,,Foreign,-49.0,-13.0,36.0
+2026-04-02,EWC,ISHARES:MSCI CANADA,,Foreign,-32.0,-1.0,31.0
+2026-04-02,EWD,ISHARES:MSCI SWEDEN,,Foreign,12.0,12.0,0.0
+2026-04-02,EWG,ISHARES:MSCI GERMANY,,Foreign,-13.0,-13.0,0.0
+2026-04-02,EWH,ISHARES:MSCI HONG KONG,,Foreign,39.0,76.0,37.0
+2026-04-02,EWI,ISHARES:MSCI ITALY,,Foreign,20.0,20.0,0.0
+2026-04-02,EWJ,ISHARES:MSCI JAPAN,,Foreign,63.0,74.0,11.0
+2026-04-02,EWK,ISHARES:MSCI BELGIUM,,Foreign,40.0,40.0,0.0
+2026-04-02,EWL,ISHARES:MSCI SWITZERLAND,,Foreign,55.0,55.0,0.0
+2026-04-02,EWM,ISHARES:MSCI MALAYSIA,,Foreign,-40.0,14.0,54.0
+2026-04-02,EWN,ISHARES:MSCI NETHERLANDS,,Foreign,31.0,-7.0,-38.0
+2026-04-02,EWO,ISHARES:MSCI AUSTRIA,,Foreign,48.0,48.0,0.0
+2026-04-02,EWP,ISHARES:MSCI SPAIN,,Foreign,-17.0,17.0,34.0
+2026-04-02,EWQ,ISHARES:MSCI FRANCE,,Foreign,-14.0,20.0,34.0
+2026-04-02,EWS,ISHARES:MSCI SINGAPORE,,Foreign,-69.0,-5.0,64.0
+2026-04-02,EWT,ISHARES:MSCI TAIWAN,,Foreign,1.0,8.0,7.0
+2026-04-02,EWU,ISHARES:MSCI UK,,Foreign,19.0,48.0,29.0
+2026-04-02,EWW,ISHARES:MSCI MEXICO,,Foreign,0.0,23.0,23.0
+2026-04-02,EWY,ISHARES:MSCI S KOREA,,Foreign,25.0,37.0,12.0
+2026-04-02,EWZ,ISHARES:MSCI BRAZIL,,Foreign,-51.0,18.0,69.0
+2026-04-02,EXC,EXELON ,Utilities,Utilities,0.0,34.0,34.0
+2026-04-02,EXE,EXPAND ENERGY ,Energy,Energy,41.0,22.0,-19.0
+2026-04-02,EXPD,EXPEDITORS INTERNATIONAL OF WASHINGTON,Industrials,Industrials,-41.0,10.0,51.0
+2026-04-02,EXPE,"EXPEDIA GROUP, INC.",Consumer Discretionary,Consumer Discretionary,-22.0,-17.0,5.0
+2026-04-02,EXR,EXTRA SPACE STORAGE INC.,Real Estate,Real Estate,-12.0,8.0,20.0
+2026-04-02,F,FORD MOTOR COMPANY,Consumer Discretionary,Consumer Discretionary,-45.0,-21.0,24.0
+2026-04-02,FANG,"DIAMONDBACK ENERGY, INC.",Energy,Energy,33.0,7.0,-26.0
+2026-04-02,FAST,FASTENAL COMPANY,Industrials,Industrials,4.0,40.0,36.0
+2026-04-02,FCX,FREEPORT-MCMORAN INC.,Materials,Materials,-14.0,23.0,37.0
+2026-04-02,FDS,FACTSET RESEARCH SYSTEMS INC.,Financials,Financials,45.0,-2.0,-47.0
+2026-04-02,FDX,FEDEX ,Industrials,Industrials,17.0,40.0,23.0
+2026-04-02,FE,FIRSTENERGY CORP.,Utilities,Utilities,-16.0,43.0,59.0
+2026-04-02,FFIV,"F5, INC.",Information Technology,Information Technology,-33.0,-31.0,2.0
+2026-04-02,FICO,FAIR ISAAC ,Information Technology,Information Technology,-30.0,-30.0,-0.0
+2026-04-02,FIS,FIDELITY NATIONAL INFORMATION SERVICES,Financials,Financials,-22.0,-60.0,-38.0
+2026-04-02,FISV,"FISERV, INC.",Financials,Financials,51.0,-12.0,-63.0
+2026-04-02,FITB,FIFTH THIRD BANCORP,Financials,Financials,-32.0,12.0,44.0
+2026-04-02,FIX,"COMFORT SYSTEMS USA, INC.",Industrials,Industrials,29.0,71.0,42.0
+2026-04-02,FOXA,FOX ,Communication Services,Communication Services,43.0,-5.0,-48.0
+2026-04-02,FRO,FRONTLINE PLC,,MR Discretion,2.0,23.0,21.0
+2026-04-02,FRT,FEDERAL REALTY INVESTMENT TRUST,Real Estate,Real Estate,16.0,25.0,9.0
+2026-04-02,FSLR,"FIRST SOLAR, INC.",Information Technology,Information Technology,-31.0,-5.0,26.0
+2026-04-02,FTI,TECHNIPFMC PLC,,MR Discretion,2.0,60.0,58.0
+2026-04-02,FTNT,"FORTINET, INC.",Information Technology,Information Technology,59.0,12.0,-47.0
+2026-04-02,FTV,FORTIVE ,Industrials,Industrials,-21.0,-17.0,4.0
+2026-04-02,FVX,5 YR TSY YLD NDX,Yields,Yields,9.0,-42.0,-51.0
+2026-04-02,FXA,INVESCO:AU DOLLAR,,Currencies,42.0,53.0,11.0
+2026-04-02,FXB,INVESCO:GBP STERLING,,Currencies,-6.0,17.0,23.0
+2026-04-02,FXC,INVESCO:CANADIAN DOLLAR,,Currencies,17.0,28.0,11.0
+2026-04-02,FXE,INVESCO:EURO,,Currencies,-25.0,8.0,33.0
+2026-04-02,FXY,INVESCO:JAPANESE YEN,,Currencies,-12.0,35.0,47.0
+2026-04-02,GD,GENERAL DYNAMICS ,Industrials,Industrials,-26.0,9.0,35.0
+2026-04-02,GDDY,GODADDY INC.,Information Technology,Information Technology,5.0,-21.0,-26.0
+2026-04-02,GDX,VANECK:GOLD MINERS,,Commodities,63.0,63.0,0.0
+2026-04-02,GDXJ,VANECK:JR GOLD MINERS,,Commodities,39.0,39.0,0.0
+2026-04-02,GE,GENERAL ELECTRIC COMPANY,Industrials,Industrials,7.0,-6.0,-13.0
+2026-04-02,GEHC,GE HEALTHCARE TECHNOLOGIES INC.,Health Care,Health Care,-71.0,2.0,73.0
+2026-04-02,GEN,GEN DIGITAL INC.,Information Technology,Information Technology,1.0,3.0,2.0
+2026-04-02,GEOS,GEOSPACE TECHNOLOGIES ,,MR Discretion,0.0,-35.0,-35.0
+2026-04-02,GEV,GE VERNOVA INC.,Industrials,Industrials,-89.0,12.0,101.0
+2026-04-02,GGB,GERDAU SA,,MR Discretion,-16.0,13.0,29.0
+2026-04-02,GILD,"GILEAD SCIENCES, INC.",Health Care,Health Care,34.0,54.0,20.0
+2026-04-02,GIS,"GENERAL MILLS, INC.",Consumer Staples,Consumer Staples,-21.0,-21.0,0.0
+2026-04-02,GL,GLOBE LIFE INC.,Financials,Financials,88.0,76.0,-12.0
+2026-04-02,GLATF,GLOBAL ATOMIC ,,MR Discretion,0.0,5.0,5.0
+2026-04-02,GLD,SPDR GOLD,Gold,Commodities,0.0,0.0,0.0
+2026-04-02,GLW,CORNING INC.,Information Technology,Information Technology,-13.0,50.0,63.0
+2026-04-02,GM,GENERAL MOTORS COMPANY,Consumer Discretionary,Consumer Discretionary,24.0,48.0,24.0
+2026-04-02,GNK,GENCO SHIPPING & TRADING LIMITED,,MR Discretion,-50.0,17.0,67.0
+2026-04-02,GNRC,GENERAC HOLDINGS INC.,Industrials,Industrials,11.0,34.0,23.0
+2026-04-02,GOOGL,ALPHABET INC.,Communication Services,Communication Services,60.0,47.0,-13.0
+2026-04-02,GPC,GENUINE PARTS COMPANY,Consumer Discretionary,Consumer Discretionary,30.0,57.0,27.0
+2026-04-02,GPN,GLOBAL PAYMENTS INC.,Financials,Financials,32.0,-1.0,-33.0
+2026-04-02,GREK,GLBL X MSCI GREECE,,Foreign,51.0,57.0,6.0
+2026-04-02,GRMN,GARMIN LTD,Consumer Discretionary,Consumer Discretionary,-41.0,4.0,45.0
+2026-04-02,GS,"THE GOLDMAN SACHS GROUP, INC.",Financials,Financials,-60.0,12.0,72.0
+2026-04-02,GWW,"W.W. GRAINGER, INC.",Industrials,Industrials,-17.0,-5.0,12.0
+2026-04-02,HAL,HALLIBURTON COMPANY,Energy,Energy,43.0,31.0,-12.0
+2026-04-02,HAS,"HASBRO, INC.",Consumer Discretionary,Consumer Discretionary,33.0,16.0,-17.0
+2026-04-02,HBAN,HUNTINGTON BANCSHARES INC.,Financials,Financials,-57.0,5.0,62.0
+2026-04-02,HCA,"HCA HEALTHCARE, INC.",Health Care,Health Care,2.0,-18.0,-20.0
+2026-04-02,HD,"THE HOME DEPOT, INC.",Consumer Discretionary,Consumer Discretionary,12.0,12.0,0.0
+2026-04-02,HIG,THE HARTFORD FINANCIAL SERVICES GROUP,Financials,Financials,55.0,32.0,-23.0
+2026-04-02,HII,"HUNTINGTON INGALLS INDUSTRIES, INC.",Industrials,Industrials,-9.0,14.0,23.0
+2026-04-02,HLT,HILTON WORLDWIDE HOLDINGS INC.,Consumer Discretionary,Consumer Discretionary,13.0,21.0,8.0
+2026-04-02,HLX,"HELIX ENERGY SOLUTIONS GROUP, INC.",,MR Discretion,39.0,16.0,-23.0
+2026-04-02,HOLX,"HOLOGIC, INC.",Health Care,Health Care,-14.0,-24.0,-10.0
+2026-04-02,HON,HONEYWELL INTERNATIONAL INC.,Industrials,Industrials,44.0,55.0,11.0
+2026-04-02,HOOD,"ROBINHOOD MARKETS, INC.",Financials,Financials,25.0,6.0,-19.0
+2026-04-02,HPE,HEWLETT PACKARD ENTERPRISE COMPANY,Information Technology,Information Technology,-26.0,7.0,33.0
+2026-04-02,HPQ,HP INC.,Information Technology,Information Technology,19.0,-27.0,-46.0
+2026-04-02,HRL,HORMEL FOODS ,Consumer Staples,Consumer Staples,6.0,9.0,3.0
+2026-04-02,HSIC,"HENRY SCHEIN, INC.",Health Care,Health Care,-15.0,8.0,23.0
+2026-04-02,HST,"HOST HOTELS & RESORTS, INC.",Real Estate,Real Estate,-61.0,4.0,65.0
+2026-04-02,HSY,THE HERSHEY COMPANY,Consumer Staples,Consumer Staples,-11.0,9.0,20.0
+2026-04-02,HUBB,HUBBELL INC.,Industrials,Industrials,-18.0,35.0,53.0
+2026-04-02,HUM,HUMANA INC.,Health Care,Health Care,-37.0,6.0,43.0
+2026-04-02,HWM,HOWMET AEROSPACE INC.,Industrials,Industrials,38.0,71.0,33.0
+2026-04-02,HYD,VANECK:HIGH YIELD MUNI,,Bonds,-53.0,-17.0,36.0
+2026-04-02,HYG,ISHARES:IBOXX $HY CORP,Bonds,Bonds,-30.0,3.0,33.0
+2026-04-02,IBKR,"INTERACTIVE BROKERS GROUP, INC.",Financials,Financials,-21.0,3.0,24.0
+2026-04-02,IBM,INTERNATIONAL BUSINESS MACHINES ,Information Technology,Information Technology,13.0,-12.0,-25.0
+2026-04-02,ICE,"INTERCONTINENTAL EXCHANGE, INC.",Financials,Financials,-63.0,-27.0,36.0
+2026-04-02,ICL,ICL GROUP LTD,,MR Discretion,-60.0,-35.0,25.0
+2026-04-02,IDXX,"IDEXX LABORATORIES, INC.",Health Care,Health Care,-23.0,4.0,27.0
+2026-04-02,IEF,ISHARES:7-10 TRS BD ETF,Bonds,Bonds,-47.0,26.0,73.0
+2026-04-02,IEX,IDEX ,Industrials,Industrials,-14.0,-10.0,4.0
+2026-04-02,IFF,INTERNATIONAL FLAVORS & FRAGRANCES INC.,Materials,Materials,-50.0,3.0,53.0
+2026-04-02,INCY,INCYTE ,Health Care,Health Care,22.0,55.0,33.0
+2026-04-02,INDA,ISHARES:MSCI INDIA,,Foreign,-16.0,-5.0,11.0
+2026-04-02,INTC,INTEL ,Information Technology,Information Technology,-76.0,-23.0,53.0
+2026-04-02,INTU,INTUIT INC.,Information Technology,Information Technology,35.0,-12.0,-47.0
+2026-04-02,INVH,INVITATION HOMES INC.,Real Estate,Real Estate,-26.0,-37.0,-11.0
+2026-04-02,IP,INTERNATIONAL PAPER COMPANY,Materials,Materials,-26.0,-12.0,14.0
+2026-04-02,IQV,IQVIA HOLDINGS INC,Health Care,Health Care,-11.0,6.0,17.0
+2026-04-02,IR,INGERSOLL RAND INC.,Industrials,Industrials,-32.0,-8.0,24.0
+2026-04-02,IRM,IRON MOUNTAIN INC.,Real Estate,Real Estate,15.0,3.0,-12.0
+2026-04-02,ISRG,"INTUITIVE SURGICAL, INC.",Health Care,Health Care,23.0,12.0,-11.0
+2026-04-02,IT,"GARTNER, INC.",Information Technology,Information Technology,10.0,-37.0,-47.0
+2026-04-02,ITW,ILLINOIS TOOL WORKS INC.,Industrials,Industrials,-9.0,28.0,37.0
+2026-04-02,IVZ,INVESCO LTD.,Financials,Financials,-24.0,22.0,46.0
+2026-04-02,IWD,ISHARES:RUSS 1000 VL ETF,,Sector & Style ETFs,7.0,20.0,13.0
+2026-04-02,IWF,ISHARES:RUSS 1000 GR ETF,,Sector & Style ETFs,-27.0,-14.0,13.0
+2026-04-02,IWM,ISHARES:RUSS 2000 ETF,,Sector & Style ETFs,-30.0,12.0,42.0
+2026-04-02,J,JACOBS SOLUTIONS INC.,Industrials,Industrials,-48.0,-21.0,27.0
+2026-04-02,JBHT,"J. B. HUNT TRANSPORT SERVICES, INC.",Industrials,Industrials,28.0,48.0,20.0
+2026-04-02,JBL,JABIL INC.,Information Technology,Information Technology,-58.0,16.0,74.0
+2026-04-02,JCI,JOHNSON CONTROLS INTERNATIONAL PLC,Industrials,Industrials,24.0,61.0,37.0
+2026-04-02,JKHY,"JACK HENRY & ASSOCIATES, INC.",Financials,Financials,-28.0,4.0,32.0
+2026-04-02,JNJ,JOHNSON & JOHNSON,Health Care,Health Care,-2.0,34.0,36.0
+2026-04-02,JNK,SPDR BBG HIGH YIELD BD,,Bonds,-52.0,-19.0,33.0
+2026-04-02,JPM,JPMORGAN CHASE & CO.,Financials,Financials,-14.0,-5.0,9.0
+2026-04-02,KDP,KEURIG DR PEPPER INC.,Consumer Staples,Consumer Staples,-14.0,9.0,23.0
+2026-04-02,KEY,KEYCORP,Financials,Financials,-79.0,-5.0,74.0
+2026-04-02,KEYS,"KEYSIGHT TECHNOLOGIES, INC.",Information Technology,Information Technology,-25.0,11.0,36.0
+2026-04-02,KHC,THE KRAFT HEINZ COMPANY,Consumer Staples,Consumer Staples,-37.0,16.0,53.0
+2026-04-02,KIM,KIMCO REALTY .,Real Estate,Real Estate,58.0,75.0,17.0
+2026-04-02,KKR,KKR & CO. INC.,Financials,Financials,17.0,-17.0,-34.0
+2026-04-02,KLAC,KLA ,Information Technology,Information Technology,-47.0,37.0,84.0
+2026-04-02,KMB,KIMBERLY-CLARK ,Consumer Staples,Consumer Staples,-89.0,-44.0,45.0
+2026-04-02,KMI,"KINDER MORGAN, INC.",Energy,Energy,-30.0,7.0,37.0
+2026-04-02,KO,THE COCA-COLA COMPANY,Consumer Staples,Consumer Staples,-8.0,22.0,30.0
+2026-04-02,KR,THE KROGER CO.,Consumer Staples,Consumer Staples,28.0,-74.0,-102.0
+2026-04-02,KVUE,KENVUE INC.,Consumer Staples,Consumer Staples,-13.0,-55.0,-42.0
+2026-04-02,L,LOEWS ,Financials,Financials,32.0,71.0,39.0
+2026-04-02,LDOS,"LEIDOS HOLDINGS, INC.",Industrials,Industrials,-23.0,-21.0,2.0
+2026-04-02,LEN,LENNAR ,Consumer Discretionary,Consumer Discretionary,-38.0,-10.0,28.0
+2026-04-02,LH,LABORATORY  OF AMERICA HOLDINGS,Health Care,Health Care,1.0,24.0,23.0
+2026-04-02,LHX,"L3HARRIS TECHNOLOGIES, INC.",Industrials,Industrials,22.0,52.0,30.0
+2026-04-02,LII,LENNOX INTERNATIONAL INC.,Industrials,Industrials,-46.0,-5.0,41.0
+2026-04-02,LIN,LINDE PUBLIC LIMITED COMPANY,Materials,Materials,-18.0,-19.0,-1.0
+2026-04-02,LLY,ELI LILLY AND COMPANY,Health Care,Health Care,22.0,31.0,9.0
+2026-04-02,LMT,LOCKHEED MARTIN ,Industrials,Industrials,21.0,44.0,23.0
+2026-04-02,LNT,ALLIANT ENERGY ,Utilities,Utilities,-8.0,76.0,84.0
+2026-04-02,LOW,"LOWE'S COMPANIES, INC.",Consumer Discretionary,Consumer Discretionary,36.0,36.0,0.0
+2026-04-02,LQD,ISHARES:IBOXX $IG CORP,Bonds,Bonds,-39.0,-3.0,36.0
+2026-04-02,LRCX,LAM RESEARCH ,Information Technology,Information Technology,22.0,59.0,37.0
+2026-04-02,LULU,LULULEMON ATHLETICA INC.,Consumer Discretionary,Consumer Discretionary,35.0,2.0,-33.0
+2026-04-02,LUV,SOUTHWEST AIRLINES CO.,Industrials,Industrials,48.0,48.0,0.0
+2026-04-02,LVS,LAS VEGAS SANDS CORP.,Consumer Discretionary,Consumer Discretionary,17.0,26.0,9.0
+2026-04-02,LW,"LAMB WESTON HOLDINGS, INC.",Consumer Staples,Consumer Staples,-41.0,-4.0,37.0
+2026-04-02,LYB,LYONDELLBASELL INDUSTRIES NV,Materials,Materials,42.0,-9.0,-51.0
+2026-04-02,LYV,"LIVE NATION ENTERTAINMENT, INC.",Communication Services,Communication Services,3.0,-7.0,-10.0
+2026-04-02,MA,MASTERCARD INC..,Financials,Financials,15.0,4.0,-11.0
+2026-04-02,MAA,"MID-AMERICA APARTMENT COMMUNITIES, INC.",Real Estate,Real Estate,15.0,-5.0,-20.0
+2026-04-02,MAR,"MARRIOTT INTERNATIONAL, INC.",Consumer Discretionary,Consumer Discretionary,-37.0,-5.0,32.0
+2026-04-02,MAS,MASCO ,Industrials,Industrials,-20.0,4.0,24.0
+2026-04-02,MCD,MCDONALD'S ,Consumer Discretionary,Consumer Discretionary,-8.0,27.0,35.0
+2026-04-02,MCHI,ISHARES:MSCI CHINA,,Foreign,-26.0,35.0,61.0
+2026-04-02,MCHP,MICROCHIP TECHNOLOGY INC.,Information Technology,Information Technology,-67.0,-7.0,60.0
+2026-04-02,MCK,MCKESSON ,Health Care,Health Care,5.0,40.0,35.0
+2026-04-02,MCO,MOODY'S ,Financials,Financials,-1.0,-12.0,-11.0
+2026-04-02,MDLZ,"MONDELEZ INTERNATIONAL, INC.",Consumer Staples,Consumer Staples,1.0,23.0,22.0
+2026-04-02,MDT,MEDTRONIC PUBLIC LIMITED COMPANY,Health Care,Health Care,31.0,31.0,0.0
+2026-04-02,MDY,SPDR S&P MIDCAP 400 ETF,,Sector & Style ETFs,-9.0,4.0,13.0
+2026-04-02,MET,"METLIFE, INC.",Financials,Financials,-61.0,-5.0,56.0
+2026-04-02,META,"META PLATFORMS, INC.",Communication Services,Communication Services,4.0,-24.0,-28.0
+2026-04-02,MGM,MGM RESORTS INTERNATIONAL,Consumer Discretionary,Consumer Discretionary,0.0,-10.0,-10.0
+2026-04-02,MKC,"MCCORMICK & COMPANY, INC.",Consumer Staples,Consumer Staples,10.0,44.0,34.0
+2026-04-02,MLM,"MARTIN MARIETTA MATERIALS, INC.",Materials,Materials,5.0,5.0,0.0
+2026-04-02,MMM,3M COMPANY,Industrials,Industrials,-20.0,14.0,34.0
+2026-04-02,MNST,MONSTER BEVERAGE ,Consumer Staples,Consumer Staples,0.0,28.0,28.0
+2026-04-02,MO,"ALTRIA GROUP, INC.",Consumer Staples,Consumer Staples,-16.0,43.0,59.0
+2026-04-02,MOH,"MOLINA HEALTHCARE, INC.",Health Care,Health Care,28.0,-10.0,-38.0
+2026-04-02,MOS,THE MOSAIC COMPANY,Materials,Materials,-67.0,-11.0,56.0
+2026-04-02,MP,MP MATERIALS CORP,,MR Discretion,-61.0,2.0,63.0
+2026-04-02,MPC,MARATHON PETROLEUM ,Energy,Energy,42.0,16.0,-26.0
+2026-04-02,MPWR,"MONOLITHIC POWER SYSTEMS, INC.",Information Technology,Information Technology,-83.0,10.0,93.0
+2026-04-02,MRK,"MERCK & CO., INC.",Health Care,Health Care,19.0,-3.0,-22.0
+2026-04-02,MRNA,"MODERNA, INC.",Health Care,Health Care,15.0,25.0,10.0
+2026-04-02,MRSH,"MARSH & MCLENNAN COMPANIES, INC.",Financials,Financials,28.0,-5.0,-33.0
+2026-04-02,MS,MORGAN STANLEY,Financials,Financials,-44.0,12.0,56.0
+2026-04-02,MSCI,MSCI INC.,Financials,Financials,-1.0,3.0,4.0
+2026-04-02,MSFT,MICROSOFT ,Information Technology,Information Technology,-27.0,-38.0,-11.0
+2026-04-02,MSI,"MOTOROLA SOLUTIONS, INC.",Information Technology,Information Technology,10.0,-8.0,-18.0
+2026-04-02,MTB,M&T BANK ,Financials,Financials,-41.0,12.0,53.0
+2026-04-02,MTCH,"MATCH GROUP, INC.",Communication Services,Communication Services,-3.0,23.0,26.0
+2026-04-02,MTD,METTLER-TOLEDO INTERNATIONAL INC.,Health Care,Health Care,-47.0,20.0,67.0
+2026-04-02,MTUM,ISHARES:MSCI USA MOM FCT,,Sector & Style ETFs,-53.0,-44.0,9.0
+2026-04-02,MU,"MICRON TECHNOLOGY, INC.",Information Technology,Information Technology,-2.0,-10.0,-8.0
+2026-04-02,MUB,ISHARES:NATL MUNI BOND,,Bonds,13.0,49.0,36.0
+2026-04-02,NCLH,NORWEGIAN CRUISE LINE HOLDINGS LTD.,Consumer Discretionary,Consumer Discretionary,6.0,-5.0,-11.0
+2026-04-02,NDAQ,"NASDAQ, INC.",Financials,Financials,3.0,-21.0,-24.0
+2026-04-02,NDSN,NORDSON ,Industrials,Industrials,-13.0,23.0,36.0
+2026-04-02,NDX,NASDAQ 100 INDEX,,Indices,-3.0,-29.0,-26.0
+2026-04-02,NEE,"NEXTERA ENERGY, INC.",Utilities,Utilities,-12.0,53.0,65.0
+2026-04-02,NEM,NEWMONT ,Materials,Materials,79.0,79.0,0.0
+2026-04-02,NFLX,"NETFLIX, INC.",Communication Services,Communication Services,43.0,-5.0,-48.0
+2026-04-02,NI,NISOURCE INC.,Utilities,Utilities,-33.0,53.0,86.0
+2026-04-02,NKE,"NIKE, INC.",Consumer Discretionary,Consumer Discretionary,-54.0,-27.0,27.0
+2026-04-02,NOC,NORTHROP GRUMMAN ,Industrials,Industrials,-7.0,40.0,47.0
+2026-04-02,NORW,GLBL X MSCI NORWAY ETF,,Foreign,17.0,44.0,27.0
+2026-04-02,NOV,NOV INC.,,MR Discretion,10.0,53.0,43.0
+2026-04-02,NOW,"SERVICENOW, INC.",Information Technology,Information Technology,41.0,-5.0,-46.0
+2026-04-02,NQ=F,NASDAQ 100 FUTURES,,Futures,37.0,-4.0,-41.0
+2026-04-02,NRG,"NRG ENERGY, INC.",Utilities,Utilities,-26.0,2.0,28.0
+2026-04-02,NSC,NORFOLK SOUTHERN ,Industrials,Industrials,12.0,56.0,44.0
+2026-04-02,NTAP,"NETAPP, INC.",Information Technology,Information Technology,0.0,-21.0,-21.0
+2026-04-02,NTRS,NORTHERN TRUST ,Financials,Financials,-41.0,12.0,53.0
+2026-04-02,NUE,NUCOR ,Materials,Materials,-26.0,20.0,46.0
+2026-04-02,NVDA,NVIDIA ,Information Technology,Information Technology,4.0,-34.0,-38.0
+2026-04-02,NVR,"NVR, INC.",Consumer Discretionary,Consumer Discretionary,-3.0,-3.0,0.0
+2026-04-02,NWSA,NEWS CORP.,Communication Services,Communication Services,33.0,12.0,-21.0
+2026-04-02,NXPI,NXP SEMICONDUCTORS NV,Information Technology,Information Technology,-15.0,31.0,46.0
+2026-04-02,O,REALTY INCOME ,Real Estate,Real Estate,14.0,44.0,30.0
+2026-04-02,ODFL,"OLD DOMINION FREIGHT LINE, INC.",Industrials,Industrials,-32.0,19.0,51.0
+2026-04-02,OEF,ISHARES:S&P 100,,Sector & Style ETFs,-10.0,-14.0,-4.0
+2026-04-02,OKE,"ONEOK, INC.",Energy,Energy,34.0,-5.0,-39.0
+2026-04-02,OMC,OMNICOM GROUP INC.,Communication Services,Communication Services,-45.0,-21.0,24.0
+2026-04-02,ON,ON SEMICONDUCTOR ,Information Technology,Information Technology,-36.0,11.0,47.0
+2026-04-02,ORCL,ORACLE ,Information Technology,Information Technology,-1.0,-26.0,-25.0
+2026-04-02,ORLY,"O'REILLY AUTOMOTIVE, INC.",Consumer Discretionary,Consumer Discretionary,-9.0,4.0,13.0
+2026-04-02,OTIS,OTIS WORLDWIDE ,Industrials,Industrials,-32.0,-32.0,0.0
+2026-04-02,OXY,OCCIDENTAL PETROLEUM ,Energy,Energy,38.0,16.0,-22.0
+2026-04-02,PAM,PAMPA ENERGIA SA,,MR Discretion,-38.0,-56.0,-18.0
+2026-04-02,PANW,"PALO ALTO NETWORKS, INC.",Information Technology,Information Technology,-1.0,-27.0,-26.0
+2026-04-02,PAYC,"PAYCOM SOFTWARE, INC.",Industrials,Industrials,7.0,12.0,5.0
+2026-04-02,PAYX,"PAYCHEX, INC.",Industrials,Industrials,9.0,-5.0,-14.0
+2026-04-02,PBR,BRAZILIAN PETROLEUM  - PETROBRAS,,MR Discretion,33.0,3.0,-30.0
+2026-04-02,PCAR,PACCAR INC,Industrials,Industrials,-11.0,22.0,33.0
+2026-04-02,PCG,PG&E ,Utilities,Utilities,10.0,30.0,20.0
+2026-04-02,PEG,PUBLIC SERVICE ENTERPRISE GROUP INC.,Utilities,Utilities,47.0,47.0,0.0
+2026-04-02,PEP,"PEPSICO, INC.",Consumer Staples,Consumer Staples,7.0,30.0,23.0
+2026-04-02,PFE,PFIZER INC.,Health Care,Health Care,40.0,42.0,2.0
+2026-04-02,PFF,ISHARES:PREF AND INC SEC,,Bonds,-13.0,23.0,36.0
+2026-04-02,PFG,"PRINCIPAL FINANCIAL GROUP, INC.",Financials,Financials,44.0,57.0,13.0
+2026-04-02,PG,THE PROCTER & GAMBLE COMPANY,Consumer Staples,Consumer Staples,-3.0,-3.0,0.0
+2026-04-02,PGR,THE PROGRESSIVE ,Financials,Financials,39.0,5.0,-34.0
+2026-04-02,PH,PARKER-HANNIFIN ,Industrials,Industrials,3.0,47.0,44.0
+2026-04-02,PHM,"PULTEGROUP, INC.",Consumer Discretionary,Consumer Discretionary,-12.0,50.0,62.0
+2026-04-02,PKG,PACKAGING  OF AMERICA,Materials,Materials,-45.0,-10.0,35.0
+2026-04-02,PLD,"PROLOGIS, INC.",Real Estate,Real Estate,31.0,55.0,24.0
+2026-04-02,PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,Information Technology,58.0,33.0,-25.0
+2026-04-02,PM,PHILIP MORRIS INTERNATIONAL INC.,Consumer Staples,Consumer Staples,-51.0,-10.0,41.0
+2026-04-02,PNC,"THE PNC FINANCIAL SERVICES GROUP, INC.",Financials,Financials,-30.0,12.0,42.0
+2026-04-02,PNR,PENTAIR PUBLIC LIMITED COMPANY,Industrials,Industrials,-39.0,-30.0,9.0
+2026-04-02,PNW,PINNACLE WEST CAPITAL ,Utilities,Utilities,0.0,76.0,76.0
+2026-04-02,PODD,INSULET ,Health Care,Health Care,-13.0,-11.0,2.0
+2026-04-02,POOL,POOL ,Consumer Discretionary,Consumer Discretionary,-17.0,34.0,51.0
+2026-04-02,POWA,INVESCO BLOOMBERG PRICING POWER,,Sector & Style ETFs,-14.0,-14.0,0.0
+2026-04-02,PPG,"PPG INDUSTRIES, INC.",Materials,Materials,30.0,61.0,31.0
+2026-04-02,PPL,PPL ,Utilities,Utilities,-41.0,-5.0,36.0
+2026-04-02,PPLT,ABRDN:PHYSICAL PLATINUM,,Commodities,43.0,40.0,-3.0
+2026-04-02,PRU,"PRUDENTIAL FINANCIAL, INC.",Financials,Financials,-50.0,-10.0,40.0
+2026-04-02,PSA,PUBLIC STORAGE.,Real Estate,Real Estate,58.0,48.0,-10.0
+2026-04-02,PSKY,PARAMOUNT SKYDANCE ,Communication Services,Communication Services,12.0,43.0,31.0
+2026-04-02,PSX,PHILLIPS 66,Energy,Energy,70.0,50.0,-20.0
+2026-04-02,PTC,PTC INC.,Information Technology,Information Technology,12.0,-21.0,-33.0
+2026-04-02,PWR,"QUANTA SERVICES, INC.",Industrials,Industrials,7.0,59.0,52.0
+2026-04-02,PYPL,"PAYPAL HOLDINGS, INC.",Financials,Financials,-5.0,-10.0,-5.0
+2026-04-02,Q,"QNITY ELECTRONICS, INC.",Information Technology,Information Technology,-83.0,-0.0,83.0
+2026-04-02,QAT,ISHARES:MSCI QATAR,,Foreign,-58.0,-13.0,45.0
+2026-04-02,QCOM,QUALCOMM INC.,Information Technology,Information Technology,-13.0,-33.0,-20.0
+2026-04-02,QQQ,INVESCO QQQ TRUST 1,,Sector & Style ETFs,-4.0,-14.0,-10.0
+2026-04-02,QUAL,ISHARES:MSCI USA QF,,Sector & Style ETFs,-33.0,-14.0,19.0
+2026-04-02,RCL,ROYAL CARIBBEAN CRUISES LTD.,Consumer Discretionary,Consumer Discretionary,-66.0,3.0,69.0
+2026-04-02,REG,REGENCY CENTERS ,Real Estate,Real Estate,-24.0,3.0,27.0
+2026-04-02,REGN,"REGENERON PHARMACEUTICALS, INC.",Health Care,Health Care,-2.0,12.0,14.0
+2026-04-02,RF,REGIONS FINANCIAL ,Financials,Financials,11.0,22.0,11.0
+2026-04-02,RIG,TRANSOCEAN LTD,,MR Discretion,28.0,34.0,6.0
+2026-04-02,RJF,"RAYMOND JAMES FINANCIAL, INC.",Financials,Financials,-23.0,-21.0,2.0
+2026-04-02,RL,RALPH LAUREN ,Consumer Discretionary,Consumer Discretionary,-49.0,-22.0,27.0
+2026-04-02,RMD,RESMED INC.,Health Care,Health Care,-54.0,-21.0,33.0
+2026-04-02,ROK,"ROCKWELL AUTOMATION, INC.",Industrials,Industrials,3.0,22.0,19.0
+2026-04-02,ROKU,"ROKU, INC.",,MR Discretion,-34.0,-5.0,29.0
+2026-04-02,ROL,"ROLLINS, INC.",Industrials,Industrials,-14.0,10.0,24.0
+2026-04-02,ROP,"ROPER TECHNOLOGIES, INC.",Information Technology,Information Technology,59.0,7.0,-52.0
+2026-04-02,ROST,"ROSS STORES, INC.",Consumer Discretionary,Consumer Discretionary,47.0,38.0,-9.0
+2026-04-02,RSG,"REPUBLIC SERVICES, INC.",Industrials,Industrials,26.0,5.0,-21.0
+2026-04-02,RSP,INVESCO S&P500 EWGHT,,Sector & Style ETFs,-27.0,-14.0,13.0
+2026-04-02,RTX,RTX ,Industrials,Industrials,18.0,5.0,-13.0
+2026-04-02,RUT,RUSSELL 2000 INDEX,,Indices,-22.0,-4.0,18.0
+2026-04-02,RVTY,"REVVITY, INC.",Health Care,Health Care,-40.0,22.0,62.0
+2026-04-02,SBAC,SBA COMMUNICATIONS ,Real Estate,Real Estate,-10.0,-10.0,-0.0
+2026-04-02,SBLK,STAR BULK CARRIERS CORP.,,MR Discretion,-60.0,-37.0,23.0
+2026-04-02,SBUX,STARBUCKS ,Consumer Discretionary,Consumer Discretionary,7.0,20.0,13.0
+2026-04-02,SCHP,SCHWAB STR:US TIPS,,Bonds,-11.0,30.0,41.0
+2026-04-02,SCHW,THE CHARLES SCHWAB ,Financials,Financials,-52.0,-12.0,40.0
+2026-04-02,SD,"SANDRIDGE ENERGY, INC.",,MR Discretion,-34.0,14.0,48.0
+2026-04-02,SDY,SPDR S&P DIVIDEND,,Sector & Style ETFs,10.0,52.0,42.0
+2026-04-02,SHW,THE SHERWIN-WILLIAMS COMPANY,Materials,Materials,31.0,31.0,0.0
+2026-04-02,SHY,ISHARES:1-3 TRS BD ETF,Bonds,Bonds,-6.0,12.0,18.0
+2026-04-02,SILJ,ETFMG PRIME JR SILVR MNR,,Commodities,39.0,39.0,0.0
+2026-04-02,SJM,THE J. M. SMUCKER COMPANY,Consumer Staples,Consumer Staples,5.0,14.0,9.0
+2026-04-02,SLB,SCHLUMBERGER N.V.,Energy,Energy,44.0,35.0,-9.0
+2026-04-02,SLV,ISHARES:SILVER TRUST,,Commodities,-30.0,-30.0,0.0
+2026-04-02,SM,SM ENERGY COMPANY,,MR Discretion,19.0,-24.0,-43.0
+2026-04-02,SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,Information Technology,15.0,15.0,-0.0
+2026-04-02,SMH,VANECK:SEMICONDUCTOR,,Sector & Style ETFs,-24.0,20.0,44.0
+2026-04-02,SNA,SNAP-ON INC.,Industrials,Industrials,12.0,47.0,35.0
+2026-04-02,SNDK,SANDISK CORPORATION,Information Technology,Information Technology,-37.0,32.0,69.0
+2026-04-02,SNPS,"SYNOPSYS, INC.",Information Technology,Information Technology,0.0,-6.0,-6.0
+2026-04-02,SO,THE SOUTHERN COMPANY,Utilities,Utilities,-55.0,22.0,77.0
+2026-04-02,SOLV,SOLVENTUM ,Health Care,Health Care,-71.0,-38.0,33.0
+2026-04-02,SOYB,TEUCRIUM:SOYBEAN,,Commodities,-3.0,35.0,38.0
+2026-04-02,SPG,"SIMON PROPERTY GROUP, INC.",Real Estate,Real Estate,-47.0,-14.0,33.0
+2026-04-02,SPGI,S&P GLOBAL INC.,Financials,Financials,-35.0,-18.0,17.0
+2026-04-02,SPHB,INVESCO S&P500 HI BE,,Sector & Style ETFs,72.0,54.0,-18.0
+2026-04-02,SPLV,INVESCO S&P500 LOWVL,,Sector & Style ETFs,-24.0,52.0,76.0
+2026-04-02,SPX,S&P 500 INDEX,,Indices,-1.0,-29.0,-28.0
+2026-04-02,SPY,SPDR S&P 500 ETF,,Sector & Style ETFs,-10.0,-14.0,-4.0
+2026-04-02,SRE,SEMPRA,Utilities,Utilities,-6.0,9.0,15.0
+2026-04-02,STE,STERIS PUBLIC LIMITED COMPANY,Health Care,Health Care,-10.0,36.0,46.0
+2026-04-02,STIP,ISHARES:0-5 TIPS BD ETF,Bonds,Bonds,-12.0,35.0,47.0
+2026-04-02,STLA,STELLANTIS NV,,MR Discretion,-78.0,-29.0,49.0
+2026-04-02,STLD,"STEEL DYNAMICS, INC.",Materials,Materials,49.0,84.0,35.0
+2026-04-02,STNG,SCORPIO TANKERS INC.,,MR Discretion,-21.0,38.0,59.0
+2026-04-02,STT,STATE STREET ,Financials,Financials,-34.0,12.0,46.0
+2026-04-02,STX,SEAGATE TECHNOLOGY HOLDINGS,Information Technology,Information Technology,-49.0,37.0,86.0
+2026-04-02,STZ,"CONSTELLATION BRANDS, INC.",Consumer Staples,Consumer Staples,-58.0,-36.0,22.0
+2026-04-02,SW,SMURFIT WESTROCK PUBLIC LIMITED COMPANY,Materials,Materials,-9.0,47.0,56.0
+2026-04-02,SWK,"STANLEY BLACK & DECKER, INC.",Industrials,Industrials,46.0,35.0,-11.0
+2026-04-02,SWKS,"SKYWORKS SOLUTIONS, INC.",Information Technology,Information Technology,-78.0,-3.0,75.0
+2026-04-02,SYF,SYNCHRONY FINANCIAL,Financials,Financials,-31.0,-5.0,26.0
+2026-04-02,SYK,STRYKER ,Health Care,Health Care,-7.0,-7.0,0.0
+2026-04-02,SYY,SYSCO ,Consumer Staples,Consumer Staples,-46.0,-22.0,24.0
+2026-04-02,T,AT&T INC.,Communication Services,Communication Services,47.0,34.0,-13.0
+2026-04-02,TAGS,TEUCRIUM:AGRICULTURAL,,Commodities,78.0,43.0,-35.0
+2026-04-02,TAP,MOLSON COORS BEVERAGE COMPANY,Consumer Staples,Consumer Staples,-28.0,12.0,40.0
+2026-04-02,TDG,TRANSDIGM GROUP INC.,Industrials,Industrials,5.0,-30.0,-35.0
+2026-04-02,TDW,TIDEWATER INC.,,MR Discretion,-12.0,-6.0,6.0
+2026-04-02,TDY,TELEDYNE TECHNOLOGIES INC.,Information Technology,Information Technology,76.0,59.0,-17.0
+2026-04-02,TECH,BIO-TECHNE ,Health Care,Health Care,-30.0,16.0,46.0
+2026-04-02,TECK,TECK RESOURCES LIMITED,,MR Discretion,1.0,38.0,37.0
+2026-04-02,TEL,TE CONNECTIVITY LTD,Information Technology,Information Technology,-15.0,12.0,27.0
+2026-04-02,TER,"TERADYNE, INC.",Information Technology,Information Technology,-25.0,59.0,84.0
+2026-04-02,TFC,TRUIST FINANCIAL ,Financials,Financials,-16.0,-5.0,11.0
+2026-04-02,TGT,TARGET ,Consumer Staples,Consumer Staples,47.0,6.0,-41.0
+2026-04-02,THD,ISHARES:MSCI THAI,,Foreign,24.0,30.0,6.0
+2026-04-02,TIP,ISHARES:TIPS BD ETF,Bonds,Bonds,8.0,35.0,27.0
+2026-04-02,TJX,"THE TJX COMPANIES, INC.",Consumer Discretionary,Consumer Discretionary,43.0,47.0,4.0
+2026-04-02,TKO,"TKO GROUP HOLDINGS, INC.",Communication Services,Communication Services,77.0,77.0,0.0
+2026-04-02,TLT,ISHARES:20+ TRS BD ETF,Bonds,Bonds,-25.0,30.0,55.0
+2026-04-02,TMO,THERMO FISHER SCIENTIFIC INC.,Health Care,Health Care,-45.0,3.0,48.0
+2026-04-02,TMUS,"T-MOBILE US, INC.",Communication Services,Communication Services,-28.0,-33.0,-5.0
+2026-04-02,TNX,10 Y TSY YLD NDX,Yields,Yields,30.0,-31.0,-61.0
+2026-04-02,TPL,TEXAS PACIFIC LAND ,Energy,Energy,17.0,15.0,-2.0
+2026-04-02,TPR,"TAPESTRY, INC.",Consumer Discretionary,Consumer Discretionary,81.0,63.0,-18.0
+2026-04-02,TRGP,TARGA RESOURCES CORP.,Energy,Energy,21.0,35.0,14.0
+2026-04-02,TRMB,TRIMBLE INC.,Information Technology,Information Technology,-5.0,12.0,17.0
+2026-04-02,TROW,"T. ROWE PRICE GROUP, INC.",Financials,Financials,-51.0,-20.0,31.0
+2026-04-02,TRV,"THE TRAVELERS COMPANIES, INC.",Financials,Financials,73.0,55.0,-18.0
+2026-04-02,TS,TENARIS SA,,MR Discretion,28.0,26.0,-2.0
+2026-04-02,TSCO,TRACTOR SUPPLY COMPANY,Consumer Discretionary,Consumer Discretionary,-20.0,-20.0,0.0
+2026-04-02,TSLA,"TESLA, INC.",Consumer Discretionary,Consumer Discretionary,1.0,17.0,16.0
+2026-04-02,TSN,"TYSON FOODS, INC.",Consumer Staples,Consumer Staples,-45.0,-12.0,33.0
+2026-04-02,TT,TRANE TECHNOLOGIES PLC,Industrials,Industrials,-67.0,-39.0,28.0
+2026-04-02,TTD,"THE TRADE DESK, INC.",Communication Services,Communication Services,65.0,2.0,-63.0
+2026-04-02,TTWO,"TAKE-TWO INTERACTIVE SOFTWARE, INC.",Communication Services,Communication Services,15.0,4.0,-11.0
+2026-04-02,TUR,ISHARES:MSCI TURKEY,,Foreign,-53.0,8.0,61.0
+2026-04-02,TXN,TEXAS INSTRUMENTS INC.,Information Technology,Information Technology,6.0,63.0,57.0
+2026-04-02,TXT,TEXTRON INC.,Industrials,Industrials,-18.0,9.0,27.0
+2026-04-02,TYL,"TYLER TECHNOLOGIES, INC.",Information Technology,Information Technology,14.0,-12.0,-26.0
+2026-04-02,TYX,30 Y TSY YLD NDX,Yields,Yields,24.0,-27.0,-51.0
+2026-04-02,UAL,"UNITED AIRLINES HOLDINGS, INC.",Industrials,Industrials,-29.0,-5.0,24.0
+2026-04-02,UBER,"UBER TECHNOLOGIES, INC.",Industrials,Industrials,18.0,-14.0,-32.0
+2026-04-02,UDR,"UDR, INC.",Real Estate,Real Estate,-23.0,-21.0,2.0
+2026-04-02,UHS,"UNIVERSAL HEALTH SERVICES, INC.",Health Care,Health Care,-52.0,-41.0,11.0
+2026-04-02,ULTA,"ULTA BEAUTY, INC.",Consumer Discretionary,Consumer Discretionary,14.0,14.0,0.0
+2026-04-02,UNG,UNITED STATES NAT GAS,Energy Complex,Commodities,1.0,11.0,10.0
+2026-04-02,UNH,UNITEDHEALTH GROUP INC.,Health Care,Health Care,43.0,-20.0,-63.0
+2026-04-02,UNP,UNION PACIFIC ,Industrials,Industrials,57.0,84.0,27.0
+2026-04-02,UPS,"UNITED PARCEL SERVICE, INC.",Industrials,Industrials,69.0,71.0,2.0
+2026-04-02,URA,GLBL X URANIUM ETF,,Commodities,40.0,75.0,35.0
+2026-04-02,URI,"UNITED RENTALS, INC.",Industrials,Industrials,-61.0,-21.0,40.0
+2026-04-02,URNM,SPROTT URANIUM MINERS,,MR Discretion,-16.0,8.0,24.0
+2026-04-02,USB,U.S. BANCORP,Financials,Financials,3.0,22.0,19.0
+2026-04-02,USO,UNITED STATES OIL FUND,Energy Complex,Commodities,46.0,29.0,-17.0
+2026-04-02,UUP,INVESCO DB USD IDX BL,,Currencies,8.0,-12.0,-20.0
+2026-04-02,V,VISA INC.,Financials,Financials,-27.0,-38.0,-11.0
+2026-04-02,VAL,VALARIS LIMITED,,MR Discretion,1.0,34.0,33.0
+2026-04-02,VICI,VICI PROPERTIES INC.,Real Estate,Real Estate,-4.0,4.0,8.0
+2026-04-02,VIX,CBOE MKT VOLATILITY IDX,,Volatility,55.0,36.0,-19.0
+2026-04-02,VLO,VALERO ENERGY ,Energy,Energy,64.0,50.0,-14.0
+2026-04-02,VLTO,VERALTO ,Industrials,Industrials,-18.0,-38.0,-20.0
+2026-04-02,VMC,VULCAN MATERIALS COMPANY,Materials,Materials,5.0,5.0,0.0
+2026-04-02,VNM,VANECK:VIETNAM,,Foreign,29.0,65.0,36.0
+2026-04-02,VRSK,"VERISK ANALYTICS, INC.",Industrials,Industrials,42.0,4.0,-38.0
+2026-04-02,VRSN,"VERISIGN, INC.",Information Technology,Information Technology,17.0,-23.0,-40.0
+2026-04-02,VRTX,VERTEX PHARMACEUTICALS INC.,Health Care,Health Care,-22.0,-14.0,8.0
+2026-04-02,VST,VISTRA CORP.,Utilities,Utilities,0.0,-30.0,-30.0
+2026-04-02,VTR,"VENTAS, INC.",Real Estate,Real Estate,17.0,54.0,37.0
+2026-04-02,VTRS,VIATRIS INC.,Health Care,Health Care,-9.0,14.0,23.0
+2026-04-02,VXN,CBOE NASDAQ MKT VOL NDX,,Volatility,62.0,47.0,-15.0
+2026-04-02,VZ,VERIZON COMMUNICATIONS INC.,Communication Services,Communication Services,4.0,24.0,20.0
+2026-04-02,WAB,WESTINGHOUSE AIR BRAKE TECHNOLOGIES ,Industrials,Industrials,-52.0,21.0,73.0
+2026-04-02,WAT,WATERS ,Health Care,Health Care,-45.0,-5.0,40.0
+2026-04-02,WBD,"WARNER BROS. DISCOVERY, INC.",Communication Services,Communication Services,40.0,63.0,23.0
+2026-04-02,WDAY,"WORKDAY, INC.",Information Technology,Information Technology,18.0,-28.0,-46.0
+2026-04-02,WDC,WESTERN DIGITAL ,Information Technology,Information Technology,-60.0,26.0,86.0
+2026-04-02,WEAT,TEUCRIUM:WHEAT,,Commodities,42.0,14.0,-28.0
+2026-04-02,WEC,"WEC ENERGY GROUP, INC.",Utilities,Utilities,-47.0,37.0,84.0
+2026-04-02,WELL,WELLTOWER INC.,Real Estate,Real Estate,17.0,54.0,37.0
+2026-04-02,WFC,WELLS FARGO & COMPANY,Financials,Financials,-63.0,-5.0,58.0
+2026-04-02,WM,"WASTE MANAGEMENT, INC.",Industrials,Industrials,-26.0,-12.0,14.0
+2026-04-02,WMB,"THE WILLIAMS COMPANIES, INC.",Energy,Energy,-48.0,-9.0,39.0
+2026-04-02,WMT,WALMART INC.,Consumer Staples,Consumer Staples,-12.0,53.0,65.0
+2026-04-02,WRB,W. R. BERKLEY ,Financials,Financials,-29.0,-12.0,17.0
+2026-04-02,WSM,"WILLIAMS-SONOMA, INC.",Consumer Discretionary,Consumer Discretionary,-4.0,5.0,9.0
+2026-04-02,WST,"WEST PHARMACEUTICAL SERVICES, INC.",Health Care,Health Care,-20.0,14.0,34.0
+2026-04-02,WTW,WILLIS TOWERS WATSON,Financials,Financials,-16.0,-12.0,4.0
+2026-04-02,WY,WEYERHAEUSER COMPANY,Real Estate,Real Estate,-7.0,6.0,13.0
+2026-04-02,WYNN,"WYNN RESORTS, LIMITED",Consumer Discretionary,Consumer Discretionary,-15.0,12.0,27.0
+2026-04-02,XEL,XCEL ENERGY INC.,Utilities,Utilities,-2.0,53.0,55.0
+2026-04-02,XES,SPDR S&P OIL&GAS E&S,,MR Discretion,37.0,43.0,6.0
+2026-04-02,XLB,SEL SECTOR:MATRLS SPDR,,Sector & Style ETFs,16.0,47.0,31.0
+2026-04-02,XLC,SEL SECTOR:COMM SVC SPDR,,Sector & Style ETFs,-1.0,-14.0,-13.0
+2026-04-02,XLE,SEL SECTOR:ENERGY SPDR,,Sector & Style ETFs,65.0,43.0,-22.0
+2026-04-02,XLF,SEL SECTOR:FINL S SPDR,,Sector & Style ETFs,-3.0,-12.0,-9.0
+2026-04-02,XLI,SEL SECTOR:INDUST SPDR,,Sector & Style ETFs,9.0,-1.0,-10.0
+2026-04-02,XLK,SEL SECTOR:TECH SPDR,,Sector & Style ETFs,-15.0,12.0,27.0
+2026-04-02,XLP,SEL SECTOR:C STP SPDR,,Sector & Style ETFs,51.0,51.0,0.0
+2026-04-02,XLRE,SEL SECTOR:RL EST SPDR,,Sector & Style ETFs,5.0,60.0,55.0
+2026-04-02,XLU,SEL SECTOR:UTIL SPDR,,Sector & Style ETFs,-18.0,43.0,61.0
+2026-04-02,XLV,SEL SECTOR:H CARE SPDR,,Sector & Style ETFs,-23.0,18.0,41.0
+2026-04-02,XLY,SEL SECTOR:C DSC SPDR,,Sector & Style ETFs,-28.0,-12.0,16.0
+2026-04-02,XOM,EXXON MOBIL ,Energy,Energy,60.0,52.0,-8.0
+2026-04-02,XOP,SPDR S&P OIL&GAS EXP,,MR Discretion,71.0,34.0,-37.0
+2026-04-02,XYL,XYLEM INC.,Industrials,Industrials,-33.0,-21.0,12.0
+2026-04-02,XYZ,"BLOCK, INC.",Financials,Financials,36.0,22.0,-14.0
+2026-04-02,YUM,"YUM! BRANDS, INC.",Consumer Discretionary,Consumer Discretionary,13.0,26.0,13.0
+2026-04-02,ZBH,"ZIMMER BIOMET HOLDINGS, INC.",Health Care,Health Care,-1.0,-5.0,-4.0
+2026-04-02,ZBRA,ZEBRA TECHNOLOGIES ,Information Technology,Information Technology,-25.0,12.0,37.0
+2026-04-02,ZTS,ZOETIS INC.,Health Care,Health Care,-22.0,-13.0,9.0
