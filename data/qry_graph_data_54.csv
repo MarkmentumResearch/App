@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-04-06,107.56
+NVDA,NVIDIA ,Information Technology,2026-04-07,240.1
+INTC,INTEL ,Information Technology,2026-04-07,209.52
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-07,152.21
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-07,109.09
 HOLX,"HOLOGIC, INC.",Health Care,2026-04-06,102.03
-INTC,INTEL ,Information Technology,2026-04-06,79.98
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-06,77.7
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-06,41.41
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-06,39.11
-HYG,ISHARES:IBOXX $HY CORP,Bonds,2026-04-06,37.1
-NFLX,"NETFLIX, INC.",Communication Services,2026-04-06,37.03
-QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-04-06,35.11
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-04-06,30.79
+AAPL,APPLE INC.,Information Technology,2026-04-07,91.48
+QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-04-07,85.06
+HYG,ISHARES:IBOXX $HY CORP,Bonds,2026-04-07,84.36
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-07,81.64
+USO,UNITED STATES OIL FUND,Commodities,2026-04-07,79.25
