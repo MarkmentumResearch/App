@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,wtd_return_pct
-INTC,INTEL ,Information Technology,2026-04-09,0.2251
-SNDK,SANDISK CORPORATION,Information Technology,2026-04-09,0.2138
-MPWR,"MONOLITHIC POWER SYSTEMS, INC.",Information Technology,2026-04-09,0.1929
-LRCX,LAM RESEARCH ,Information Technology,2026-04-09,0.1846
-TER,"TERADYNE, INC.",Information Technology,2026-04-09,0.1764
-STX,SEAGATE TECHNOLOGY HOLDINGS,Information Technology,2026-04-09,0.1663
-ANET,"ARISTA NETWORKS, INC.",Information Technology,2026-04-09,0.1529
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-09,0.1509
-GLW,CORNING INC.,Information Technology,2026-04-09,0.1479
-WDC,WESTERN DIGITAL ,Information Technology,2026-04-09,0.1455
+INTC,INTEL ,Information Technology,2026-04-10,0.2382
+SNDK,SANDISK CORPORATION,Information Technology,2026-04-10,0.2141
+MPWR,"MONOLITHIC POWER SYSTEMS, INC.",Information Technology,2026-04-10,0.2104
+LRCX,LAM RESEARCH ,Information Technology,2026-04-10,0.207
+TER,"TERADYNE, INC.",Information Technology,2026-04-10,0.1886
+AVGO,BROADCOM INC.,Information Technology,2026-04-10,0.1812
+STX,SEAGATE TECHNOLOGY HOLDINGS,Information Technology,2026-04-10,0.1718
+WDC,WESTERN DIGITAL ,Information Technology,2026-04-10,0.1643
+ANET,"ARISTA NETWORKS, INC.",Information Technology,2026-04-10,0.1632
+GLW,CORNING INC.,Information Technology,2026-04-10,0.1577
