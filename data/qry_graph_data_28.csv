@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-04-13,133.65
-INTC,INTEL ,Information Technology,2026-04-13,112.11
-PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-04-13,65.77
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-13,54.19
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-13,53.62
-ORCL,ORACLE ,Information Technology,2026-04-13,50.0
-T,AT&T INC.,Communication Services,2026-04-13,46.75
-PFE,PFIZER INC.,Health Care,2026-04-13,44.16
-XLE,SEL SECTOR:ENERGY SPDR,Sector & Style ETFs,2026-04-13,43.1
-AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-13,42.17
+NVDA,NVIDIA ,Information Technology,2026-04-14,161.31
+INTC,INTEL ,Information Technology,2026-04-14,112.8
+AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-14,72.69
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-14,63.48
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-14,59.98
+ORCL,ORACLE ,Information Technology,2026-04-14,59.78
+XLE,SEL SECTOR:ENERGY SPDR,Sector & Style ETFs,2026-04-14,58.83
+PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-04-14,52.79
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-14,52.53
+F,FORD MOTOR COMPANY,Consumer Discretionary,2026-04-14,50.23
