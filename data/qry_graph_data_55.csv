@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-CI,THE CIGNA GROUP,Health Care,2026-04-14,85.0,15.0,-70.0
-IT,"GARTNER, INC.",Information Technology,2026-04-14,80.0,33.0,-47.0
-PSX,PHILLIPS 66,Energy,2026-04-14,69.0,55.0,-14.0
-ADBE,ADOBE INC.,Information Technology,2026-04-14,60.0,29.0,-31.0
-PCG,PG&E ,Utilities,2026-04-14,60.0,69.0,9.0
-ON,ON SEMICONDUCTOR ,Information Technology,2026-04-14,59.0,16.0,-43.0
-UDR,"UDR, INC.",Real Estate,2026-04-14,56.0,38.0,-18.0
-CVX,CHEVRON ,Energy,2026-04-14,55.0,47.0,-8.0
-CME,CME GROUP INC.,Financials,2026-04-14,51.0,79.0,28.0
-PODD,INSULET ,Health Care,2026-04-14,51.0,40.0,-11.0
+DXCM,"DEXCOM, INC.",Health Care,2026-04-15,92.0,47.0,-45.0
+IT,"GARTNER, INC.",Information Technology,2026-04-15,80.0,33.0,-47.0
+DGX,QUEST DIAGNOSTICS INC.,Health Care,2026-04-15,69.0,52.0,-17.0
+DVA,DAVITA INC.,Health Care,2026-04-15,68.0,63.0,-5.0
+PSX,PHILLIPS 66,Energy,2026-04-15,67.0,53.0,-14.0
+ADBE,ADOBE INC.,Information Technology,2026-04-15,64.0,33.0,-31.0
+ON,ON SEMICONDUCTOR ,Information Technology,2026-04-15,59.0,16.0,-43.0
+WDAY,"WORKDAY, INC.",Information Technology,2026-04-15,59.0,21.0,-38.0
+TDW,TIDEWATER INC.,MR Discretion,2026-04-15,53.0,-5.0,-58.0
+FFIV,"F5, INC.",Information Technology,2026-04-15,52.0,44.0,-8.0
