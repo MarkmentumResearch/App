@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-04-20,119.38
-INTC,INTEL ,Information Technology,2026-04-20,96.85
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-20,64.6
-NFLX,"NETFLIX, INC.",Communication Services,2026-04-20,63.3
-BAC,BANK OF AMERICA ,Financials,2026-04-20,44.0
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-20,43.55
-AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-20,39.46
-QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-04-20,37.14
-AAPL,APPLE INC.,Information Technology,2026-04-20,36.59
-HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-04-20,35.94
+NVDA,NVIDIA ,Information Technology,2026-04-21,227.33
+INTC,INTEL ,Information Technology,2026-04-21,188.25
+NFLX,"NETFLIX, INC.",Communication Services,2026-04-21,125.26
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-21,115.13
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-21,102.49
+AAPL,APPLE INC.,Information Technology,2026-04-21,86.8
+AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-21,82.39
+HYG,ISHARES:IBOXX $HY CORP,Bonds,2026-04-21,79.73
+PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-04-21,78.31
+BAC,BANK OF AMERICA ,Financials,2026-04-21,78.27
