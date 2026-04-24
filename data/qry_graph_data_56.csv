@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-T,AT&T INC.,Communication Services,2026-04-22,-89.0,-18.0,71.0
-ADBE,ADOBE INC.,Information Technology,2026-04-22,-82.0,-68.0,14.0
-FTNT,"FORTINET, INC.",Information Technology,2026-04-22,-81.0,-43.0,38.0
-AMGN,AMGEN INC.,Health Care,2026-04-22,-78.0,-16.0,62.0
-FIS,FIDELITY NATIONAL INFORMATION SERVICES,Financials,2026-04-22,-76.0,-61.0,15.0
-XLU,SEL SECTOR:UTIL SPDR,Sector & Style ETFs,2026-04-22,-74.0,-14.0,60.0
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-22,-66.0,-28.0,38.0
-WELL,WELLTOWER INC.,Real Estate,2026-04-22,-66.0,-3.0,63.0
-MCK,MCKESSON ,Health Care,2026-04-22,-60.0,-20.0,40.0
-CNP,"CENTERPOINT ENERGY, INC.",Utilities,2026-04-22,-58.0,-12.0,46.0
+FTNT,"FORTINET, INC.",Information Technology,2026-04-23,-92.0,-54.0,38.0
+AMGN,AMGEN INC.,Health Care,2026-04-23,-78.0,-16.0,62.0
+WELL,WELLTOWER INC.,Real Estate,2026-04-23,-78.0,-15.0,63.0
+MSI,"MOTOROLA SOLUTIONS, INC.",Information Technology,2026-04-23,-70.0,-16.0,54.0
+GIS,"GENERAL MILLS, INC.",Consumer Staples,2026-04-23,-68.0,-74.0,-6.0
+SCHP,SCHWAB STR:US TIPS,Bonds,2026-04-23,-67.0,-30.0,37.0
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-23,-66.0,-28.0,38.0
+WDC,WESTERN DIGITAL ,Information Technology,2026-04-23,-65.0,-17.0,48.0
+SBAC,SBA COMMUNICATIONS ,Real Estate,2026-04-23,-64.0,-87.0,-23.0
+FXA,INVESCO:AU DOLLAR,Currencies,2026-04-23,-62.0,-56.0,6.0
