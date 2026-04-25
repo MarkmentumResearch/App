@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-04-23,448.39
-INTC,INTEL ,Information Technology,2026-04-23,433.66
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-23,271.47
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-23,201.18
-NFLX,"NETFLIX, INC.",Communication Services,2026-04-23,195.81
-T,AT&T INC.,Communication Services,2026-04-23,182.05
-PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-04-23,180.67
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-04-23,168.46
-NOW,"SERVICENOW, INC.",Information Technology,2026-04-23,164.27
-AAPL,APPLE INC.,Information Technology,2026-04-23,163.45
+INTC,INTEL ,Information Technology,2026-04-24,715.07
+NVDA,NVIDIA ,Information Technology,2026-04-24,662.52
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-24,334.36
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-04-24,250.08
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-24,246.36
+NFLX,"NETFLIX, INC.",Communication Services,2026-04-24,228.36
+PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-04-24,219.35
+T,AT&T INC.,Communication Services,2026-04-24,212.65
+AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-24,211.32
+NOW,"SERVICENOW, INC.",Information Technology,2026-04-24,203.28

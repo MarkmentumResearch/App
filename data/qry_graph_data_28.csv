@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-INTC,INTEL ,Information Technology,2026-04-23,155.14
-NVDA,NVIDIA ,Information Technology,2026-04-23,113.56
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-23,93.97
-NOW,"SERVICENOW, INC.",Information Technology,2026-04-23,84.1
-PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-04-23,58.65
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-23,56.17
-HYG,ISHARES:IBOXX $HY CORP,Bonds,2026-04-23,49.92
-T,AT&T INC.,Communication Services,2026-04-23,47.34
-SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-04-23,46.87
-CMCSA,COMCAST ,Communication Services,2026-04-23,46.48
+INTC,INTEL ,Information Technology,2026-04-24,281.41
+NVDA,NVIDIA ,Information Technology,2026-04-24,214.13
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-04-24,81.62
+CMCSA,COMCAST ,Communication Services,2026-04-24,65.54
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-24,62.89
+AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-24,53.78
+QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-04-24,45.56
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-04-24,45.18
+PFE,PFIZER INC.,Health Care,2026-04-24,42.5
+NOW,"SERVICENOW, INC.",Information Technology,2026-04-24,39.01
