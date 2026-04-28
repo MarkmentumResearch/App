@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-FTNT,"FORTINET, INC.",Information Technology,2026-04-24,-108.0,-70.0,38.0
-WELL,WELLTOWER INC.,Real Estate,2026-04-24,-78.0,-15.0,63.0
-SNDK,SANDISK CORPORATION,Information Technology,2026-04-24,-77.0,-15.0,62.0
-KR,THE KROGER CO.,Consumer Staples,2026-04-24,-76.0,-36.0,40.0
-XLU,SEL SECTOR:UTIL SPDR,Sector & Style ETFs,2026-04-24,-76.0,-16.0,60.0
-MSI,"MOTOROLA SOLUTIONS, INC.",Information Technology,2026-04-24,-70.0,-16.0,54.0
-GILD,"GILEAD SCIENCES, INC.",Health Care,2026-04-24,-64.0,-17.0,47.0
-SBAC,SBA COMMUNICATIONS ,Real Estate,2026-04-24,-64.0,-87.0,-23.0
-TRV,"THE TRAVELERS COMPANIES, INC.",Financials,2026-04-24,-61.0,-23.0,38.0
-HCA,"HCA HEALTHCARE, INC.",Health Care,2026-04-24,-60.0,-12.0,48.0
+TMUS,"T-MOBILE US, INC.",Communication Services,2026-04-27,-111.0,-28.0,83.0
+PGR,THE PROGRESSIVE ,Financials,2026-04-27,-86.0,-65.0,21.0
+SRE,SEMPRA,Utilities,2026-04-27,-77.0,-15.0,62.0
+MCHP,MICROCHIP TECHNOLOGY INC.,Information Technology,2026-04-27,-75.0,-77.0,-2.0
+VRT,VERTIV HOLDINGS CO,Industrials,2026-04-27,-75.0,-98.0,-23.0
+L,LOEWS ,Financials,2026-04-27,-63.0,-53.0,10.0
+LITE,LUMENTUM HOLDINGS INC.,Information Technology,2026-04-27,-55.0,-13.0,42.0
+WEAT,TEUCRIUM:WHEAT,Commodities,2026-04-27,-55.0,-49.0,6.0
+PAM,PAMPA ENERGIA SA,MR Discretion,2026-04-27,-54.0,-8.0,46.0
+FFIV,"F5, INC.",Information Technology,2026-04-27,-53.0,-9.0,44.0
