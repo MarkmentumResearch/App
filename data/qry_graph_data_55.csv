@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-TKO,"TKO GROUP HOLDINGS, INC.",Communication Services,2026-04-27,80.0,80.0,-0.0
-INTU,INTUIT INC.,Information Technology,2026-04-27,77.0,21.0,-56.0
-CHTR,"CHARTER COMMUNICATIONS, INC.",Communication Services,2026-04-27,75.0,64.0,-11.0
-ENZL,ISHARES:MSCI NEW ZLND,Foreign,2026-04-27,68.0,12.0,-56.0
-CL,COLGATE-PALMOLIVE COMPANY,Consumer Staples,2026-04-27,61.0,12.0,-49.0
-HWM,HOWMET AEROSPACE INC.,Industrials,2026-04-27,54.0,62.0,8.0
-LHX,"L3HARRIS TECHNOLOGIES, INC.",Industrials,2026-04-27,52.0,35.0,-17.0
-NVR,"NVR, INC.",Consumer Discretionary,2026-04-27,51.0,-2.0,-53.0
-WMT,WALMART INC.,Consumer Staples,2026-04-27,51.0,44.0,-7.0
-PPL,PPL ,Utilities,2026-04-27,50.0,24.0,-26.0
+TKO,"TKO GROUP HOLDINGS, INC.",Communication Services,2026-04-28,90.0,90.0,-0.0
+AVY,AVERY DENNISON ,Materials,2026-04-28,78.0,62.0,-16.0
+INTU,INTUIT INC.,Information Technology,2026-04-28,77.0,21.0,-56.0
+CHTR,"CHARTER COMMUNICATIONS, INC.",Communication Services,2026-04-28,75.0,64.0,-11.0
+NVR,"NVR, INC.",Consumer Discretionary,2026-04-28,74.0,21.0,-53.0
+CRM,"SALESFORCE, INC.",Information Technology,2026-04-28,70.0,38.0,-32.0
+AKAM,"AKAMAI TECHNOLOGIES, INC.",Information Technology,2026-04-28,67.0,37.0,-30.0
+CALM,"CAL-MAINE FOODS, INC.",MR Discretion,2026-04-28,66.0,3.0,-63.0
+EWD,ISHARES:MSCI SWEDEN,Foreign,2026-04-28,65.0,-5.0,-70.0
+WELL,WELLTOWER INC.,Real Estate,2026-04-28,65.0,50.0,-15.0
