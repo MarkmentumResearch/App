@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-04-28,367.45
-INTC,INTEL ,Information Technology,2026-04-28,326.59
-RIG,TRANSOCEAN LTD,MR Discretion,2026-04-28,119.55
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-28,117.6
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-04-28,93.59
-PFE,PFIZER INC.,Health Care,2026-04-28,92.84
-AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-28,87.11
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-28,86.12
-AAPL,APPLE INC.,Information Technology,2026-04-28,81.49
-F,FORD MOTOR COMPANY,Consumer Discretionary,2026-04-28,79.38
+INTC,INTEL ,Information Technology,2026-04-29,561.66
+NVDA,NVIDIA ,Information Technology,2026-04-29,491.16
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-04-29,162.99
+AMZN,"AMAZON.COM, INC.",Consumer Discretionary,2026-04-29,159.48
+RIG,TRANSOCEAN LTD,MR Discretion,2026-04-29,155.81
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-04-29,138.29
+HOOD,"ROBINHOOD MARKETS, INC.",Financials,2026-04-29,131.22
+F,FORD MOTOR COMPANY,Consumer Discretionary,2026-04-29,128.05
+PFE,PFIZER INC.,Health Care,2026-04-29,122.81
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-04-29,122.36
