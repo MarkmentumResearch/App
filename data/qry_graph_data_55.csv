@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_wtd_change,current_model_score,previous_model_score
-DLTR,"DOLLAR TREE, INC.",Consumer Staples,2026-04-30,85.0,101.0,16.0
-BF.B,BROWN-FORMAN ,Consumer Staples,2026-04-30,81.0,2.0,-79.0
-INTU,INTUIT INC.,Information Technology,2026-04-30,77.0,21.0,-56.0
-CRM,"SALESFORCE, INC.",Information Technology,2026-04-30,70.0,38.0,-32.0
-AKAM,"AKAMAI TECHNOLOGIES, INC.",Information Technology,2026-04-30,66.0,36.0,-30.0
-XLB,SEL SECTOR:MATRLS SPDR,Sector & Style ETFs,2026-04-30,66.0,-1.0,-67.0
-SATS,ECHOSTAR CORPORATION,Communication Services,2026-04-30,63.0,70.0,7.0
-QAT,ISHARES:MSCI QATAR,Foreign,2026-04-30,62.0,-3.0,-65.0
-NVR,"NVR, INC.",Consumer Discretionary,2026-04-30,61.0,8.0,-53.0
-IEX,IDEX ,Industrials,2026-04-30,59.0,-23.0,-82.0
+VRSN,"VERISIGN, INC.",Information Technology,2026-05-01,117.0,38.0,-79.0
+ETR,ENTERGY ,Utilities,2026-05-01,94.0,70.0,-24.0
+D,"DOMINION ENERGY, INC.",Utilities,2026-05-01,83.0,74.0,-9.0
+COST,COSTCO WHOLESALE ,Consumer Staples,2026-05-01,82.0,38.0,-44.0
+GS,"THE GOLDMAN SACHS GROUP, INC.",Financials,2026-05-01,79.0,26.0,-53.0
+EWU,ISHARES:MSCI UK,Foreign,2026-05-01,78.0,26.0,-52.0
+FTNT,"FORTINET, INC.",Information Technology,2026-05-01,75.0,5.0,-70.0
+WAB,WESTINGHOUSE AIR BRAKE TECHNOLOGIES ,Industrials,2026-05-01,75.0,16.0,-59.0
+SATS,ECHOSTAR CORPORATION,Communication Services,2026-05-01,72.0,79.0,7.0
+INTU,INTUIT INC.,Information Technology,2026-05-01,71.0,15.0,-56.0
