@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-INTC,INTEL ,Information Technology,2026-05-05,198.48
-NVDA,NVIDIA ,Information Technology,2026-05-05,113.41
-PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-05-05,89.75
-CCL,CARNIVAL CORP,Consumer Discretionary,2026-05-05,80.4
-RIG,TRANSOCEAN LTD,MR Discretion,2026-05-05,65.01
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-05-05,64.27
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-05-05,64.24
-PFE,PFIZER INC.,Health Care,2026-05-05,57.66
-SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-05,55.29
-NFLX,"NETFLIX, INC.",Communication Services,2026-05-05,51.96
+NVDA,NVIDIA ,Information Technology,2026-05-06,188.36
+INTC,INTEL ,Information Technology,2026-05-06,157.32
+SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-06,127.3
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-05-06,87.73
+CTRA,COTERRA ENERGY INC.,Energy,2026-05-06,73.32
+AAPL,APPLE INC.,Information Technology,2026-05-06,58.34
+XLE,SEL SECTOR:ENERGY SPDR,Sector & Style ETFs,2026-05-06,57.91
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-05-06,55.73
+PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-05-06,55.52
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-05-06,53.47
