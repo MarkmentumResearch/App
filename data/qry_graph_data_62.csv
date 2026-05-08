@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,model_score_mtd_change,current_model_score,previous_model_score
-UAL,"UNITED AIRLINES HOLDINGS, INC.",Industrials,2026-05-06,-88.0,-48.0,40.0
-EFX,EQUIFAX INC.,Industrials,2026-05-06,-87.0,-32.0,55.0
-BBY,"BEST BUY CO., INC.",Consumer Discretionary,2026-05-06,-82.0,-35.0,47.0
-IP,INTERNATIONAL PAPER COMPANY,Materials,2026-05-06,-82.0,-44.0,38.0
-EDV,VANGUARD EXT DUR T;ETF,Bonds,2026-05-06,-80.0,-58.0,22.0
-TPL,TEXAS PACIFIC LAND ,Energy,2026-05-06,-78.0,-44.0,34.0
-CVX,CHEVRON ,Energy,2026-05-06,-77.0,-18.0,59.0
-NOW,"SERVICENOW, INC.",Information Technology,2026-05-06,-75.0,-49.0,26.0
-RSG,"REPUBLIC SERVICES, INC.",Industrials,2026-05-06,-72.0,-58.0,14.0
-DAL,"DELTA AIR LINES, INC.",Industrials,2026-05-06,-70.0,-36.0,34.0
+TPR,"TAPESTRY, INC.",Consumer Discretionary,2026-05-07,-91.0,-38.0,53.0
+WDAY,"WORKDAY, INC.",Information Technology,2026-05-07,-91.0,-70.0,21.0
+CRM,"SALESFORCE, INC.",Information Technology,2026-05-07,-89.0,-51.0,38.0
+NOW,"SERVICENOW, INC.",Information Technology,2026-05-07,-89.0,-63.0,26.0
+EFX,EQUIFAX INC.,Industrials,2026-05-07,-87.0,-32.0,55.0
+TPL,TEXAS PACIFIC LAND ,Energy,2026-05-07,-87.0,-53.0,34.0
+BBY,"BEST BUY CO., INC.",Consumer Discretionary,2026-05-07,-82.0,-35.0,47.0
+BDX,"BECTON, DICKINSON AND COMPANY",Health Care,2026-05-07,-80.0,-49.0,31.0
+XOM,EXXON MOBIL ,Energy,2026-05-07,-74.0,-15.0,59.0
+DVA,DAVITA INC.,Health Care,2026-05-07,-70.0,-60.0,10.0
