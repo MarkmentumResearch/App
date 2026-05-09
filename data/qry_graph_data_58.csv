@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,mtd_return_pct
-DDOG,"DATADOG, INC.",Information Technology,2026-05-07,0.4277
-FTNT,"FORTINET, INC.",Information Technology,2026-05-07,0.2806
-DVA,DAVITA INC.,Health Care,2026-05-07,0.2651
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-05-07,0.2503
-SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-07,0.227
-SNDK,SANDISK CORPORATION,Information Technology,2026-05-07,0.222
-DOC,"HEALTHDOC PROPERTIES, INC.",Real Estate,2026-05-07,0.2158
-ORCL,ORACLE ,Information Technology,2026-05-07,0.2057
-VTRS,VIATRIS INC.,Health Care,2026-05-07,0.164
-INTC,INTEL ,Information Technology,2026-05-07,0.1602
+DDOG,"DATADOG, INC.",Information Technology,2026-05-08,0.5142
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-05-08,0.4441
+AKAM,"AKAMAI TECHNOLOGIES, INC.",Information Technology,2026-05-08,0.4344
+SNDK,SANDISK CORPORATION,Information Technology,2026-05-08,0.4248
+FTNT,"FORTINET, INC.",Information Technology,2026-05-08,0.353
+INTC,INTEL ,Information Technology,2026-05-08,0.3222
+SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-08,0.2909
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-05-08,0.2841
+DVA,DAVITA INC.,Health Care,2026-05-08,0.2805
+DELL,DELL TECHNOLOGIES INC.,Information Technology,2026-05-08,0.2465

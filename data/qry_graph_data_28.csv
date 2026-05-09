@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-NVDA,NVIDIA ,Information Technology,2026-05-07,168.31
-INTC,INTEL ,Information Technology,2026-05-07,122.7
+INTC,INTEL ,Information Technology,2026-05-08,227.68
+NVDA,NVIDIA ,Information Technology,2026-05-08,136.42
 CTRA,COTERRA ENERGY INC.,Energy,2026-05-06,73.32
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-05-07,64.29
-SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-07,61.5
-XLE,SEL SECTOR:ENERGY SPDR,Sector & Style ETFs,2026-05-07,52.91
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-05-07,51.72
-QCOM,QUALCOMM INC.,Information Technology,2026-05-07,51.09
-PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-05-07,50.18
-PFE,PFIZER INC.,Health Care,2026-05-07,48.35
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-05-08,65.13
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-05-08,65.05
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-05-08,58.13
+AAPL,APPLE INC.,Information Technology,2026-05-08,52.69
+SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-08,50.77
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-05-08,47.23
+QQQ,INVESCO QQQ TRUST 1,Sector & Style ETFs,2026-05-08,44.32

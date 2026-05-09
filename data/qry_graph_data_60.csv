@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,volume
-INTC,INTEL ,Information Technology,2026-05-07,756.3
-NVDA,NVIDIA ,Information Technology,2026-05-07,724.09
-PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-05-07,299.2
-SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-07,298.47
-TSLA,"TESLA, INC.",Consumer Discretionary,2026-05-07,279.64
-AAPL,APPLE INC.,Information Technology,2026-05-07,279.46
-AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-05-07,273.13
-MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-05-07,253.78
-F,FORD MOTOR COMPANY,Consumer Discretionary,2026-05-07,237.26
-SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-05-07,236.95
+INTC,INTEL ,Information Technology,2026-05-08,983.98
+NVDA,NVIDIA ,Information Technology,2026-05-08,860.51
+SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-08,349.24
+TSLA,"TESLA, INC.",Consumer Discretionary,2026-05-08,344.69
+PLTR,PALANTIR TECHNOLOGIES INC.,Information Technology,2026-05-08,340.95
+AAPL,APPLE INC.,Information Technology,2026-05-08,332.15
+AMD,"ADVANCED MICRO DEVICES, INC.",Information Technology,2026-05-08,331.27
+MU,"MICRON TECHNOLOGY, INC.",Information Technology,2026-05-08,318.91
+SPY,SPDR S&P 500 ETF,Sector & Style ETFs,2026-05-08,284.17
+F,FORD MOTOR COMPANY,Consumer Discretionary,2026-05-08,275.71

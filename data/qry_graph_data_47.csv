@@ -1,11 +1,11 @@
 Ticker,Ticker_name,Category,Date,change_pct
-SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-07,-0.2222
-DDOG,"DATADOG, INC.",Information Technology,2026-05-07,-0.156
-IT,"GARTNER, INC.",Information Technology,2026-05-07,-0.1531
-TTD,"THE TRADE DESK, INC.",Communication Services,2026-05-07,-0.1286
-MCHP,MICROCHIP TECHNOLOGY INC.,Information Technology,2026-05-07,-0.1266
-CNC,CENTENE ,Health Care,2026-05-07,-0.1148
-EL,THE ESTEE LAUDER COMPANIES INC.,Consumer Staples,2026-05-07,-0.1067
-FTNT,"FORTINET, INC.",Information Technology,2026-05-07,-0.1062
-GLATF,GLOBAL ATOMIC ,MR Discretion,2026-05-07,-0.1017
-DVA,DAVITA INC.,Health Care,2026-05-07,-0.0965
+SMCI,"SUPER MICRO COMPUTER, INC.",Information Technology,2026-05-08,-0.2383
+DDOG,"DATADOG, INC.",Information Technology,2026-05-08,-0.1658
+AKAM,"AKAMAI TECHNOLOGIES, INC.",Information Technology,2026-05-08,-0.159
+IT,"GARTNER, INC.",Information Technology,2026-05-08,-0.1501
+HUM,HUMANA INC.,Health Care,2026-05-08,-0.1459
+HPQ,HP INC.,Information Technology,2026-05-08,-0.1332
+CNC,CENTENE ,Health Care,2026-05-08,-0.1238
+FTNT,"FORTINET, INC.",Information Technology,2026-05-08,-0.1201
+CTRA,COTERRA ENERGY INC.,Energy,2026-05-08,-0.1167
+MRNA,"MODERNA, INC.",Health Care,2026-05-08,-0.1161
